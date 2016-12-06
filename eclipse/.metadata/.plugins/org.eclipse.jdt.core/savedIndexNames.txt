@@ -1,0 +1,3 @@
+INDEX VERSION 1.129+C:\Users\Elliott\Desktop\DEMJR-MinecraftMod\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+4257325822.index
+3117646802.index
