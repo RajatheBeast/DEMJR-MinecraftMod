@@ -34,6 +34,7 @@ public class DEMJR {
 	public void init(FMLInitializationEvent event) {
 		System.out.println("Init");
 		proxy.init();
+		ModCrafting.register();
 	}
 	
 	@EventHandler
