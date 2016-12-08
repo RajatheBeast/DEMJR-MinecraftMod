@@ -1,0 +1,2 @@
+File for requests. 
+Request ex. Need item texture for "item"
