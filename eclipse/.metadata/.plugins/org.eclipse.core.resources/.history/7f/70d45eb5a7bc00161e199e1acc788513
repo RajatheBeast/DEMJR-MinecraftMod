@@ -1,0 +1,15 @@
+package whisku.supertest.proxy;
+
+import whisku.supertest.init.ModBlocks;
+import whisku.supertest.init.ModItems;
+
+public class ClientProxy implements CommonProxy {
+
+	@Override
+	public void init() {
+		ModItems.registerRenders();
+		ModBlocks.registerRenders();
+	}
+
+
+}
