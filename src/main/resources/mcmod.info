@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "demjr',
+  "name": "DEMJR",
+  "description": "Our first Minecraft mod!",
+  "version": "${1.0}",
+  "mcversion": "${1.9.4}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["D", "E", "M", "J", "R"],
+  "credits": "E, M, J and R.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
