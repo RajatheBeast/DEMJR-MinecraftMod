@@ -1,5 +1,6 @@
 package demjr.mod.init;
 
+import demjr.mod.blocks.BlockSalt;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -9,15 +10,17 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModBlocks {
 	
+	public static Block salt;
+	
 	public static void init() {
-		
+		salt = new BlockSalt();
 	}
 	public static void register() {
-	
+		registerBlock(salt);
 	}
 		
 	public static void registerRenders() {
-	
+		registerRender(salt);
 	}
 	
 	private static void registerBlock(Block block) {

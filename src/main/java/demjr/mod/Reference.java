@@ -10,4 +10,48 @@ public class Reference {
 	public static final String CLIENT_PROXY_CLASS = "demjr.mod.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "demjr.mod.proxy.ServerProxy";
 	
+	public static enum ModItems {
+		
+		SALT("salt", "ItemSalt");
+		
+		private String unlocalizedName;
+		private String registryName;		
+		
+		ModItems(String unlocalizedName, String registryName) {
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName() {
+			return registryName;
+		}
+		
+	}
+	
+	public static enum ModBlocks {
+
+		SALT("salt", "BlockSalt");
+		
+		private String unlocalizedName;
+		private String registryName;		
+		
+		ModBlocks(String unlocalizedName, String registryName) {
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName() {
+			return registryName;
+		}
+		
+	}
+
 }
+
+
