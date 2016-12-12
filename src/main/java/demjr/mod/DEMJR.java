@@ -14,13 +14,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.VERSION)
 public class DEMJR {
-    
+
 	@Instance
 	public static DEMJR instance;
-	
+
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
-	
+
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println("Pre Init");
@@ -29,18 +29,17 @@ public class DEMJR {
 		ModBlocks.init();
 		ModBlocks.register();
 	}
-	
+
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		System.out.println("Init");
 		proxy.init();
 		ModCrafting.register();
 	}
-	
+
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
 		System.out.println("Post Init");
 	}
-	
-    
+
 }

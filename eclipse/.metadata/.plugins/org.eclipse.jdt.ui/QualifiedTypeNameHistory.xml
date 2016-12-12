@@ -19,4 +19,5 @@
 <fullyQualifiedTypeName name="demjr.mod.blocks.BlockSalt"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="demjr.mod.items.ItemFlour"/>
 </qualifiedTypeNameHistroy>
