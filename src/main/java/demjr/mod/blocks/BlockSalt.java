@@ -11,6 +11,7 @@ public class BlockSalt extends Block {
 
 		setUnlocalizedName(Reference.ModBlocks.SALT.getUnlocalizedName());
 		setRegistryName(Reference.ModBlocks.SALT.getRegistryName());
+
 	
 	}
 
