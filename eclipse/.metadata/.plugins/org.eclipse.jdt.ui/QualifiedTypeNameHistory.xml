@@ -15,9 +15,11 @@
 <fullyQualifiedTypeName name="demjr.mod.Reference"/>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="demjr.mod.blocks.BlockSalt"/>
-<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="demjr.mod.items.ItemFlour"/>
 <fullyQualifiedTypeName name="demjr.mod.init.ModItems"/>
 <fullyQualifiedTypeName name="demjr.mod.init.ModBlocks"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="jline.console.completer.ArgumentCompleter.WhitespaceArgumentDelimiter"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
 </qualifiedTypeNameHistroy>
