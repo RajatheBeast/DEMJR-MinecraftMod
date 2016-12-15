@@ -1,0 +1,5 @@
+package demjr.mod.items;
+
+public class ItemEmpty_Wooden_Bucket {
+
+}

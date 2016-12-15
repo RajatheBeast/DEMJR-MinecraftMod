@@ -1,3 +1,6 @@
 item.salt.name=Salt
-tile.salt.name=Salt Block
 item.flour.name=Flour
+item.empty_wooden_bucket.name=Wooden Bucket
+item.wooden_bucket.name=Wooden Bucket
+
+tile.salt.name=Salt Block

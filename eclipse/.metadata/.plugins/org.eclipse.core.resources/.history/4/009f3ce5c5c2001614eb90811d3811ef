@@ -1,0 +1,48 @@
+package demjr.mod.init;
+
+import demjr.mod.items.ItemEmpty_Wooden_Bucket;
+import demjr.mod.items.ItemFlour;
+import demjr.mod.items.ItemSalt;
+import demjr.mod.items.ItemWooden_Bucket;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class ModItems {
+	
+	public static Item salt;
+	public static Item flour;
+	public static Item empty_wooden_bucket;
+	public static Item wooden_bucket;
+	
+	public static void init() {
+		salt = new ItemSalt();
+		flour = new ItemFlour();
+		empty_wooden_bucket = new ItemEmpty_Wooden_Bucket();
+		wooden_bucket = new Itemwooden_bucket();
+	
+	}
+	public static void register() {
+		GameRegistry.register(salt);
+		GameRegistry.register(flour);
+		GameRegistry.register(empty_wooden_bucket);
+		GameRegistry.register(wooden_bucket);
+	
+	}
+		
+	public static void registerRenders() {
+		registerRender(salt);
+		registerRender(flour);
+		registerRender(empty_wooden_bucket);
+		registerRender(wooden_bucket);
+	}
+		
+	private static void registerRender(Item item) {
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+	}
+		
+
+}
+
+

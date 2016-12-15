@@ -12,7 +12,10 @@ public class Reference {
 	
 	public static enum ModItems {
 		
-		SALT("salt", "ItemSalt"), FLOUR("flour", "ItemFlour");
+		SALT("salt", "ItemSalt"),
+		FLOUR("flour", "ItemFlour"),
+		EMPTY_WOODEN_BUCKET("empty_wooden_bucket", "ItemEmpty_Wooden_Bucket"),
+		WOODEN_BUCKET("wooden_bucket", "ItemWooden_Bucket");
 		
 		private String unlocalizedName;
 		private String registryName;		
