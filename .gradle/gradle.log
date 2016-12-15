@@ -1,37 +1,5 @@
-#################################################
-         ForgeGradle 2.2-SNAPSHOT-c438b06        
-  https://github.com/MinecraftForge/ForgeGradle  
-#################################################
-               Powered by MCP unknown               
-             http://modcoderpack.com             
-         by: Searge, ProfMobius, Fesh0r,         
-         R4wk, ZeuX, IngisKahn, bspkrs           
-#################################################
-:deobfCompileDummyTask
-:getVersionJson
-:extractUserdev UP-TO-DATE
-:downloadClient SKIPPED
-:downloadServer SKIPPED
-:splitServerJar SKIPPED
-:mergeJars SKIPPED
-:applyBinaryPatches SKIPPED
-:deobfProvidedDummyTask
-:extractDependencyATs SKIPPED
-:extractMcpData SKIPPED
-:extractMcpMappings SKIPPED
-:genSrgs SKIPPED
-:deobfMcMCP SKIPPED
-:extractNatives SKIPPED
-:getAssetIndex UP-TO-DATE
-:getAssets
-Current status: 138/1049   13%
-Current status: 256/1049   24%
-Current status: 487/1049   46%
-Current status: 760/1049   72%
-Current status: 1043/1049   99%
-:makeStart
-:setupDevWorkspace
+:genIntellijRuns
 
 BUILD SUCCESSFUL
 
-Total time: 46.152 secs
+Total time: 2.298 secs

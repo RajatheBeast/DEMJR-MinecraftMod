@@ -35,7 +35,7 @@ public class Reference {
 	public static enum ModBlocks {
 
 		SALT("salt", "BlockSalt"),
-        TRUMPIUMORE("trumpuimore", "BlockTrumpiumOre");
+        TRUMPIUMORE("trumpiumore", "BlockTrumpiumOre");
 		
 		private String unlocalizedName;
 		private String registryName;		
