@@ -25,5 +25,8 @@ Current status: 916/1049   87%
 :eclipse
 
 BUILD SUCCESSFUL
+<<<<<<< HEAD
 
-Total time: 44.903 secs
+Total time: 2.463 secs
+=======
+>>>>>>> origin/master
