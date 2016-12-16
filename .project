@@ -12,5 +12,11 @@
 			<arguments/>
 		</buildCommand>
 	</buildSpec>
-	<linkedResources/>
+	<linkedResources>
+		<link>
+			<name>.link0</name>
+			<type>2</type>
+			<location>C:/Users/matth/.gradle/caches/minecraft/net/minecraftforge/forge/1.9.4-12.17.0.2051/start</location>
+		</link>
+	</linkedResources>
 </projectDescription>

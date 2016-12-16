@@ -9,7 +9,7 @@ public class ModCrafting {
 	
 	public static void register() {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.salt), "SSS", "SSS", "SSS", 'S', ModItems.salt);
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.flour), Items.WHEAT);
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.flour), 'W', Items.WHEAT);
 	}
 	
 }
