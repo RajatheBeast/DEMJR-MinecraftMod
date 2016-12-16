@@ -20,4 +20,6 @@
 <fullyQualifiedTypeName name="demjr.mod.items.ItemFlour"/>
 <fullyQualifiedTypeName name="demjr.mod.init.ModItems"/>
 <fullyQualifiedTypeName name="demjr.mod.init.ModBlocks"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="demjr.mod.items.ItemDEMJR_Icon"/>
 </qualifiedTypeNameHistroy>

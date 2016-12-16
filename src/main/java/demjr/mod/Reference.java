@@ -13,7 +13,8 @@ public class Reference {
 	public static enum ModItems {
 		
 		SALT("salt", "ItemSalt"),
-        FLOUR("flour", "ItemFlour");
+        FLOUR("flour", "ItemFlour"),
+        DEMJR_ICON("demjr_icon", "ItemDEMJR_ICON");
 		
 		private String unlocalizedName;
 		private String registryName;		
