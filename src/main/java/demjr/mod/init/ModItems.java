@@ -23,14 +23,14 @@ public class ModItems {
 	public static void register() {
 		GameRegistry.register(salt);
 		GameRegistry.register(flour);
-        GameRegistry.register(trumpgem);
+        	GameRegistry.register(trumpgem);
 	
 	}
 		
 	public static void registerRenders() {
 		registerRender(salt);
 		registerRender(flour);
-        registerRender(trumpgem);
+        	registerRender(trumpgem);
 	}
 		
 	private static void registerRender(Item item) {
