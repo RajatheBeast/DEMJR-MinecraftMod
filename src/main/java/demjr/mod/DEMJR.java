@@ -39,7 +39,7 @@ public class DEMJR {
 
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-        System.out.println("Post Init");
+		System.out.println("Post Init");
 	}
 
 }
