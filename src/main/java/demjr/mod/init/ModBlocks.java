@@ -17,19 +17,18 @@ public class ModBlocks {
 	
 	public static void init() {
 
-	    salt = new BlockSalt();
-	    trumpiumore = new BlockTrumpiumOre();
+		salt = new BlockSalt();
+	    	trumpiumore = new BlockTrumpiumOre();
 	}
 	public static void register() {
-
-	    registerBlock(salt);
-        registerBlock(trumpiumore);
+		registerBlock(salt);
+		registerBlock(trumpiumore);
 	}
 		
 	public static void registerRenders() {
 
-	    registerRender(salt);
-        registerRender(trumpiumore);
+		registerRender(salt);
+		registerRender(trumpiumore);
     }
 	
 	private static void registerBlock(Block block) {
