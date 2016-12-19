@@ -13,7 +13,7 @@ public class Reference {
 	public static enum ModItems {
 		
 		SALT("salt", "ItemSalt"),
-        FLOUR("flour", "ItemFlour"),
+		FLOUR("flour", "ItemFlour"),
 		TRUMPGEM("trumpgem", "ItemTrumpGem");
 		
 		private String unlocalizedName;
@@ -36,7 +36,7 @@ public class Reference {
 	public static enum ModBlocks {
 
 		SALT("salt", "BlockSalt"),
-        TRUMPIUMORE("trumpiumore", "BlockTrumpiumOre");
+		TRUMPIUMORE("trumpiumore", "BlockTrumpiumOre");
 		
 		private String unlocalizedName;
 		private String registryName;		
