@@ -1,7 +1,0 @@
-package demjr.mod.items;
-
-import net.minecraft.item.Item;
-
-public class ItemEmpty_Wooden_Bucket extends Item {
-
-}

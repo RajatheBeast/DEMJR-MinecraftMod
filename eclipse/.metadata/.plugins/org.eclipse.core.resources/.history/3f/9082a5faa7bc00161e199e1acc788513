@@ -1,5 +1,0 @@
-package whisku.supertest.proxy;
-
-public interface CommonProxy {
-	public void init();
-}

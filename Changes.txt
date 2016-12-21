@@ -1,8 +1,0 @@
-Elliott- Trumpium Ore *NO DROP OR TEXTURE*
-Elliott- Setup for IntelliJ. Made salt block drop salt item.
-Dawson- Setup git shell
-Matthew- Added flour
-Elliott- Added salt item + block, crafting recipe for salt block. Created TestWorld. Changed run config variables, so you may have to change them to agree with your computer. Added en_US.lang file.
-Elliott- Initial Setup 12/6/2016
-Raja- Initial Commit 12/6/2016
-Pls put any changes above this inital post so that the latest is first. ok
