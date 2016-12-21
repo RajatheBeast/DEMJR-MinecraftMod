@@ -1,0 +1,7 @@
+package demjr.mod.init;
+
+import net.minecraft.item.Item;
+
+public class ItemWooden_Bucket extends Item {
+
+}
