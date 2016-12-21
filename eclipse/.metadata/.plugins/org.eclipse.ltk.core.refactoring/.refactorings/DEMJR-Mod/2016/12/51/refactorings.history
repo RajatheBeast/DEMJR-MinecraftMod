@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;DEMJR-Mod/src/main/resources/assets/demjr/textures/items/Flour.png&apos; to &apos;flour.png&apos;" description="Rename resource &apos;Flour.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/assets/demjr/textures/items/Flour.png" name="flour.png" stamp="1481579380485" updateReferences="true"/>
-</session>
