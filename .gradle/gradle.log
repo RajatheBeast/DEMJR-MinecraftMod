@@ -7,6 +7,7 @@
          by: Searge, ProfMobius, Fesh0r,         
          R4wk, ZeuX, IngisKahn, bspkrs           
 #################################################
+<<<<<<< HEAD
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
 :eclipseClasspath
@@ -26,3 +27,10 @@ Current status: 365/1049   34%
 BUILD SUCCESSFUL
 
 Total time: 46.241 secs
+=======
+:genIntellijRuns
+
+BUILD SUCCESSFUL
+
+Total time: 17.282 secs
+>>>>>>> bfcf34368512f5d15adb809ab01634de18ed1539

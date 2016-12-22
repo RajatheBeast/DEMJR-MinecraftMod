@@ -14,7 +14,10 @@ public class Reference {
 		
 		SALT("salt", "ItemSalt"),
         FLOUR("flour", "ItemFlour"),
-        TRUMPGEM("trumpgem", "ItemTrumpGem");
+        TRUMPGEM("trumpgem", "ItemTrumpGem"),
+        COOKIEDOUGH("cookiedough", "ItemCookieDough"),
+        DOUGH("dough", "ItemDough"),
+        CHOCOLATECHIPS("chocolatechips", "ItemChocolateChips");
 		
 		private String unlocalizedName;
 		private String registryName;		
