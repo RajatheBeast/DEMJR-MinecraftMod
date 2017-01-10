@@ -1,9 +1,6 @@
 package demjr.mod.init;
 
-import demjr.mod.items.ItemCookieDough;
-import demjr.mod.items.ItemFlour;
-import demjr.mod.items.ItemSalt;
-import demjr.mod.items.ItemTrumpGem;
+import demjr.mod.items.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
