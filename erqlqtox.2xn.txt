@@ -1,0 +1,58 @@
+﻿Merge branch 'master' of https://github.com/RajatheBeast/DEMJR-MinecraftMod
+
+# Conflicts:
+#	.gradle/2.7/taskArtifacts/cache.properties.lock
+#	.gradle/2.7/taskArtifacts/fileHashes.bin
+#	.gradle/2.7/taskArtifacts/fileSnapshots.bin
+#	.gradle/2.7/taskArtifacts/taskArtifacts.bin
+#	.gradle/gradle.log
+#	run/config/splash.properties
+#	run/logs/fml-client-latest.log
+#	run/logs/fml-junk-earlystartup.log
+#	run/logs/latest.log
+#	run/saves/TestWorld-/DIM-1/data/villages_nether.dat
+#	run/saves/TestWorld-/DIM1/data/villages_end.dat
+#	run/saves/TestWorld-/data/villages.dat
+#	run/saves/TestWorld-/level.dat
+#	run/saves/TestWorld-/level.dat_old
+#	run/saves/TestWorld-/region/r.-1.0.mca
+#	run/saves/TestWorld-/session.lock
+#	run/usercache.json
+#	run/usernamecache.json
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   .gradle/gradle.log
+#	modified:   .idea/workspace.xml
+#	modified:   run/config/splash.properties
+#	modified:   run/logs/fml-client-latest.log
+#	modified:   run/logs/fml-junk-earlystartup.log
+#	modified:   run/logs/latest.log
+#	new file:   run/saves/TestWorld-/playerdata/21aef119-186c-31d8-89d6-c507e23ea041.dat
+#	new file:   run/saves/TestWorld-/stats/21aef119-186c-31d8-89d6-c507e23ea041.json
+#	modified:   run/usercache.json
+#	modified:   run/usernamecache.json
+#	modified:   src/main/java/demjr/mod/Reference.java
+#	modified:   src/main/java/demjr/mod/init/ModItems.java
+#	new file:   src/main/java/demjr/mod/items/ItemCookieDough.java
+#	modified:   src/main/resources/assets/demjr/lang/en_US.lang
+#	new file:   src/main/resources/assets/demjr/models/item/ItemCookieDough.json
+#	new file:   src/main/resources/assets/demjr/models/item/ItemDough.json
+#	new file:   src/main/resources/assets/demjr/textures/items/cookiedough.png
+#	new file:   src/main/resources/assets/demjr/textures/items/dough.png
+#
+

@@ -1,6 +1,7 @@
 package demjr.mod.items;
 
 import demjr.mod.Reference;
+<<<<<<< HEAD
 import demjr.mod.Reference.ModItems;
 import net.minecraft.item.Item;
 
@@ -15,4 +16,17 @@ public class ItemDough extends Item {
     }
 
 
+=======
+import net.minecraft.item.Item;
+
+public class ItemDough extends Item {
+
+	public ItemDough() {
+		
+		setUnlocalizedName(Reference.ModItems.DOUGH.getUnlocalizedName());
+		setRegistryName(Reference.ModItems.DOUGH.getRegistryName());
+		
+	}
+	
+>>>>>>> 76fd6187332ae1d2480ffe09106961cd61e0b30d
 }

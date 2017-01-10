@@ -1,7 +1,0 @@
-package demjr.mod.blocks;
-
-import net.minecraft.block.Block;
-
-public class BlockSalt extends Block {
-
-}
