@@ -1,11 +1,15 @@
 package demjr.mod.init;
 
+<<<<<<< HEAD
 import demjr.mod.items.ItemChocolateChips;
 import demjr.mod.items.ItemCookieDough;
 import demjr.mod.items.ItemDough;
 import demjr.mod.items.ItemFlour;
 import demjr.mod.items.ItemSalt;
 import demjr.mod.items.ItemTrumpGem;
+=======
+import demjr.mod.items.*;
+>>>>>>> 8a0eb6048eb07132d5ad6533354a737816cfb5fb
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
