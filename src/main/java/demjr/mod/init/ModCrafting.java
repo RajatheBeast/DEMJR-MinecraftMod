@@ -11,7 +11,6 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.salt), "SSS", "SSS", "SSS", 'S', ModItems.salt);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.flour), Items.WHEAT);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.dough), ModItems.flour, Items.WATER_BUCKET, ModItems.salt);
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.chocolatechips), Items.DYE, 3, Items.SUGAR);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cookiedough), ModItems.dough, ModItems.chocolatechips);
 	}
 	

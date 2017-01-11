@@ -1,3 +1,9 @@
 item.salt.name=Salt
-tile.salt.name=Salt Block
 item.flour.name=Flour
+item.trumpgem.name=Trump Gem
+item.dough.name=Dough
+item.cookiedough.name=Cookie Dough
+item.chocolatechips.name=Chocolate Chips
+
+tile.salt.name=Salt Block
+tile.trumpiumore.name=Trumpium Ore

@@ -1,10 +1,10 @@
 [
 {
-  "modid": "demjr',
+  "modid": "demjr",
   "name": "DEMJR",
   "description": "Our first Minecraft mod!",
   "version": "${1.0}",
-  "mcversion": "${1.9.4}",
+  "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["D", "E", "M", "J", "R"],
