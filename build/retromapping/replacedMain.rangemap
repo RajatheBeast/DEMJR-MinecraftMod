@@ -505,8 +505,7 @@ Class Start: demjr.mod.init.ModItems
 Class End  : demjr.mod.init.ModItems
 endProcessing "demjr\mod\init\ModItems.java"
 
-startProcessing "demjr\mod\init\ModSmelting.java" md5: 86c01b11724c5ea2861b35156df33578
-Cache Hit!
+startProcessing "demjr\mod\init\ModSmelting.java" md5: 096020644f38e22dfc0a60f762f18ada
 @|demjr\mod\init\ModSmelting.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
 Class Start: demjr.mod.init.ModSmelting
    @|demjr\mod\init\ModSmelting.java|215|226|ModSmelting|class|demjr.mod.init.ModSmelting
@@ -519,6 +518,13 @@ Class Start: demjr.mod.init.ModSmelting
       @|demjr\mod\init\ModSmelting.java|318|327|ItemStack|class|net.minecraft.item.ItemStack
       @|demjr\mod\init\ModSmelting.java|328|333|Items|class|net.minecraft.init.Items
       @|demjr\mod\init\ModSmelting.java|334|339|BREAD|field|net.minecraft.init.Items|BREAD
+      @|demjr\mod\init\ModSmelting.java|354|366|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModSmelting.java|367|378|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|demjr\mod\init\ModSmelting.java|379|387|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModSmelting.java|388|399|cookiedough|field|demjr.mod.init.ModItems|cookiedough
+      @|demjr\mod\init\ModSmelting.java|405|414|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModSmelting.java|415|420|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModSmelting.java|421|427|COOKIE|field|net.minecraft.init.Items|COOKIE
    Method End: register()V
 Class End  : demjr.mod.init.ModSmelting
 endProcessing "demjr\mod\init\ModSmelting.java"

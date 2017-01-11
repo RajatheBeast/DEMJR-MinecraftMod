@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModSmelting {
     public static void register() {
         GameRegistry.addSmelting(ModItems.dough, new ItemStack(Items.BREAD), 6);
+        GameRegistry.addSmelting(ModItems.cookiedough, new ItemStack(Items.COOKIE, 4), 62500);
     }
 
 }
