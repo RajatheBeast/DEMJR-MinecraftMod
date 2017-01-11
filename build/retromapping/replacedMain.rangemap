@@ -357,8 +357,7 @@ Class Start: demjr.mod.init.ModBlocks
 Class End  : demjr.mod.init.ModBlocks
 endProcessing "demjr\mod\init\ModBlocks.java"
 
-startProcessing "demjr\mod\init\ModCrafting.java" md5: 2806f75fde26641cf4f6d41fe8d48730
-Cache Hit!
+startProcessing "demjr\mod\init\ModCrafting.java" md5: 7c7c7891b17df593c6eb6fe996710bba
 @|demjr\mod\init\ModCrafting.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
 Class Start: demjr.mod.init.ModCrafting
    @|demjr\mod\init\ModCrafting.java|201|212|ModCrafting|class|demjr.mod.init.ModCrafting
@@ -398,6 +397,16 @@ Class Start: demjr.mod.init.ModCrafting
       @|demjr\mod\init\ModCrafting.java|630|635|dough|field|demjr.mod.init.ModItems|dough
       @|demjr\mod\init\ModCrafting.java|637|645|ModItems|class|demjr.mod.init.ModItems
       @|demjr\mod\init\ModCrafting.java|646|660|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
+      @|demjr\mod\init\ModCrafting.java|665|677|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|678|696|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|demjr\mod\init\ModCrafting.java|701|710|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|711|719|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|720|734|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
+      @|demjr\mod\init\ModCrafting.java|741|750|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|751|756|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModCrafting.java|757|760|DYE|field|net.minecraft.init.Items|DYE
+      @|demjr\mod\init\ModCrafting.java|769|774|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModCrafting.java|775|780|SUGAR|field|net.minecraft.init.Items|SUGAR
    Method End: register()V
 Class End  : demjr.mod.init.ModCrafting
 endProcessing "demjr\mod\init\ModCrafting.java"

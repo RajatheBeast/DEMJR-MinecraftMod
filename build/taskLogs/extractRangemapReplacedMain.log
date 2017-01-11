@@ -20,8 +20,7 @@ startProcessing "demjr\mod\init\ModBlocks.java" md5: 99fd690b4523f5015107c6788e0
 Cache Hit!
 endProcessing "demjr\mod\init\ModBlocks.java"
 
-startProcessing "demjr\mod\init\ModCrafting.java" md5: 2806f75fde26641cf4f6d41fe8d48730
-Cache Hit!
+startProcessing "demjr\mod\init\ModCrafting.java" md5: 7c7c7891b17df593c6eb6fe996710bba
 endProcessing "demjr\mod\init\ModCrafting.java"
 
 startProcessing "demjr\mod\init\ModItems.java" md5: d28ca4ccf57a3c209b4b99bb60a58bce
