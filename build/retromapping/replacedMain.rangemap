@@ -1,69 +1,70 @@
 Symbol range map extraction starting
-Processing 16 files
-startProcessing "demjr\mod\DEMJR.java" md5: 7fb357f8e298c78431dae6e529fe1e8a
-Cache Hit!
+Processing 17 files
+startProcessing "demjr\mod\DEMJR.java" md5: 3105827908b34096db2d3d14373e3170
 @|demjr\mod\DEMJR.java|8|17|demjr.mod|package|demjr.mod|(file)
 Class Start: demjr.mod.DEMJR
-   @|demjr\mod\DEMJR.java|563|566|Mod|class|net.minecraftforge.fml.common.Mod
-   @|demjr\mod\DEMJR.java|567|572|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
-   @|demjr\mod\DEMJR.java|575|584|Reference|class|demjr.mod.Reference
-   @|demjr\mod\DEMJR.java|585|591|MOD_ID|field|demjr.mod.Reference|MOD_ID
-   @|demjr\mod\DEMJR.java|593|600|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
-   @|demjr\mod\DEMJR.java|603|612|Reference|class|demjr.mod.Reference
-   @|demjr\mod\DEMJR.java|613|620|VERSION|field|demjr.mod.Reference|VERSION
-   @|demjr\mod\DEMJR.java|635|640|DEMJR|class|demjr.mod.DEMJR
+   @|demjr\mod\DEMJR.java|598|601|Mod|class|net.minecraftforge.fml.common.Mod
+   @|demjr\mod\DEMJR.java|602|607|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|demjr\mod\DEMJR.java|610|619|Reference|class|demjr.mod.Reference
+   @|demjr\mod\DEMJR.java|620|626|MOD_ID|field|demjr.mod.Reference|MOD_ID
+   @|demjr\mod\DEMJR.java|628|635|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|demjr\mod\DEMJR.java|638|647|Reference|class|demjr.mod.Reference
+   @|demjr\mod\DEMJR.java|648|655|VERSION|field|demjr.mod.Reference|VERSION
    @|demjr\mod\DEMJR.java|670|675|DEMJR|class|demjr.mod.DEMJR
-   @|demjr\mod\DEMJR.java|646|654|Instance|class|net.minecraftforge.fml.common.Mod.Instance
-   @|demjr\mod\DEMJR.java|670|675|DEMJR|class|demjr.mod.DEMJR
-   @|demjr\mod\DEMJR.java|676|684|instance|field|demjr.mod.DEMJR|instance|
-   @|demjr\mod\DEMJR.java|801|812|CommonProxy|class|demjr.mod.proxy.CommonProxy
-   @|demjr\mod\DEMJR.java|689|699|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
-   @|demjr\mod\DEMJR.java|700|710|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
-   @|demjr\mod\DEMJR.java|713|722|Reference|class|demjr.mod.Reference
-   @|demjr\mod\DEMJR.java|723|741|CLIENT_PROXY_CLASS|field|demjr.mod.Reference|CLIENT_PROXY_CLASS
-   @|demjr\mod\DEMJR.java|743|753|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
-   @|demjr\mod\DEMJR.java|756|765|Reference|class|demjr.mod.Reference
-   @|demjr\mod\DEMJR.java|766|784|SERVER_PROXY_CLASS|field|demjr.mod.Reference|SERVER_PROXY_CLASS
-   @|demjr\mod\DEMJR.java|801|812|CommonProxy|class|demjr.mod.proxy.CommonProxy
-   @|demjr\mod\DEMJR.java|813|818|proxy|field|demjr.mod.DEMJR|proxy|
+   @|demjr\mod\DEMJR.java|705|710|DEMJR|class|demjr.mod.DEMJR
+   @|demjr\mod\DEMJR.java|681|689|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|demjr\mod\DEMJR.java|705|710|DEMJR|class|demjr.mod.DEMJR
+   @|demjr\mod\DEMJR.java|711|719|instance|field|demjr.mod.DEMJR|instance|
+   @|demjr\mod\DEMJR.java|836|847|CommonProxy|class|demjr.mod.proxy.CommonProxy
+   @|demjr\mod\DEMJR.java|724|734|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|demjr\mod\DEMJR.java|735|745|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|demjr\mod\DEMJR.java|748|757|Reference|class|demjr.mod.Reference
+   @|demjr\mod\DEMJR.java|758|776|CLIENT_PROXY_CLASS|field|demjr.mod.Reference|CLIENT_PROXY_CLASS
+   @|demjr\mod\DEMJR.java|778|788|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|demjr\mod\DEMJR.java|791|800|Reference|class|demjr.mod.Reference
+   @|demjr\mod\DEMJR.java|801|819|SERVER_PROXY_CLASS|field|demjr.mod.Reference|SERVER_PROXY_CLASS
+   @|demjr\mod\DEMJR.java|836|847|CommonProxy|class|demjr.mod.proxy.CommonProxy
+   @|demjr\mod\DEMJR.java|848|853|proxy|field|demjr.mod.DEMJR|proxy|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|883|888|event|param|demjr.mod.DEMJR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|demjr\mod\DEMJR.java|823|835|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|demjr\mod\DEMJR.java|849|856|preInit|method|demjr.mod.DEMJR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|857|882|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|demjr\mod\DEMJR.java|894|900|System|class|java.lang.System
-      @|demjr\mod\DEMJR.java|901|904|out|field|java.lang.System|out
-      @|demjr\mod\DEMJR.java|905|912|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|demjr\mod\DEMJR.java|928|936|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\DEMJR.java|937|941|init|method|demjr.mod.init.ModItems|init|()V
-      @|demjr\mod\DEMJR.java|947|955|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\DEMJR.java|956|964|register|method|demjr.mod.init.ModItems|register|()V
-      @|demjr\mod\DEMJR.java|970|979|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\DEMJR.java|980|984|init|method|demjr.mod.init.ModBlocks|init|()V
-      @|demjr\mod\DEMJR.java|990|999|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\DEMJR.java|1000|1008|register|method|demjr.mod.init.ModBlocks|register|()V
+      @|demjr\mod\DEMJR.java|918|923|event|param|demjr.mod.DEMJR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|demjr\mod\DEMJR.java|858|870|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|demjr\mod\DEMJR.java|884|891|preInit|method|demjr.mod.DEMJR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|demjr\mod\DEMJR.java|892|917|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|demjr\mod\DEMJR.java|929|935|System|class|java.lang.System
+      @|demjr\mod\DEMJR.java|936|939|out|field|java.lang.System|out
+      @|demjr\mod\DEMJR.java|940|947|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|demjr\mod\DEMJR.java|963|971|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\DEMJR.java|972|976|init|method|demjr.mod.init.ModItems|init|()V
+      @|demjr\mod\DEMJR.java|982|990|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\DEMJR.java|991|999|register|method|demjr.mod.init.ModItems|register|()V
+      @|demjr\mod\DEMJR.java|1005|1014|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\DEMJR.java|1015|1019|init|method|demjr.mod.init.ModBlocks|init|()V
+      @|demjr\mod\DEMJR.java|1025|1034|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\DEMJR.java|1035|1043|register|method|demjr.mod.init.ModBlocks|register|()V
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|1072|1077|event|param|demjr.mod.DEMJR|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|demjr\mod\DEMJR.java|1018|1030|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|demjr\mod\DEMJR.java|1044|1048|init|method|demjr.mod.DEMJR|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|1049|1071|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|demjr\mod\DEMJR.java|1083|1089|System|class|java.lang.System
-      @|demjr\mod\DEMJR.java|1090|1093|out|field|java.lang.System|out
-      @|demjr\mod\DEMJR.java|1094|1101|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|demjr\mod\DEMJR.java|1113|1118|proxy|field|demjr.mod.DEMJR|proxy
-      @|demjr\mod\DEMJR.java|1119|1123|init|method|demjr.mod.proxy.CommonProxy|init|()V
-      @|demjr\mod\DEMJR.java|1129|1140|ModCrafting|class|demjr.mod.init.ModCrafting
-      @|demjr\mod\DEMJR.java|1141|1149|register|method|demjr.mod.init.ModCrafting|register|()V
+      @|demjr\mod\DEMJR.java|1107|1112|event|param|demjr.mod.DEMJR|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|demjr\mod\DEMJR.java|1053|1065|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|demjr\mod\DEMJR.java|1079|1083|init|method|demjr.mod.DEMJR|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|demjr\mod\DEMJR.java|1084|1106|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|demjr\mod\DEMJR.java|1118|1124|System|class|java.lang.System
+      @|demjr\mod\DEMJR.java|1125|1128|out|field|java.lang.System|out
+      @|demjr\mod\DEMJR.java|1129|1136|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|demjr\mod\DEMJR.java|1148|1153|proxy|field|demjr.mod.DEMJR|proxy
+      @|demjr\mod\DEMJR.java|1154|1158|init|method|demjr.mod.proxy.CommonProxy|init|()V
+      @|demjr\mod\DEMJR.java|1164|1175|ModCrafting|class|demjr.mod.init.ModCrafting
+      @|demjr\mod\DEMJR.java|1176|1184|register|method|demjr.mod.init.ModCrafting|register|()V
+      @|demjr\mod\DEMJR.java|1196|1207|ModSmelting|class|demjr.mod.init.ModSmelting
+      @|demjr\mod\DEMJR.java|1208|1216|register|method|demjr.mod.init.ModSmelting|register|()V
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|1221|1226|event|param|demjr.mod.DEMJR|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|demjr\mod\DEMJR.java|1159|1171|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|demjr\mod\DEMJR.java|1185|1193|postInit|method|demjr.mod.DEMJR|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|1194|1220|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
-      @|demjr\mod\DEMJR.java|1238|1244|System|class|java.lang.System
-      @|demjr\mod\DEMJR.java|1245|1248|out|field|java.lang.System|out
-      @|demjr\mod\DEMJR.java|1249|1256|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|demjr\mod\DEMJR.java|1288|1293|event|param|demjr.mod.DEMJR|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|demjr\mod\DEMJR.java|1226|1238|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|demjr\mod\DEMJR.java|1252|1260|postInit|method|demjr.mod.DEMJR|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|demjr\mod\DEMJR.java|1261|1287|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|demjr\mod\DEMJR.java|1305|1311|System|class|java.lang.System
+      @|demjr\mod\DEMJR.java|1312|1315|out|field|java.lang.System|out
+      @|demjr\mod\DEMJR.java|1316|1323|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
 Class End  : demjr.mod.DEMJR
 endProcessing "demjr\mod\DEMJR.java"
@@ -492,6 +493,23 @@ Class Start: demjr.mod.init.ModItems
    Method End: registerRender(Lnet/minecraft/item/Item;)V
 Class End  : demjr.mod.init.ModItems
 endProcessing "demjr\mod\init\ModItems.java"
+
+startProcessing "demjr\mod\init\ModSmelting.java" md5: 86c01b11724c5ea2861b35156df33578
+@|demjr\mod\init\ModSmelting.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
+Class Start: demjr.mod.init.ModSmelting
+   @|demjr\mod\init\ModSmelting.java|215|226|ModSmelting|class|demjr.mod.init.ModSmelting
+   Method Start: register()V
+      @|demjr\mod\init\ModSmelting.java|252|260|register|method|demjr.mod.init.ModSmelting|register|()V
+      @|demjr\mod\init\ModSmelting.java|273|285|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModSmelting.java|286|297|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/item/Item;Lnet/minecraft/item/ItemStack;F)V
+      @|demjr\mod\init\ModSmelting.java|298|306|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModSmelting.java|307|312|dough|field|demjr.mod.init.ModItems|dough
+      @|demjr\mod\init\ModSmelting.java|318|327|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModSmelting.java|328|333|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModSmelting.java|334|339|BREAD|field|net.minecraft.init.Items|BREAD
+   Method End: register()V
+Class End  : demjr.mod.init.ModSmelting
+endProcessing "demjr\mod\init\ModSmelting.java"
 
 startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: 803a500a4f1ad90670a66d27efcca4d5
 Cache Hit!
