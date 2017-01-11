@@ -3,6 +3,7 @@ package demjr.mod;
 import demjr.mod.init.ModBlocks;
 import demjr.mod.init.ModCrafting;
 import demjr.mod.init.ModItems;
+import demjr.mod.init.ModSmelting;
 import demjr.mod.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -35,6 +36,7 @@ public class DEMJR {
 		System.out.println("Init");
 		proxy.init();
 		ModCrafting.register();
+        ModSmelting.register();
 	}
 
 	@EventHandler
