@@ -1,6 +1,7 @@
 Symbol range map extraction starting
 Processing 17 files
 startProcessing "demjr\mod\DEMJR.java" md5: 3105827908b34096db2d3d14373e3170
+Cache Hit!
 @|demjr\mod\DEMJR.java|8|17|demjr.mod|package|demjr.mod|(file)
 Class Start: demjr.mod.DEMJR
    @|demjr\mod\DEMJR.java|598|601|Mod|class|net.minecraftforge.fml.common.Mod
@@ -359,6 +360,7 @@ Class End  : demjr.mod.init.ModBlocks
 endProcessing "demjr\mod\init\ModBlocks.java"
 
 startProcessing "demjr\mod\init\ModCrafting.java" md5: 7c7c7891b17df593c6eb6fe996710bba
+Cache Hit!
 @|demjr\mod\init\ModCrafting.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
 Class Start: demjr.mod.init.ModCrafting
    @|demjr\mod\init\ModCrafting.java|201|212|ModCrafting|class|demjr.mod.init.ModCrafting
@@ -504,6 +506,7 @@ Class End  : demjr.mod.init.ModItems
 endProcessing "demjr\mod\init\ModItems.java"
 
 startProcessing "demjr\mod\init\ModSmelting.java" md5: 86c01b11724c5ea2861b35156df33578
+Cache Hit!
 @|demjr\mod\init\ModSmelting.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
 Class Start: demjr.mod.init.ModSmelting
    @|demjr\mod\init\ModSmelting.java|215|226|ModSmelting|class|demjr.mod.init.ModSmelting

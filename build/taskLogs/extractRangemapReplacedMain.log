@@ -1,6 +1,7 @@
 Symbol range map extraction starting
 Processing 17 files
 startProcessing "demjr\mod\DEMJR.java" md5: 3105827908b34096db2d3d14373e3170
+Cache Hit!
 endProcessing "demjr\mod\DEMJR.java"
 
 startProcessing "demjr\mod\Reference.java" md5: d16c2da3a965d539276434269734cd38
@@ -20,6 +21,7 @@ Cache Hit!
 endProcessing "demjr\mod\init\ModBlocks.java"
 
 startProcessing "demjr\mod\init\ModCrafting.java" md5: 7c7c7891b17df593c6eb6fe996710bba
+Cache Hit!
 endProcessing "demjr\mod\init\ModCrafting.java"
 
 startProcessing "demjr\mod\init\ModItems.java" md5: d28ca4ccf57a3c209b4b99bb60a58bce
@@ -27,6 +29,7 @@ Cache Hit!
 endProcessing "demjr\mod\init\ModItems.java"
 
 startProcessing "demjr\mod\init\ModSmelting.java" md5: 86c01b11724c5ea2861b35156df33578
+Cache Hit!
 endProcessing "demjr\mod\init\ModSmelting.java"
 
 startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: 803a500a4f1ad90670a66d27efcca4d5
