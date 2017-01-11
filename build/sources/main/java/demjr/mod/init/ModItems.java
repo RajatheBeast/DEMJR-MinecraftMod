@@ -1,5 +1,6 @@
 package demjr.mod.init;
 
+import demjr.mod.items.ItemApplePie;
 import demjr.mod.items.ItemChocolateChips;
 import demjr.mod.items.ItemCookieDough;
 import demjr.mod.items.ItemDough;
@@ -19,6 +20,7 @@ public class ModItems {
 	public static Item cookiedough;
 	public static Item dough;
 	public static Item chocolatechips;
+	public static Item applepie;
 	
 	public static void init() {
 		salt = new ItemSalt();
@@ -27,6 +29,7 @@ public class ModItems {
 		cookiedough = new ItemCookieDough();
 		dough = new ItemDough();
 		chocolatechips = new ItemChocolateChips();
+		applepie = new ItemApplePie();
 	
 	}
 	public static void register() {
@@ -36,6 +39,7 @@ public class ModItems {
 		GameRegistry.register(cookiedough);
 		GameRegistry.register(dough);
 		GameRegistry.register(chocolatechips);
+		GameRegistry.register(applepie);
 	
 	}
 		
@@ -46,6 +50,7 @@ public class ModItems {
 		registerRender(cookiedough);
 		registerRender(dough);
 		registerRender(chocolatechips);
+		registerRender(applepie);
 	}
 		
 	private static void registerRender(Item item) {
