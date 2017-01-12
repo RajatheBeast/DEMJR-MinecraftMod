@@ -17,7 +17,8 @@ public class Reference {
         TRUMPGEM("trumpgem", "ItemTrumpGem"),
         COOKIEDOUGH("cookiedough", "ItemCookieDough"),
         DOUGH("dough", "ItemDough"),
-        CHOCOLATECHIPS("chocolatechips", "ItemChocolateChips");
+        CHOCOLATECHIPS("chocolatechips", "ItemChocolateChips"),
+		APPLEPIE("applepie", "ItemApplePie");
 		
 		private String unlocalizedName;
 		private String registryName;		

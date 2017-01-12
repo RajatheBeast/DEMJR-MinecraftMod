@@ -1,11 +1,14 @@
 Symbol range map extraction starting
 Processing 18 files
+<<<<<<< HEAD
 startProcessing "demjr\mod\DEMJR.java" md5: 4d213c026ed7fb8164bdb4ad59e36d20
+=======
+startProcessing "demjr\mod\DEMJR.java" md5: 3105827908b34096db2d3d14373e3170
+>>>>>>> 95321dd7cc3e28d8350aec20add4fbc7789ae91b
 Cache Hit!
 endProcessing "demjr\mod\DEMJR.java"
 
-startProcessing "demjr\mod\Reference.java" md5: d16c2da3a965d539276434269734cd38
-Cache Hit!
+startProcessing "demjr\mod\Reference.java" md5: be7c8e0f7b42792a4f08af9e3ba2592b
 endProcessing "demjr\mod\Reference.java"
 
 startProcessing "demjr\mod\blocks\BlockSalt.java" md5: 0e39e8bf89082e9fd3442b40734e9945
@@ -20,20 +23,20 @@ startProcessing "demjr\mod\init\ModBlocks.java" md5: 99fd690b4523f5015107c6788e0
 Cache Hit!
 endProcessing "demjr\mod\init\ModBlocks.java"
 
-startProcessing "demjr\mod\init\ModCrafting.java" md5: 7c7c7891b17df593c6eb6fe996710bba
-Cache Hit!
+startProcessing "demjr\mod\init\ModCrafting.java" md5: aed39eb00e9e79f642abdf6137ec95cb
 endProcessing "demjr\mod\init\ModCrafting.java"
 
-startProcessing "demjr\mod\init\ModItems.java" md5: d28ca4ccf57a3c209b4b99bb60a58bce
-Cache Hit!
+startProcessing "demjr\mod\init\ModItems.java" md5: dfadd94abe6b5684ecdb8212912b7a8c
 endProcessing "demjr\mod\init\ModItems.java"
 
 startProcessing "demjr\mod\init\ModSmelting.java" md5: 096020644f38e22dfc0a60f762f18ada
 Cache Hit!
 endProcessing "demjr\mod\init\ModSmelting.java"
 
-startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: 803a500a4f1ad90670a66d27efcca4d5
-Cache Hit!
+startProcessing "demjr\mod\items\ItemApplePie.java" md5: 066b3972f216cc8523d6e695b4efca67
+endProcessing "demjr\mod\items\ItemApplePie.java"
+
+startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: dae9ade3393a6854bd2774055eee53cf
 endProcessing "demjr\mod\items\ItemChocolateChips.java"
 
 startProcessing "demjr\mod\items\ItemCookieDough.java" md5: 6139e0c721720de5fbb533f91992eff2
