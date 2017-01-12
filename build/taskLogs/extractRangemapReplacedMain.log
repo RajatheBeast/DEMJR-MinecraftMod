@@ -1,6 +1,6 @@
 Symbol range map extraction starting
-Processing 17 files
-startProcessing "demjr\mod\DEMJR.java" md5: 3105827908b34096db2d3d14373e3170
+Processing 18 files
+startProcessing "demjr\mod\DEMJR.java" md5: 4d213c026ed7fb8164bdb4ad59e36d20
 Cache Hit!
 endProcessing "demjr\mod\DEMJR.java"
 
@@ -12,7 +12,7 @@ startProcessing "demjr\mod\blocks\BlockSalt.java" md5: 0e39e8bf89082e9fd3442b407
 Cache Hit!
 endProcessing "demjr\mod\blocks\BlockSalt.java"
 
-startProcessing "demjr\mod\blocks\BlockTrumpiumOre.java" md5: adca5b23824d3fba3a06a69c82f5f2a5
+startProcessing "demjr\mod\blocks\BlockTrumpiumOre.java" md5: 8ac99c246a3eb1a2d4ae175f875861d5
 Cache Hit!
 endProcessing "demjr\mod\blocks\BlockTrumpiumOre.java"
 
@@ -29,6 +29,7 @@ Cache Hit!
 endProcessing "demjr\mod\init\ModItems.java"
 
 startProcessing "demjr\mod\init\ModSmelting.java" md5: 096020644f38e22dfc0a60f762f18ada
+Cache Hit!
 endProcessing "demjr\mod\init\ModSmelting.java"
 
 startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: 803a500a4f1ad90670a66d27efcca4d5
@@ -66,4 +67,7 @@ endProcessing "demjr\mod\proxy\CommonProxy.java"
 startProcessing "demjr\mod\proxy\ServerProxy.java" md5: aecfb9ebe73b73fbf7c26111705fa061
 Cache Hit!
 endProcessing "demjr\mod\proxy\ServerProxy.java"
+
+startProcessing "demjr\mod\world\WorldGen.java" md5: 31e36f1b1cb27a286467f71f26dde47e
+endProcessing "demjr\mod\world\WorldGen.java"
 

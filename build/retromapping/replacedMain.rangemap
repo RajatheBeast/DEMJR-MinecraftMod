@@ -1,71 +1,74 @@
 Symbol range map extraction starting
-Processing 17 files
-startProcessing "demjr\mod\DEMJR.java" md5: 3105827908b34096db2d3d14373e3170
+Processing 18 files
+startProcessing "demjr\mod\DEMJR.java" md5: 4d213c026ed7fb8164bdb4ad59e36d20
 Cache Hit!
 @|demjr\mod\DEMJR.java|8|17|demjr.mod|package|demjr.mod|(file)
 Class Start: demjr.mod.DEMJR
-   @|demjr\mod\DEMJR.java|598|601|Mod|class|net.minecraftforge.fml.common.Mod
-   @|demjr\mod\DEMJR.java|602|607|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
-   @|demjr\mod\DEMJR.java|610|619|Reference|class|demjr.mod.Reference
-   @|demjr\mod\DEMJR.java|620|626|MOD_ID|field|demjr.mod.Reference|MOD_ID
-   @|demjr\mod\DEMJR.java|628|635|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
-   @|demjr\mod\DEMJR.java|638|647|Reference|class|demjr.mod.Reference
-   @|demjr\mod\DEMJR.java|648|655|VERSION|field|demjr.mod.Reference|VERSION
-   @|demjr\mod\DEMJR.java|670|675|DEMJR|class|demjr.mod.DEMJR
-   @|demjr\mod\DEMJR.java|705|710|DEMJR|class|demjr.mod.DEMJR
-   @|demjr\mod\DEMJR.java|681|689|Instance|class|net.minecraftforge.fml.common.Mod.Instance
-   @|demjr\mod\DEMJR.java|705|710|DEMJR|class|demjr.mod.DEMJR
-   @|demjr\mod\DEMJR.java|711|719|instance|field|demjr.mod.DEMJR|instance|
-   @|demjr\mod\DEMJR.java|836|847|CommonProxy|class|demjr.mod.proxy.CommonProxy
-   @|demjr\mod\DEMJR.java|724|734|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
-   @|demjr\mod\DEMJR.java|735|745|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
-   @|demjr\mod\DEMJR.java|748|757|Reference|class|demjr.mod.Reference
-   @|demjr\mod\DEMJR.java|758|776|CLIENT_PROXY_CLASS|field|demjr.mod.Reference|CLIENT_PROXY_CLASS
-   @|demjr\mod\DEMJR.java|778|788|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
-   @|demjr\mod\DEMJR.java|791|800|Reference|class|demjr.mod.Reference
-   @|demjr\mod\DEMJR.java|801|819|SERVER_PROXY_CLASS|field|demjr.mod.Reference|SERVER_PROXY_CLASS
-   @|demjr\mod\DEMJR.java|836|847|CommonProxy|class|demjr.mod.proxy.CommonProxy
-   @|demjr\mod\DEMJR.java|848|853|proxy|field|demjr.mod.DEMJR|proxy|
+   @|demjr\mod\DEMJR.java|691|694|Mod|class|net.minecraftforge.fml.common.Mod
+   @|demjr\mod\DEMJR.java|695|700|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|demjr\mod\DEMJR.java|703|712|Reference|class|demjr.mod.Reference
+   @|demjr\mod\DEMJR.java|713|719|MOD_ID|field|demjr.mod.Reference|MOD_ID
+   @|demjr\mod\DEMJR.java|721|728|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|demjr\mod\DEMJR.java|731|740|Reference|class|demjr.mod.Reference
+   @|demjr\mod\DEMJR.java|741|748|VERSION|field|demjr.mod.Reference|VERSION
+   @|demjr\mod\DEMJR.java|763|768|DEMJR|class|demjr.mod.DEMJR
+   @|demjr\mod\DEMJR.java|798|803|DEMJR|class|demjr.mod.DEMJR
+   @|demjr\mod\DEMJR.java|774|782|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|demjr\mod\DEMJR.java|798|803|DEMJR|class|demjr.mod.DEMJR
+   @|demjr\mod\DEMJR.java|804|812|instance|field|demjr.mod.DEMJR|instance|
+   @|demjr\mod\DEMJR.java|929|940|CommonProxy|class|demjr.mod.proxy.CommonProxy
+   @|demjr\mod\DEMJR.java|817|827|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|demjr\mod\DEMJR.java|828|838|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|demjr\mod\DEMJR.java|841|850|Reference|class|demjr.mod.Reference
+   @|demjr\mod\DEMJR.java|851|869|CLIENT_PROXY_CLASS|field|demjr.mod.Reference|CLIENT_PROXY_CLASS
+   @|demjr\mod\DEMJR.java|871|881|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|demjr\mod\DEMJR.java|884|893|Reference|class|demjr.mod.Reference
+   @|demjr\mod\DEMJR.java|894|912|SERVER_PROXY_CLASS|field|demjr.mod.Reference|SERVER_PROXY_CLASS
+   @|demjr\mod\DEMJR.java|929|940|CommonProxy|class|demjr.mod.proxy.CommonProxy
+   @|demjr\mod\DEMJR.java|941|946|proxy|field|demjr.mod.DEMJR|proxy|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|918|923|event|param|demjr.mod.DEMJR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|demjr\mod\DEMJR.java|858|870|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|demjr\mod\DEMJR.java|884|891|preInit|method|demjr.mod.DEMJR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|892|917|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|demjr\mod\DEMJR.java|929|935|System|class|java.lang.System
-      @|demjr\mod\DEMJR.java|936|939|out|field|java.lang.System|out
-      @|demjr\mod\DEMJR.java|940|947|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|demjr\mod\DEMJR.java|963|971|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\DEMJR.java|972|976|init|method|demjr.mod.init.ModItems|init|()V
-      @|demjr\mod\DEMJR.java|982|990|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\DEMJR.java|991|999|register|method|demjr.mod.init.ModItems|register|()V
-      @|demjr\mod\DEMJR.java|1005|1014|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\DEMJR.java|1015|1019|init|method|demjr.mod.init.ModBlocks|init|()V
-      @|demjr\mod\DEMJR.java|1025|1034|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\DEMJR.java|1035|1043|register|method|demjr.mod.init.ModBlocks|register|()V
+      @|demjr\mod\DEMJR.java|1011|1016|event|param|demjr.mod.DEMJR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|demjr\mod\DEMJR.java|951|963|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|demjr\mod\DEMJR.java|977|984|preInit|method|demjr.mod.DEMJR|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|demjr\mod\DEMJR.java|985|1010|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|demjr\mod\DEMJR.java|1022|1028|System|class|java.lang.System
+      @|demjr\mod\DEMJR.java|1029|1032|out|field|java.lang.System|out
+      @|demjr\mod\DEMJR.java|1033|1040|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|demjr\mod\DEMJR.java|1056|1064|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\DEMJR.java|1065|1069|init|method|demjr.mod.init.ModItems|init|()V
+      @|demjr\mod\DEMJR.java|1075|1083|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\DEMJR.java|1084|1092|register|method|demjr.mod.init.ModItems|register|()V
+      @|demjr\mod\DEMJR.java|1098|1107|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\DEMJR.java|1108|1112|init|method|demjr.mod.init.ModBlocks|init|()V
+      @|demjr\mod\DEMJR.java|1118|1127|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\DEMJR.java|1128|1136|register|method|demjr.mod.init.ModBlocks|register|()V
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|1107|1112|event|param|demjr.mod.DEMJR|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|demjr\mod\DEMJR.java|1053|1065|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|demjr\mod\DEMJR.java|1079|1083|init|method|demjr.mod.DEMJR|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|1084|1106|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|demjr\mod\DEMJR.java|1118|1124|System|class|java.lang.System
-      @|demjr\mod\DEMJR.java|1125|1128|out|field|java.lang.System|out
-      @|demjr\mod\DEMJR.java|1129|1136|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|demjr\mod\DEMJR.java|1148|1153|proxy|field|demjr.mod.DEMJR|proxy
-      @|demjr\mod\DEMJR.java|1154|1158|init|method|demjr.mod.proxy.CommonProxy|init|()V
-      @|demjr\mod\DEMJR.java|1164|1175|ModCrafting|class|demjr.mod.init.ModCrafting
-      @|demjr\mod\DEMJR.java|1176|1184|register|method|demjr.mod.init.ModCrafting|register|()V
-      @|demjr\mod\DEMJR.java|1196|1207|ModSmelting|class|demjr.mod.init.ModSmelting
-      @|demjr\mod\DEMJR.java|1208|1216|register|method|demjr.mod.init.ModSmelting|register|()V
+      @|demjr\mod\DEMJR.java|1200|1205|event|param|demjr.mod.DEMJR|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|demjr\mod\DEMJR.java|1146|1158|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|demjr\mod\DEMJR.java|1172|1176|init|method|demjr.mod.DEMJR|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|demjr\mod\DEMJR.java|1177|1199|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|demjr\mod\DEMJR.java|1211|1217|System|class|java.lang.System
+      @|demjr\mod\DEMJR.java|1218|1221|out|field|java.lang.System|out
+      @|demjr\mod\DEMJR.java|1222|1229|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|demjr\mod\DEMJR.java|1241|1246|proxy|field|demjr.mod.DEMJR|proxy
+      @|demjr\mod\DEMJR.java|1247|1251|init|method|demjr.mod.proxy.CommonProxy|init|()V
+      @|demjr\mod\DEMJR.java|1257|1268|ModCrafting|class|demjr.mod.init.ModCrafting
+      @|demjr\mod\DEMJR.java|1269|1277|register|method|demjr.mod.init.ModCrafting|register|()V
+      @|demjr\mod\DEMJR.java|1289|1300|ModSmelting|class|demjr.mod.init.ModSmelting
+      @|demjr\mod\DEMJR.java|1301|1309|register|method|demjr.mod.init.ModSmelting|register|()V
+      @|demjr\mod\DEMJR.java|1321|1333|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\DEMJR.java|1334|1356|registerWorldGenerator|method|net.minecraftforge.fml.common.registry.GameRegistry|registerWorldGenerator|(Lnet/minecraftforge/fml/common/IWorldGenerator;I)V
+      @|demjr\mod\DEMJR.java|1361|1369|WorldGen|class|demjr.mod.world.WorldGen
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|1288|1293|event|param|demjr.mod.DEMJR|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|demjr\mod\DEMJR.java|1226|1238|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|demjr\mod\DEMJR.java|1252|1260|postInit|method|demjr.mod.DEMJR|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|demjr\mod\DEMJR.java|1261|1287|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
-      @|demjr\mod\DEMJR.java|1305|1311|System|class|java.lang.System
-      @|demjr\mod\DEMJR.java|1312|1315|out|field|java.lang.System|out
-      @|demjr\mod\DEMJR.java|1316|1323|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|demjr\mod\DEMJR.java|1445|1450|event|param|demjr.mod.DEMJR|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|demjr\mod\DEMJR.java|1383|1395|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|demjr\mod\DEMJR.java|1409|1417|postInit|method|demjr.mod.DEMJR|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|demjr\mod\DEMJR.java|1418|1444|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|demjr\mod\DEMJR.java|1462|1468|System|class|java.lang.System
+      @|demjr\mod\DEMJR.java|1469|1472|out|field|java.lang.System|out
+      @|demjr\mod\DEMJR.java|1473|1480|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
 Class End  : demjr.mod.DEMJR
 endProcessing "demjr\mod\DEMJR.java"
@@ -228,66 +231,66 @@ Class Start: demjr.mod.blocks.BlockSalt
 Class End  : demjr.mod.blocks.BlockSalt
 endProcessing "demjr\mod\blocks\BlockSalt.java"
 
-startProcessing "demjr\mod\blocks\BlockTrumpiumOre.java" md5: adca5b23824d3fba3a06a69c82f5f2a5
+startProcessing "demjr\mod\blocks\BlockTrumpiumOre.java" md5: 8ac99c246a3eb1a2d4ae175f875861d5
 Cache Hit!
 @|demjr\mod\blocks\BlockTrumpiumOre.java|8|24|demjr.mod.blocks|package|demjr.mod.blocks|(file)
 Class Start: demjr.mod.blocks.BlockTrumpiumOre
-   @|demjr\mod\blocks\BlockTrumpiumOre.java|427|443|BlockTrumpiumOre|class|demjr.mod.blocks.BlockTrumpiumOre
-   @|demjr\mod\blocks\BlockTrumpiumOre.java|452|457|Block|class|net.minecraft.block.Block
+   @|demjr\mod\blocks\BlockTrumpiumOre.java|847|863|BlockTrumpiumOre|class|demjr.mod.blocks.BlockTrumpiumOre
+   @|demjr\mod\blocks\BlockTrumpiumOre.java|872|877|Block|class|net.minecraft.block.Block
    Method Start: BlockTrumpiumOre()V
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|472|488|BlockTrumpiumOre|method|demjr.mod.blocks.BlockTrumpiumOre|BlockTrumpiumOre|()V
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|507|515|Material|class|net.minecraft.block.material.Material
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|516|520|ROCK|field|net.minecraft.block.material.Material|ROCK
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|531|549|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|550|569|Reference.ModBlocks|class|demjr.mod.Reference.ModBlocks
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|570|581|TRUMPIUMORE|field|demjr.mod.Reference.ModBlocks|TRUMPIUMORE
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|582|600|getUnlocalizedName|method|demjr.mod.Reference.ModBlocks|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|613|628|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|629|648|Reference.ModBlocks|class|demjr.mod.Reference.ModBlocks
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|649|660|TRUMPIUMORE|field|demjr.mod.Reference.ModBlocks|TRUMPIUMORE
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|661|676|getRegistryName|method|demjr.mod.Reference.ModBlocks|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|892|908|BlockTrumpiumOre|method|demjr.mod.blocks.BlockTrumpiumOre|BlockTrumpiumOre|()V
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|927|935|Material|class|net.minecraft.block.material.Material
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|936|940|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|951|969|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|970|989|Reference.ModBlocks|class|demjr.mod.Reference.ModBlocks
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|990|1001|TRUMPIUMORE|field|demjr.mod.Reference.ModBlocks|TRUMPIUMORE
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1002|1020|getUnlocalizedName|method|demjr.mod.Reference.ModBlocks|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1033|1048|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1049|1068|Reference.ModBlocks|class|demjr.mod.Reference.ModBlocks
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1069|1080|TRUMPIUMORE|field|demjr.mod.Reference.ModBlocks|TRUMPIUMORE
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1081|1096|getRegistryName|method|demjr.mod.Reference.ModBlocks|getRegistryName|()Ljava/lang/String;
    Method End: BlockTrumpiumOre()V
    Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|744|749|state|param|demjr.mod.blocks.BlockTrumpiumOre|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|758|762|rand|param|demjr.mod.blocks.BlockTrumpiumOre|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|768|775|fortune|param|demjr.mod.blocks.BlockTrumpiumOre|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|692|700|Nullable|class|javax.annotation.Nullable
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|712|716|Item|class|net.minecraft.item.Item
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|717|731|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|732|743|IBlockState|class|net.minecraft.block.state.IBlockState
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|751|757|Random|class|java.util.Random
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|801|810|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|811|822|trumpiumore|field|demjr.mod.init.ModBlocks|trumpiumore
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|825|833|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|834|842|trumpgem|field|demjr.mod.init.ModItems|trumpgem
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|846|850|Item|class|net.minecraft.item.Item
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|851|867|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1164|1169|state|param|demjr.mod.blocks.BlockTrumpiumOre|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1178|1182|rand|param|demjr.mod.blocks.BlockTrumpiumOre|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1188|1195|fortune|param|demjr.mod.blocks.BlockTrumpiumOre|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1112|1120|Nullable|class|javax.annotation.Nullable
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1132|1136|Item|class|net.minecraft.item.Item
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1137|1151|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1152|1163|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1171|1177|Random|class|java.util.Random
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1221|1230|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1231|1242|trumpiumore|field|demjr.mod.init.ModBlocks|trumpiumore
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1245|1253|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1254|1262|trumpgem|field|demjr.mod.init.ModItems|trumpgem
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1266|1270|Item|class|net.minecraft.item.Item
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1271|1287|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
    Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
    Method Start: quantityDropped(Ljava/util/Random;)I
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|920|926|random|param|demjr.mod.blocks.BlockTrumpiumOre|quantityDropped|(Ljava/util/Random;)I|random|0
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|897|912|quantityDropped|method|net.minecraft.block.Block|quantityDropped|(Ljava/util/Random;)I
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|913|919|Random|class|java.util.Random
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|952|961|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|962|973|trumpiumore|field|demjr.mod.init.ModBlocks|trumpiumore
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|980|986|random|param|demjr.mod.blocks.BlockTrumpiumOre|quantityDropped|(Ljava/util/Random;)I|random|0
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|987|994|nextInt|method|java.util.Random|nextInt|(I)I
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1340|1346|random|param|demjr.mod.blocks.BlockTrumpiumOre|quantityDropped|(Ljava/util/Random;)I|random|0
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1317|1332|quantityDropped|method|net.minecraft.block.Block|quantityDropped|(Ljava/util/Random;)I
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1333|1339|Random|class|java.util.Random
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1372|1381|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1382|1393|trumpiumore|field|demjr.mod.init.ModBlocks|trumpiumore
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1400|1406|random|param|demjr.mod.blocks.BlockTrumpiumOre|quantityDropped|(Ljava/util/Random;)I|random|0
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1407|1414|nextInt|method|java.util.Random|nextInt|(I)I
    Method End: quantityDropped(Ljava/util/Random;)I
    Method Start: dropBlockAsItemWithChance(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1058|1065|worldIn|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|worldIn|0
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1076|1079|pos|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|pos|1
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1093|1098|state|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|state|2
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1106|1112|chance|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|chance|3
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1118|1125|fortune|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|fortune|4
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1026|1051|dropBlockAsItemWithChance|method|net.minecraft.block.Block|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1052|1057|World|class|net.minecraft.world.World
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1067|1075|BlockPos|class|net.minecraft.util.math.BlockPos
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1081|1092|IBlockState|class|net.minecraft.block.state.IBlockState
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1142|1167|dropBlockAsItemWithChance|method|net.minecraft.block.Block|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1168|1175|worldIn|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|worldIn|0
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1177|1180|pos|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|pos|1
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1182|1187|state|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|state|2
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1189|1195|chance|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|chance|3
-      @|demjr\mod\blocks\BlockTrumpiumOre.java|1197|1204|fortune|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|fortune|4
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1478|1485|worldIn|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|worldIn|0
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1496|1499|pos|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|pos|1
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1513|1518|state|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|state|2
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1526|1532|chance|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|chance|3
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1538|1545|fortune|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|fortune|4
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1446|1471|dropBlockAsItemWithChance|method|net.minecraft.block.Block|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1472|1477|World|class|net.minecraft.world.World
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1487|1495|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1501|1512|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1562|1587|dropBlockAsItemWithChance|method|net.minecraft.block.Block|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1588|1595|worldIn|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|worldIn|0
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1597|1600|pos|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|pos|1
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1602|1607|state|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|state|2
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1609|1615|chance|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|chance|3
+      @|demjr\mod\blocks\BlockTrumpiumOre.java|1617|1624|fortune|param|demjr.mod.blocks.BlockTrumpiumOre|dropBlockAsItemWithChance|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V|fortune|4
    Method End: dropBlockAsItemWithChance(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V
 Class End  : demjr.mod.blocks.BlockTrumpiumOre
 endProcessing "demjr\mod\blocks\BlockTrumpiumOre.java"
@@ -506,6 +509,7 @@ Class End  : demjr.mod.init.ModItems
 endProcessing "demjr\mod\init\ModItems.java"
 
 startProcessing "demjr\mod\init\ModSmelting.java" md5: 096020644f38e22dfc0a60f762f18ada
+Cache Hit!
 @|demjr\mod\init\ModSmelting.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
 Class Start: demjr.mod.init.ModSmelting
    @|demjr\mod\init\ModSmelting.java|215|226|ModSmelting|class|demjr.mod.init.ModSmelting
@@ -689,4 +693,96 @@ Class Start: demjr.mod.proxy.ServerProxy
    Method End: init()V
 Class End  : demjr.mod.proxy.ServerProxy
 endProcessing "demjr\mod\proxy\ServerProxy.java"
+
+startProcessing "demjr\mod\world\WorldGen.java" md5: 31e36f1b1cb27a286467f71f26dde47e
+@|demjr\mod\world\WorldGen.java|8|23|demjr.mod.world|package|demjr.mod.world|(file)
+Class Start: demjr.mod.world.WorldGen
+   @|demjr\mod\world\WorldGen.java|438|446|WorldGen|class|demjr.mod.world.WorldGen
+   @|demjr\mod\world\WorldGen.java|458|473|IWorldGenerator|class|net.minecraftforge.fml.common.IWorldGenerator
+   @|demjr\mod\world\WorldGen.java|489|503|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|demjr\mod\world\WorldGen.java|489|503|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|demjr\mod\world\WorldGen.java|504|520|gen_trumpium_ore|field|demjr.mod.world.WorldGen|gen_trumpium_ore|
+   @|demjr\mod\world\WorldGen.java|534|548|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|demjr\mod\world\WorldGen.java|534|548|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|demjr\mod\world\WorldGen.java|549|557|gen_salt|field|demjr.mod.world.WorldGen|gen_salt|
+   Method Start: WorldGen()V
+      @|demjr\mod\world\WorldGen.java|571|579|WorldGen|method|demjr.mod.world.WorldGen|WorldGen|()V
+      @|demjr\mod\world\WorldGen.java|597|613|gen_trumpium_ore|field|demjr.mod.world.WorldGen|gen_trumpium_ore
+      @|demjr\mod\world\WorldGen.java|620|635|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|demjr\mod\world\WorldGen.java|636|645|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\world\WorldGen.java|646|657|trumpiumore|field|demjr.mod.init.ModBlocks|trumpiumore
+      @|demjr\mod\world\WorldGen.java|658|673|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|demjr\mod\world\WorldGen.java|694|702|gen_salt|field|demjr.mod.world.WorldGen|gen_salt
+      @|demjr\mod\world\WorldGen.java|709|724|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|demjr\mod\world\WorldGen.java|725|734|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\world\WorldGen.java|735|739|salt|field|demjr.mod.init.ModBlocks|salt
+      @|demjr\mod\world\WorldGen.java|740|755|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+   Method End: WorldGen()V
+   Method Start: runGenerator(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|demjr\mod\world\WorldGen.java|816|825|generator|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|generator|0
+      @|demjr\mod\world\WorldGen.java|833|838|world|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|world|1
+      @|demjr\mod\world\WorldGen.java|847|851|rand|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|demjr\mod\world\WorldGen.java|857|864|chunk_X|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_X|3
+      @|demjr\mod\world\WorldGen.java|870|877|chunk_Z|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_Z|4
+      @|demjr\mod\world\WorldGen.java|883|897|chancesToSpawn|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chancesToSpawn|5
+      @|demjr\mod\world\WorldGen.java|903|912|minHeight|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|demjr\mod\world\WorldGen.java|918|927|maxHeight|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|demjr\mod\world\WorldGen.java|788|800|runGenerator|method|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|demjr\mod\world\WorldGen.java|801|815|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+      @|demjr\mod\world\WorldGen.java|827|832|World|class|net.minecraft.world.World
+      @|demjr\mod\world\WorldGen.java|840|846|Random|class|java.util.Random
+      @|demjr\mod\world\WorldGen.java|943|952|minHeight|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|demjr\mod\world\WorldGen.java|960|969|maxHeight|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|demjr\mod\world\WorldGen.java|979|988|minHeight|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|demjr\mod\world\WorldGen.java|991|1000|maxHeight|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|demjr\mod\world\WorldGen.java|1024|1048|IllegalArgumentException|class|java.lang.IllegalArgumentException
+      @|demjr\mod\world\WorldGen.java|1123|1132|maxHeight|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|demjr\mod\world\WorldGen.java|1135|1144|minHeight|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|demjr\mod\world\WorldGen.java|1178|1192|chancesToSpawn|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chancesToSpawn|5
+      @|demjr\mod\world\WorldGen.java|1222|1229|chunk_X|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_X|3
+      @|demjr\mod\world\WorldGen.java|1237|1241|rand|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|demjr\mod\world\WorldGen.java|1242|1249|nextInt|method|java.util.Random|nextInt|(I)I
+      @|demjr\mod\world\WorldGen.java|1275|1284|minHeight|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|demjr\mod\world\WorldGen.java|1287|1291|rand|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|demjr\mod\world\WorldGen.java|1292|1299|nextInt|method|java.util.Random|nextInt|(I)I
+      @|demjr\mod\world\WorldGen.java|1333|1340|chunk_Z|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_Z|4
+      @|demjr\mod\world\WorldGen.java|1348|1352|rand|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|demjr\mod\world\WorldGen.java|1353|1360|nextInt|method|java.util.Random|nextInt|(I)I
+      @|demjr\mod\world\WorldGen.java|1378|1387|generator|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|generator|0
+      @|demjr\mod\world\WorldGen.java|1388|1396|generate|method|net.minecraft.world.gen.feature.WorldGenerator|generate|(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z
+      @|demjr\mod\world\WorldGen.java|1397|1402|world|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|world|1
+      @|demjr\mod\world\WorldGen.java|1404|1408|rand|param|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|demjr\mod\world\WorldGen.java|1414|1422|BlockPos|class|net.minecraft.util.math.BlockPos
+   Method End: runGenerator(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+   Method Start: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|demjr\mod\world\WorldGen.java|1497|1503|random|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|demjr\mod\world\WorldGen.java|1509|1515|chunkX|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|demjr\mod\world\WorldGen.java|1521|1527|chunkZ|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|demjr\mod\world\WorldGen.java|1535|1540|world|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|demjr\mod\world\WorldGen.java|1558|1572|chunkGenerator|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkGenerator|4
+      @|demjr\mod\world\WorldGen.java|1614|1627|chunkProvider|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkProvider|5
+      @|demjr\mod\world\WorldGen.java|1456|1464|Override|class|java.lang.Override
+      @|demjr\mod\world\WorldGen.java|1481|1489|generate|method|net.minecraftforge.fml.common.IWorldGenerator|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|demjr\mod\world\WorldGen.java|1490|1496|Random|class|java.util.Random
+      @|demjr\mod\world\WorldGen.java|1529|1534|World|class|net.minecraft.world.World
+      @|demjr\mod\world\WorldGen.java|1542|1557|IChunkGenerator|class|net.minecraft.world.chunk.IChunkGenerator
+      @|demjr\mod\world\WorldGen.java|1599|1613|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider
+      @|demjr\mod\world\WorldGen.java|1647|1652|world|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|demjr\mod\world\WorldGen.java|1653|1661|provider|field|net.minecraft.world.World|provider
+      @|demjr\mod\world\WorldGen.java|1662|1674|getDimension|method|net.minecraft.world.WorldProvider|getDimension|()I
+      @|demjr\mod\world\WorldGen.java|1733|1745|runGenerator|method|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|demjr\mod\world\WorldGen.java|1751|1767|gen_trumpium_ore|field|demjr.mod.world.WorldGen|gen_trumpium_ore
+      @|demjr\mod\world\WorldGen.java|1769|1774|world|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|demjr\mod\world\WorldGen.java|1776|1782|random|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|demjr\mod\world\WorldGen.java|1784|1790|chunkX|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|demjr\mod\world\WorldGen.java|1792|1798|chunkZ|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|demjr\mod\world\WorldGen.java|1832|1844|runGenerator|method|demjr.mod.world.WorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|demjr\mod\world\WorldGen.java|1850|1858|gen_salt|field|demjr.mod.world.WorldGen|gen_salt
+      @|demjr\mod\world\WorldGen.java|1860|1865|world|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|demjr\mod\world\WorldGen.java|1867|1873|random|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|demjr\mod\world\WorldGen.java|1875|1881|chunkX|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|demjr\mod\world\WorldGen.java|1883|1889|chunkZ|param|demjr.mod.world.WorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+   Method End: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+Class End  : demjr.mod.world.WorldGen
+endProcessing "demjr\mod\world\WorldGen.java"
 

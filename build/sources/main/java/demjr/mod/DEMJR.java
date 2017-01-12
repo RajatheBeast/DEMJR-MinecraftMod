@@ -5,6 +5,7 @@ import demjr.mod.init.ModCrafting;
 import demjr.mod.init.ModItems;
 import demjr.mod.init.ModSmelting;
 import demjr.mod.proxy.CommonProxy;
+import demjr.mod.world.WorldGen;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -12,6 +13,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.VERSION)
 public class DEMJR {
@@ -37,6 +39,7 @@ public class DEMJR {
 		proxy.init();
 		ModCrafting.register();
         ModSmelting.register();
+        GameRegistry.registerWorldGenerator(new WorldGen(), 0);
 	}
 
 	@EventHandler
