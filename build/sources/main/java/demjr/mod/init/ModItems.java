@@ -1,26 +1,25 @@
 package demjr.mod.init;
 
-import demjr.mod.items.ItemApplePie;
-import demjr.mod.items.ItemChocolateChips;
-import demjr.mod.items.ItemCookieDough;
-import demjr.mod.items.ItemDough;
-import demjr.mod.items.ItemFlour;
-import demjr.mod.items.ItemSalt;
-import demjr.mod.items.ItemTrumpGem;
+import demjr.mod.items.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 	
-	public static Item salt;
+	public static ToolMaterial trump = EnumHelper.addToolMaterial("trump", 10, 2000, 15F, 15F, 10);
+    public static Item salt;
 	public static Item flour;
 	public static Item trumpgem;
 	public static Item cookiedough;
 	public static Item dough;
 	public static Item chocolatechips;
 	public static Item applepie;
+	public static Item trumpsword;
+
 	
 	public static void init() {
 		salt = new ItemSalt();
@@ -30,6 +29,7 @@ public class ModItems {
 		dough = new ItemDough();
 		chocolatechips = new ItemChocolateChips();
 		applepie = new ItemApplePie();
+		trumpsword = new ItemTrumpSword(trump);
 	
 	}
 	public static void register() {
@@ -40,6 +40,7 @@ public class ModItems {
 		GameRegistry.register(dough);
 		GameRegistry.register(chocolatechips);
 		GameRegistry.register(applepie);
+		GameRegistry.register(trumpsword);
 	
 	}
 		
@@ -51,6 +52,7 @@ public class ModItems {
 		registerRender(dough);
 		registerRender(chocolatechips);
 		registerRender(applepie);
+		registerRender(trumpsword);
 	}
 		
 	private static void registerRender(Item item) {

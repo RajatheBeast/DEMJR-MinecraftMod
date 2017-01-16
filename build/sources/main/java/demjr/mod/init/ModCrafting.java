@@ -14,6 +14,7 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cookiedough), ModItems.dough, ModItems.chocolatechips);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.chocolatechips), new ItemStack(Items.DYE, 1, 3), Items.SUGAR);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.applepie), ModItems.dough, Items.EGG, Items.APPLE);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpsword), " T ", " T ", " S ", 'T', ModItems.trumpgem, 'S', Items.STICK);
 	}
 	
 }

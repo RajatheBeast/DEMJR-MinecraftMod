@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "demjr:blocks/trumpiumore"
+        "layer0": "demjr:blocks/trumpiumore"
     }
 }

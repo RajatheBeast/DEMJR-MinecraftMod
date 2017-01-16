@@ -18,7 +18,9 @@ public class Reference {
         COOKIEDOUGH("cookiedough", "ItemCookieDough"),
         DOUGH("dough", "ItemDough"),
         CHOCOLATECHIPS("chocolatechips", "ItemChocolateChips"),
-		APPLEPIE("applepie", "ItemApplePie");
+		APPLEPIE("applepie", "ItemApplePie"),
+		TRUMPSWORD("trumpsword", "ItemTrumpSword"),
+        TRUMPHELMET("trumphelmet", "ItemTrumpHelmet");
 		
 		private String unlocalizedName;
 		private String registryName;		
