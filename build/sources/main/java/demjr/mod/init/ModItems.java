@@ -3,14 +3,18 @@ package demjr.mod.init;
 import demjr.mod.items.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.util.SoundEvent;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 	
-	public static ToolMaterial trump = EnumHelper.addToolMaterial("trump", 10, 2000, 15F, 15F, 10);
+	public static ToolMaterial trumptool = EnumHelper.addToolMaterial("trumptool", 10, 2000, 15F, 15F, 10);
+	public static ArmorMaterial trumparmor = EnumHelper.addArmorMaterial("trump", "demjr:items/trump", 35, new int[]{3, 6, 8, 3}, 20, null, 2.0F);
     public static Item salt;
 	public static Item flour;
 	public static Item trumpgem;
@@ -19,6 +23,8 @@ public class ModItems {
 	public static Item chocolatechips;
 	public static Item applepie;
 	public static Item trumpsword;
+	public static Item trumphelmet;
+	public static Item trumppickaxe;
 
 	
 	public static void init() {
@@ -29,7 +35,9 @@ public class ModItems {
 		dough = new ItemDough();
 		chocolatechips = new ItemChocolateChips();
 		applepie = new ItemApplePie();
-		trumpsword = new ItemTrumpSword(trump);
+		trumpsword = new ItemTrumpSword(trumptool);
+		trumphelmet = new ItemTrumpHelmet(trumparmor);
+		trumppickaxe = new ItemTrumpPickaxe(trumptool);
 	
 	}
 	public static void register() {
@@ -41,7 +49,8 @@ public class ModItems {
 		GameRegistry.register(chocolatechips);
 		GameRegistry.register(applepie);
 		GameRegistry.register(trumpsword);
-	
+	    GameRegistry.register(trumphelmet);
+        GameRegistry.register(trumppickaxe);
 	}
 		
 	public static void registerRenders() {
@@ -53,6 +62,8 @@ public class ModItems {
 		registerRender(chocolatechips);
 		registerRender(applepie);
 		registerRender(trumpsword);
+		registerRender(trumphelmet);
+        registerRender(trumppickaxe);
 	}
 		
 	private static void registerRender(Item item) {

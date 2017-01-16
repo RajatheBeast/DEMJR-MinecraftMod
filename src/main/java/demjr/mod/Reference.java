@@ -20,7 +20,8 @@ public class Reference {
         CHOCOLATECHIPS("chocolatechips", "ItemChocolateChips"),
 		APPLEPIE("applepie", "ItemApplePie"),
 		TRUMPSWORD("trumpsword", "ItemTrumpSword"),
-        TRUMPHELMET("trumphelmet", "ItemTrumpHelmet");
+        TRUMPHELMET("trumphelmet", "ItemTrumpHelmet"),
+        TRUMPPICKAXE("trumppickaxe", "ItemTrumpPickaxe");
 		
 		private String unlocalizedName;
 		private String registryName;		
