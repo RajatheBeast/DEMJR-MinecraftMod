@@ -24,4 +24,5 @@
 <fullyQualifiedTypeName name="demjr.mod.items.ItemChocolateChips"/>
 <fullyQualifiedTypeName name="demjr.mod.items.ItemDough"/>
 <fullyQualifiedTypeName name="demjr.mod.items.ItemApplePie"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemFood"/>
 </qualifiedTypeNameHistroy>
