@@ -1,32 +1,39 @@
 Symbol range map extraction starting
 Processing 29 files
-startProcessing "demjr\mod\DEMJR.java" md5: 4d213c026ed7fb8164bdb4ad59e36d20
+startProcessing "demjr\mod\DEMJR.java" md5: 50950301a12500909701197d67c82df5
 Cache Hit!
 endProcessing "demjr\mod\DEMJR.java"
 
-startProcessing "demjr\mod\DEMJRTab.java" md5: 1596bce753b5c5cc175a8edf39c645ff
+startProcessing "demjr\mod\DEMJRTab.java" md5: 3ae436a245075c665837db83f9d60727
 Cache Hit!
 endProcessing "demjr\mod\DEMJRTab.java"
 
 startProcessing "demjr\mod\Reference.java" md5: 8df9569c6f3d48ca938607fdd266d2db
+Cache Hit!
 endProcessing "demjr\mod\Reference.java"
 
 startProcessing "demjr\mod\blocks\BlockSalt.java" md5: bf2c86e68bbdd72a5c593a8c7943cfc2
+Cache Hit!
 endProcessing "demjr\mod\blocks\BlockSalt.java"
 
 startProcessing "demjr\mod\blocks\BlockTrumpiumBlock.java" md5: 081c18a03a30225a902495bff387f796
+Cache Hit!
 endProcessing "demjr\mod\blocks\BlockTrumpiumBlock.java"
 
 startProcessing "demjr\mod\blocks\BlockTrumpiumOre.java" md5: 56221f2acc5103fd3caeba2ccda52844
+Cache Hit!
 endProcessing "demjr\mod\blocks\BlockTrumpiumOre.java"
 
 startProcessing "demjr\mod\init\ModBlocks.java" md5: 302f5c596e3f930321dd6f8ff26fdadb
+Cache Hit!
 endProcessing "demjr\mod\init\ModBlocks.java"
 
 startProcessing "demjr\mod\init\ModCrafting.java" md5: e45affd57b11132985cfd8ff16561eea
+Cache Hit!
 endProcessing "demjr\mod\init\ModCrafting.java"
 
 startProcessing "demjr\mod\init\ModItems.java" md5: 7cf1d9716b9c3aefd64518c2c12d9c35
+Cache Hit!
 endProcessing "demjr\mod\init\ModItems.java"
 
 startProcessing "demjr\mod\init\ModSmelting.java" md5: 096020644f38e22dfc0a60f762f18ada
@@ -65,7 +72,7 @@ startProcessing "demjr\mod\items\ItemTrumpChestplate.java" md5: 8fafcba092a1a666
 Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpChestplate.java"
 
-startProcessing "demjr\mod\items\ItemTrumpGem.java" md5: 7b5fa4757e96f70a03ebdb0ae6760954
+startProcessing "demjr\mod\items\ItemTrumpGem.java" md5: f8e0dd386a76cac377da5c8d6c0d6186
 Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpGem.java"
 
