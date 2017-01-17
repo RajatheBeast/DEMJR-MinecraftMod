@@ -11,7 +11,6 @@
 <fullyQualifiedTypeName name="demjr.mod.proxy.CommonProxy"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.SidedProxy"/>
 <fullyQualifiedTypeName name="demjr.mod.items.ItemSalt"/>
-<fullyQualifiedTypeName name="demjr.mod.Reference"/>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="demjr.mod.blocks.BlockSalt"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
@@ -25,4 +24,6 @@
 <fullyQualifiedTypeName name="demjr.mod.items.ItemDough"/>
 <fullyQualifiedTypeName name="demjr.mod.items.ItemApplePie"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemFood"/>
+<fullyQualifiedTypeName name="demjr.mod.Reference"/>
+<fullyQualifiedTypeName name="demjr.mod.Reference.ModItems"/>
 </qualifiedTypeNameHistroy>

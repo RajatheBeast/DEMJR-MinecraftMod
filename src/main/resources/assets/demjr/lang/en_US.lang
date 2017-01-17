@@ -11,7 +11,11 @@ item.trumphelmet.name=Trump Helmet
 item.trumpchest.name=Trump Chestplate
 item.trumplegs.name=Trump Leggings
 item.trumpboots.name=Trump Boots
+item.cementpowder.name=Cement Powder
 
 tile.salt.name=Salt Block
 tile.trumpiumore.name=Trumpium Ore
 tile.trumpiumblock.name=Trumpium Block
+tile.cement.name=Cement
+
+itemGroup.tabDEMJR=DEMJR Tab

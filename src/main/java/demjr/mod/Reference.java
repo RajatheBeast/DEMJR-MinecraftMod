@@ -19,6 +19,7 @@ public class Reference {
         DOUGH("dough", "ItemDough"),
         CHOCOLATECHIPS("chocolatechips", "ItemChocolateChips"),
 		APPLEPIE("applepie", "ItemApplePie"),
+		CEMENTPOWDER("cementpowder", "ItemCementPowder"),
 		TRUMPSWORD("trumpsword", "ItemTrumpSword"),
         TRUMPHELMET("trumphelmet", "ItemTrumpHelmet"),
         TRUMPPICKAXE("trumppickaxe", "ItemTrumpPickaxe"),

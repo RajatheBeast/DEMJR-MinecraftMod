@@ -22,6 +22,7 @@ public class ModItems {
 	public static Item dough;
 	public static Item chocolatechips;
 	public static Item applepie;
+	public static Item cementpowder;
 	public static Item trumpsword;
 	public static Item trumphelmet;
 	public static Item trumppickaxe;
@@ -38,6 +39,7 @@ public class ModItems {
 		dough = new ItemDough();
 		chocolatechips = new ItemChocolateChips();
 		applepie = new ItemApplePie();
+		cementpowder = new ItemCementPowder();
 		trumpsword = new ItemTrumpSword(trumptool);
         trumphelmet = new ItemTrumpHelmet(trumparmor, 1, EntityEquipmentSlot.HEAD);
 		trumppickaxe = new ItemTrumpPickaxe(trumptool);
@@ -54,6 +56,7 @@ public class ModItems {
 		GameRegistry.register(dough);
 		GameRegistry.register(chocolatechips);
 		GameRegistry.register(applepie);
+		GameRegistry.register(cementpowder);
 		GameRegistry.register(trumpsword);
 	    GameRegistry.register(trumphelmet);
         GameRegistry.register(trumppickaxe);
@@ -70,6 +73,7 @@ public class ModItems {
 		registerRender(dough);
 		registerRender(chocolatechips);
 		registerRender(applepie);
+		registerRender(cementpowder);
 		registerRender(trumpsword);
 		registerRender(trumphelmet);
         registerRender(trumppickaxe);

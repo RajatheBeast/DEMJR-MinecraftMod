@@ -1,0 +1,19 @@
+item.salt.name=Salt
+item.flour.name=Flour
+item.trumpgem.name=Trump Gem
+item.dough.name=Dough
+item.cookiedough.name=Cookie Dough
+item.chocolatechips.name=Chocolate Chips
+item.applepie.name=Apple Pie
+item.trumpsword.name=Trump Sword
+item.trumppickaxe.name=Trump Pickaxe
+item.trumphelmet.name=Trump Helmet
+item.trumpchest.name=Trump Chestplate
+item.trumplegs.name=Trump Leggings
+item.trumpboots.name=Trump Boots
+
+tile.salt.name=Salt Block
+tile.trumpiumore.name=Trumpium Ore
+tile.trumpiumblock.name=Trumpium Block
+
+itemGroup.tabDEMJR=DEMJR Tab
