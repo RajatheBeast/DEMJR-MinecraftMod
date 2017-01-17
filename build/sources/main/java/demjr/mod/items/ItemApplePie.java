@@ -1,5 +1,6 @@
 package demjr.mod.items;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
@@ -10,6 +11,7 @@ public ItemApplePie() {
 	super(8, 0.3F, false);	
 	setUnlocalizedName(Reference.ModItems.APPLEPIE.getUnlocalizedName());
 	setRegistryName(Reference.ModItems.APPLEPIE.getRegistryName());
+	setCreativeTab(DEMJR.CREATIVE_TAB);
 		
 	}
 }

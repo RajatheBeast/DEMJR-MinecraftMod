@@ -1,5 +1,6 @@
 package demjr.mod.items;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import net.minecraft.item.ItemPickaxe;
 
@@ -12,6 +13,7 @@ public class ItemTrumpPickaxe extends ItemPickaxe{
         super(material);
         setUnlocalizedName(Reference.ModItems.TRUMPPICKAXE.getUnlocalizedName());
         setRegistryName(Reference.ModItems.TRUMPPICKAXE.getRegistryName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 
 }

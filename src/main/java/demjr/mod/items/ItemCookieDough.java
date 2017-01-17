@@ -1,5 +1,6 @@
 package demjr.mod.items;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import net.minecraft.item.Item;
 
@@ -10,6 +11,7 @@ public class ItemCookieDough extends Item {
     public ItemCookieDough() {
         setUnlocalizedName(Reference.ModItems.COOKIEDOUGH.getUnlocalizedName());
         setRegistryName(Reference.ModItems.COOKIEDOUGH.getRegistryName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 
 }

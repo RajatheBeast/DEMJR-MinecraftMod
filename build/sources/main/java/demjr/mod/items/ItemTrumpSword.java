@@ -1,5 +1,6 @@
 package demjr.mod.items;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSword;
@@ -10,5 +11,6 @@ public class ItemTrumpSword extends ItemSword {
         super(material);
         setUnlocalizedName(Reference.ModItems.TRUMPSWORD.getUnlocalizedName());
         setRegistryName(Reference.ModItems.TRUMPSWORD.getRegistryName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 }

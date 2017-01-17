@@ -726,178 +726,194 @@ Class Start: demjr.mod.init.ModSmelting
 Class End  : demjr.mod.init.ModSmelting
 endProcessing "demjr\mod\init\ModSmelting.java"
 
-startProcessing "demjr\mod\items\ItemApplePie.java" md5: c713d82da3eda3f775a95e8ca409f144
-Cache Hit!
+startProcessing "demjr\mod\items\ItemApplePie.java" md5: 1f468da5639d6b2d7892c21a13065243
 @|demjr\mod\items\ItemApplePie.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemApplePie
-   @|demjr\mod\items\ItemApplePie.java|136|148|ItemApplePie|class|demjr.mod.items.ItemApplePie
-   @|demjr\mod\items\ItemApplePie.java|157|165|ItemFood|class|net.minecraft.item.ItemFood
+   @|demjr\mod\items\ItemApplePie.java|160|172|ItemApplePie|class|demjr.mod.items.ItemApplePie
+   @|demjr\mod\items\ItemApplePie.java|181|189|ItemFood|class|net.minecraft.item.ItemFood
    Method Start: ItemApplePie()V
-      @|demjr\mod\items\ItemApplePie.java|176|188|ItemApplePie|method|demjr.mod.items.ItemApplePie|ItemApplePie|()V
-      @|demjr\mod\items\ItemApplePie.java|219|237|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemApplePie.java|238|256|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemApplePie.java|257|265|APPLEPIE|field|demjr.mod.Reference.ModItems|APPLEPIE
-      @|demjr\mod\items\ItemApplePie.java|266|284|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemApplePie.java|290|305|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemApplePie.java|306|324|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemApplePie.java|325|333|APPLEPIE|field|demjr.mod.Reference.ModItems|APPLEPIE
-      @|demjr\mod\items\ItemApplePie.java|334|349|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemApplePie.java|200|212|ItemApplePie|method|demjr.mod.items.ItemApplePie|ItemApplePie|()V
+      @|demjr\mod\items\ItemApplePie.java|243|261|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemApplePie.java|262|280|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemApplePie.java|281|289|APPLEPIE|field|demjr.mod.Reference.ModItems|APPLEPIE
+      @|demjr\mod\items\ItemApplePie.java|290|308|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemApplePie.java|314|329|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemApplePie.java|330|348|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemApplePie.java|349|357|APPLEPIE|field|demjr.mod.Reference.ModItems|APPLEPIE
+      @|demjr\mod\items\ItemApplePie.java|358|373|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemApplePie.java|379|393|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemApplePie.java|394|399|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemApplePie.java|400|412|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemApplePie()V
 Class End  : demjr.mod.items.ItemApplePie
 endProcessing "demjr\mod\items\ItemApplePie.java"
 
-startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: a95added60b71f1c258762d20829cc4b
-Cache Hit!
+startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: 5901d97fbdf84dd4c7c6ef8001497b8d
 @|demjr\mod\items\ItemChocolateChips.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemChocolateChips
-   @|demjr\mod\items\ItemChocolateChips.java|136|154|ItemChocolateChips|class|demjr.mod.items.ItemChocolateChips
-   @|demjr\mod\items\ItemChocolateChips.java|163|171|ItemFood|class|net.minecraft.item.ItemFood
+   @|demjr\mod\items\ItemChocolateChips.java|160|178|ItemChocolateChips|class|demjr.mod.items.ItemChocolateChips
+   @|demjr\mod\items\ItemChocolateChips.java|187|195|ItemFood|class|net.minecraft.item.ItemFood
    Method Start: ItemChocolateChips()V
-      @|demjr\mod\items\ItemChocolateChips.java|184|202|ItemChocolateChips|method|demjr.mod.items.ItemChocolateChips|ItemChocolateChips|()V
-      @|demjr\mod\items\ItemChocolateChips.java|234|252|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemChocolateChips.java|253|271|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemChocolateChips.java|272|286|CHOCOLATECHIPS|field|demjr.mod.Reference.ModItems|CHOCOLATECHIPS
-      @|demjr\mod\items\ItemChocolateChips.java|287|305|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemChocolateChips.java|312|327|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemChocolateChips.java|328|346|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemChocolateChips.java|347|361|CHOCOLATECHIPS|field|demjr.mod.Reference.ModItems|CHOCOLATECHIPS
-      @|demjr\mod\items\ItemChocolateChips.java|362|377|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemChocolateChips.java|208|226|ItemChocolateChips|method|demjr.mod.items.ItemChocolateChips|ItemChocolateChips|()V
+      @|demjr\mod\items\ItemChocolateChips.java|258|276|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemChocolateChips.java|277|295|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemChocolateChips.java|296|310|CHOCOLATECHIPS|field|demjr.mod.Reference.ModItems|CHOCOLATECHIPS
+      @|demjr\mod\items\ItemChocolateChips.java|311|329|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemChocolateChips.java|336|351|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemChocolateChips.java|352|370|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemChocolateChips.java|371|385|CHOCOLATECHIPS|field|demjr.mod.Reference.ModItems|CHOCOLATECHIPS
+      @|demjr\mod\items\ItemChocolateChips.java|386|401|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemChocolateChips.java|408|422|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemChocolateChips.java|423|428|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemChocolateChips.java|429|441|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemChocolateChips()V
 Class End  : demjr.mod.items.ItemChocolateChips
 endProcessing "demjr\mod\items\ItemChocolateChips.java"
 
-startProcessing "demjr\mod\items\ItemCookieDough.java" md5: 6139e0c721720de5fbb533f91992eff2
-Cache Hit!
+startProcessing "demjr\mod\items\ItemCookieDough.java" md5: 7ea70b504a8b95b9164e11423a092100
 @|demjr\mod\items\ItemCookieDough.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemCookieDough
-   @|demjr\mod\items\ItemCookieDough.java|145|160|ItemCookieDough|class|demjr.mod.items.ItemCookieDough
-   @|demjr\mod\items\ItemCookieDough.java|169|173|Item|class|net.minecraft.item.Item
+   @|demjr\mod\items\ItemCookieDough.java|169|184|ItemCookieDough|class|demjr.mod.items.ItemCookieDough
+   @|demjr\mod\items\ItemCookieDough.java|193|197|Item|class|net.minecraft.item.Item
    Method Start: ItemCookieDough()V
-      @|demjr\mod\items\ItemCookieDough.java|187|202|ItemCookieDough|method|demjr.mod.items.ItemCookieDough|ItemCookieDough|()V
-      @|demjr\mod\items\ItemCookieDough.java|215|233|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemCookieDough.java|234|252|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemCookieDough.java|253|264|COOKIEDOUGH|field|demjr.mod.Reference.ModItems|COOKIEDOUGH
-      @|demjr\mod\items\ItemCookieDough.java|265|283|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemCookieDough.java|296|311|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemCookieDough.java|312|330|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemCookieDough.java|331|342|COOKIEDOUGH|field|demjr.mod.Reference.ModItems|COOKIEDOUGH
-      @|demjr\mod\items\ItemCookieDough.java|343|358|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemCookieDough.java|211|226|ItemCookieDough|method|demjr.mod.items.ItemCookieDough|ItemCookieDough|()V
+      @|demjr\mod\items\ItemCookieDough.java|239|257|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemCookieDough.java|258|276|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemCookieDough.java|277|288|COOKIEDOUGH|field|demjr.mod.Reference.ModItems|COOKIEDOUGH
+      @|demjr\mod\items\ItemCookieDough.java|289|307|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemCookieDough.java|320|335|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemCookieDough.java|336|354|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemCookieDough.java|355|366|COOKIEDOUGH|field|demjr.mod.Reference.ModItems|COOKIEDOUGH
+      @|demjr\mod\items\ItemCookieDough.java|367|382|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemCookieDough.java|395|409|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemCookieDough.java|410|415|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemCookieDough.java|416|428|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemCookieDough()V
 Class End  : demjr.mod.items.ItemCookieDough
 endProcessing "demjr\mod\items\ItemCookieDough.java"
 
-startProcessing "demjr\mod\items\ItemDough.java" md5: 31c1f701befc0817d39d076f95763f34
-Cache Hit!
+startProcessing "demjr\mod\items\ItemDough.java" md5: 9462a1e57c6ad0b36970961282f1f9a9
 @|demjr\mod\items\ItemDough.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemDough
-   @|demjr\mod\items\ItemDough.java|101|110|ItemDough|class|demjr.mod.items.ItemDough
-   @|demjr\mod\items\ItemDough.java|119|123|Item|class|net.minecraft.item.Item
+   @|demjr\mod\items\ItemDough.java|125|134|ItemDough|class|demjr.mod.items.ItemDough
+   @|demjr\mod\items\ItemDough.java|143|147|Item|class|net.minecraft.item.Item
    Method Start: ItemDough()V
-      @|demjr\mod\items\ItemDough.java|135|144|ItemDough|method|demjr.mod.items.ItemDough|ItemDough|()V
-      @|demjr\mod\items\ItemDough.java|154|172|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemDough.java|173|191|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemDough.java|192|197|DOUGH|field|demjr.mod.Reference.ModItems|DOUGH
-      @|demjr\mod\items\ItemDough.java|198|216|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemDough.java|223|238|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemDough.java|239|257|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemDough.java|258|263|DOUGH|field|demjr.mod.Reference.ModItems|DOUGH
-      @|demjr\mod\items\ItemDough.java|264|279|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemDough.java|159|168|ItemDough|method|demjr.mod.items.ItemDough|ItemDough|()V
+      @|demjr\mod\items\ItemDough.java|178|196|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemDough.java|197|215|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemDough.java|216|221|DOUGH|field|demjr.mod.Reference.ModItems|DOUGH
+      @|demjr\mod\items\ItemDough.java|222|240|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemDough.java|247|262|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemDough.java|263|281|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemDough.java|282|287|DOUGH|field|demjr.mod.Reference.ModItems|DOUGH
+      @|demjr\mod\items\ItemDough.java|288|303|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemDough.java|310|324|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemDough.java|325|330|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemDough.java|331|343|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemDough()V
 Class End  : demjr.mod.items.ItemDough
 endProcessing "demjr\mod\items\ItemDough.java"
 
-startProcessing "demjr\mod\items\ItemFlour.java" md5: 493e1148b056218c296013683caf9a4c
-Cache Hit!
+startProcessing "demjr\mod\items\ItemFlour.java" md5: 2abb878c7802a2f26ea9a6421e5e2493
 @|demjr\mod\items\ItemFlour.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemFlour
-   @|demjr\mod\items\ItemFlour.java|100|109|ItemFlour|class|demjr.mod.items.ItemFlour
-   @|demjr\mod\items\ItemFlour.java|118|122|Item|class|net.minecraft.item.Item
+   @|demjr\mod\items\ItemFlour.java|124|133|ItemFlour|class|demjr.mod.items.ItemFlour
+   @|demjr\mod\items\ItemFlour.java|142|146|Item|class|net.minecraft.item.Item
    Method Start: ItemFlour()V
-      @|demjr\mod\items\ItemFlour.java|135|144|ItemFlour|method|demjr.mod.items.ItemFlour|ItemFlour|()V
-      @|demjr\mod\items\ItemFlour.java|154|172|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemFlour.java|173|191|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemFlour.java|192|197|FLOUR|field|demjr.mod.Reference.ModItems|FLOUR
-      @|demjr\mod\items\ItemFlour.java|198|216|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemFlour.java|223|238|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemFlour.java|239|257|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemFlour.java|258|263|FLOUR|field|demjr.mod.Reference.ModItems|FLOUR
-      @|demjr\mod\items\ItemFlour.java|264|279|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemFlour.java|159|168|ItemFlour|method|demjr.mod.items.ItemFlour|ItemFlour|()V
+      @|demjr\mod\items\ItemFlour.java|178|196|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemFlour.java|197|215|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemFlour.java|216|221|FLOUR|field|demjr.mod.Reference.ModItems|FLOUR
+      @|demjr\mod\items\ItemFlour.java|222|240|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemFlour.java|247|262|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemFlour.java|263|281|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemFlour.java|282|287|FLOUR|field|demjr.mod.Reference.ModItems|FLOUR
+      @|demjr\mod\items\ItemFlour.java|288|303|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemFlour.java|310|324|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemFlour.java|325|330|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemFlour.java|331|343|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemFlour()V
 Class End  : demjr.mod.items.ItemFlour
 endProcessing "demjr\mod\items\ItemFlour.java"
 
-startProcessing "demjr\mod\items\ItemSalt.java" md5: 5621380ea4c652bea302a7796c90865f
-Cache Hit!
+startProcessing "demjr\mod\items\ItemSalt.java" md5: b61e27eb855471f99cb1f54bad90aaa0
 @|demjr\mod\items\ItemSalt.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemSalt
-   @|demjr\mod\items\ItemSalt.java|100|108|ItemSalt|class|demjr.mod.items.ItemSalt
-   @|demjr\mod\items\ItemSalt.java|117|121|Item|class|net.minecraft.item.Item
+   @|demjr\mod\items\ItemSalt.java|124|132|ItemSalt|class|demjr.mod.items.ItemSalt
+   @|demjr\mod\items\ItemSalt.java|141|145|Item|class|net.minecraft.item.Item
    Method Start: ItemSalt()V
-      @|demjr\mod\items\ItemSalt.java|134|142|ItemSalt|method|demjr.mod.items.ItemSalt|ItemSalt|()V
-      @|demjr\mod\items\ItemSalt.java|152|170|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemSalt.java|171|189|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemSalt.java|190|194|SALT|field|demjr.mod.Reference.ModItems|SALT
-      @|demjr\mod\items\ItemSalt.java|195|213|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemSalt.java|220|235|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemSalt.java|236|254|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemSalt.java|255|259|SALT|field|demjr.mod.Reference.ModItems|SALT
-      @|demjr\mod\items\ItemSalt.java|260|275|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemSalt.java|158|166|ItemSalt|method|demjr.mod.items.ItemSalt|ItemSalt|()V
+      @|demjr\mod\items\ItemSalt.java|176|194|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemSalt.java|195|213|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemSalt.java|214|218|SALT|field|demjr.mod.Reference.ModItems|SALT
+      @|demjr\mod\items\ItemSalt.java|219|237|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemSalt.java|244|259|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemSalt.java|260|278|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemSalt.java|279|283|SALT|field|demjr.mod.Reference.ModItems|SALT
+      @|demjr\mod\items\ItemSalt.java|284|299|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemSalt.java|306|320|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemSalt.java|321|326|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemSalt.java|327|339|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemSalt()V
 Class End  : demjr.mod.items.ItemSalt
 endProcessing "demjr\mod\items\ItemSalt.java"
 
-startProcessing "demjr\mod\items\ItemTrumpBoots.java" md5: 8c45abbda65834ca9093edb7e6f3aa41
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpBoots.java" md5: 909723f4085e977c4495fd123862c535
 @|demjr\mod\items\ItemTrumpBoots.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpBoots
-   @|demjr\mod\items\ItemTrumpBoots.java|202|216|ItemTrumpBoots|class|demjr.mod.items.ItemTrumpBoots
-   @|demjr\mod\items\ItemTrumpBoots.java|225|234|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|demjr\mod\items\ItemTrumpBoots.java|226|240|ItemTrumpBoots|class|demjr.mod.items.ItemTrumpBoots
+   @|demjr\mod\items\ItemTrumpBoots.java|249|258|ItemArmor|class|net.minecraft.item.ItemArmor
    Method Start: ItemTrumpBoots(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
-      @|demjr\mod\items\ItemTrumpBoots.java|278|286|material|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
-      @|demjr\mod\items\ItemTrumpBoots.java|292|303|renderIndex|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
-      @|demjr\mod\items\ItemTrumpBoots.java|325|340|equipmentSlotIn|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
-      @|demjr\mod\items\ItemTrumpBoots.java|249|263|ItemTrumpBoots|method|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
-      @|demjr\mod\items\ItemTrumpBoots.java|264|277|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
-      @|demjr\mod\items\ItemTrumpBoots.java|305|324|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
-      @|demjr\mod\items\ItemTrumpBoots.java|357|365|material|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
-      @|demjr\mod\items\ItemTrumpBoots.java|367|378|renderIndex|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
-      @|demjr\mod\items\ItemTrumpBoots.java|380|395|equipmentSlotIn|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
-      @|demjr\mod\items\ItemTrumpBoots.java|406|424|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemTrumpBoots.java|425|443|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpBoots.java|444|454|TRUMPBOOTS|field|demjr.mod.Reference.ModItems|TRUMPBOOTS
-      @|demjr\mod\items\ItemTrumpBoots.java|455|473|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemTrumpBoots.java|486|501|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemTrumpBoots.java|502|520|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpBoots.java|521|531|TRUMPBOOTS|field|demjr.mod.Reference.ModItems|TRUMPBOOTS
-      @|demjr\mod\items\ItemTrumpBoots.java|532|547|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpBoots.java|302|310|material|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
+      @|demjr\mod\items\ItemTrumpBoots.java|316|327|renderIndex|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
+      @|demjr\mod\items\ItemTrumpBoots.java|349|364|equipmentSlotIn|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
+      @|demjr\mod\items\ItemTrumpBoots.java|273|287|ItemTrumpBoots|method|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|demjr\mod\items\ItemTrumpBoots.java|288|301|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|demjr\mod\items\ItemTrumpBoots.java|329|348|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|demjr\mod\items\ItemTrumpBoots.java|381|389|material|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
+      @|demjr\mod\items\ItemTrumpBoots.java|391|402|renderIndex|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
+      @|demjr\mod\items\ItemTrumpBoots.java|404|419|equipmentSlotIn|param|demjr.mod.items.ItemTrumpBoots|ItemTrumpBoots|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
+      @|demjr\mod\items\ItemTrumpBoots.java|430|448|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpBoots.java|449|467|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpBoots.java|468|478|TRUMPBOOTS|field|demjr.mod.Reference.ModItems|TRUMPBOOTS
+      @|demjr\mod\items\ItemTrumpBoots.java|479|497|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpBoots.java|510|525|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemTrumpBoots.java|526|544|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpBoots.java|545|555|TRUMPBOOTS|field|demjr.mod.Reference.ModItems|TRUMPBOOTS
+      @|demjr\mod\items\ItemTrumpBoots.java|556|571|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpBoots.java|584|598|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpBoots.java|599|604|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemTrumpBoots.java|605|617|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemTrumpBoots(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
 Class End  : demjr.mod.items.ItemTrumpBoots
 endProcessing "demjr\mod\items\ItemTrumpBoots.java"
 
-startProcessing "demjr\mod\items\ItemTrumpChestplate.java" md5: 8fafcba092a1a6661874ccd0f7e2ff50
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpChestplate.java" md5: c062504747dc06eff0d9ec24a2c3596a
 @|demjr\mod\items\ItemTrumpChestplate.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpChestplate
-   @|demjr\mod\items\ItemTrumpChestplate.java|202|221|ItemTrumpChestplate|class|demjr.mod.items.ItemTrumpChestplate
-   @|demjr\mod\items\ItemTrumpChestplate.java|230|239|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|demjr\mod\items\ItemTrumpChestplate.java|226|245|ItemTrumpChestplate|class|demjr.mod.items.ItemTrumpChestplate
+   @|demjr\mod\items\ItemTrumpChestplate.java|254|263|ItemArmor|class|net.minecraft.item.ItemArmor
    Method Start: ItemTrumpChestplate(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
-      @|demjr\mod\items\ItemTrumpChestplate.java|288|296|material|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
-      @|demjr\mod\items\ItemTrumpChestplate.java|302|313|renderIndex|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
-      @|demjr\mod\items\ItemTrumpChestplate.java|335|350|equipmentSlotIn|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
-      @|demjr\mod\items\ItemTrumpChestplate.java|254|273|ItemTrumpChestplate|method|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
-      @|demjr\mod\items\ItemTrumpChestplate.java|274|287|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
-      @|demjr\mod\items\ItemTrumpChestplate.java|315|334|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
-      @|demjr\mod\items\ItemTrumpChestplate.java|367|375|material|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
-      @|demjr\mod\items\ItemTrumpChestplate.java|377|388|renderIndex|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
-      @|demjr\mod\items\ItemTrumpChestplate.java|390|405|equipmentSlotIn|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
-      @|demjr\mod\items\ItemTrumpChestplate.java|416|434|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemTrumpChestplate.java|435|453|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpChestplate.java|454|464|TRUMPCHEST|field|demjr.mod.Reference.ModItems|TRUMPCHEST
-      @|demjr\mod\items\ItemTrumpChestplate.java|465|483|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemTrumpChestplate.java|496|511|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemTrumpChestplate.java|512|530|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpChestplate.java|531|541|TRUMPCHEST|field|demjr.mod.Reference.ModItems|TRUMPCHEST
-      @|demjr\mod\items\ItemTrumpChestplate.java|542|557|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpChestplate.java|312|320|material|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
+      @|demjr\mod\items\ItemTrumpChestplate.java|326|337|renderIndex|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
+      @|demjr\mod\items\ItemTrumpChestplate.java|359|374|equipmentSlotIn|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
+      @|demjr\mod\items\ItemTrumpChestplate.java|278|297|ItemTrumpChestplate|method|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|demjr\mod\items\ItemTrumpChestplate.java|298|311|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|demjr\mod\items\ItemTrumpChestplate.java|339|358|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|demjr\mod\items\ItemTrumpChestplate.java|391|399|material|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
+      @|demjr\mod\items\ItemTrumpChestplate.java|401|412|renderIndex|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
+      @|demjr\mod\items\ItemTrumpChestplate.java|414|429|equipmentSlotIn|param|demjr.mod.items.ItemTrumpChestplate|ItemTrumpChestplate|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
+      @|demjr\mod\items\ItemTrumpChestplate.java|440|458|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpChestplate.java|459|477|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpChestplate.java|478|488|TRUMPCHEST|field|demjr.mod.Reference.ModItems|TRUMPCHEST
+      @|demjr\mod\items\ItemTrumpChestplate.java|489|507|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpChestplate.java|520|535|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemTrumpChestplate.java|536|554|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpChestplate.java|555|565|TRUMPCHEST|field|demjr.mod.Reference.ModItems|TRUMPCHEST
+      @|demjr\mod\items\ItemTrumpChestplate.java|566|581|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpChestplate.java|594|608|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpChestplate.java|609|614|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemTrumpChestplate.java|615|627|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemTrumpChestplate(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
 Class End  : demjr.mod.items.ItemTrumpChestplate
 endProcessing "demjr\mod\items\ItemTrumpChestplate.java"
@@ -925,36 +941,37 @@ Class Start: demjr.mod.items.ItemTrumpGem
 Class End  : demjr.mod.items.ItemTrumpGem
 endProcessing "demjr\mod\items\ItemTrumpGem.java"
 
-startProcessing "demjr\mod\items\ItemTrumpHelmet.java" md5: ac72e963d363d6208f21cb4a9b5694cf
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpHelmet.java" md5: 412a2dd032c5b499487355c6e30ed414
 @|demjr\mod\items\ItemTrumpHelmet.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpHelmet
-   @|demjr\mod\items\ItemTrumpHelmet.java|202|217|ItemTrumpHelmet|class|demjr.mod.items.ItemTrumpHelmet
-   @|demjr\mod\items\ItemTrumpHelmet.java|226|235|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|demjr\mod\items\ItemTrumpHelmet.java|226|241|ItemTrumpHelmet|class|demjr.mod.items.ItemTrumpHelmet
+   @|demjr\mod\items\ItemTrumpHelmet.java|250|259|ItemArmor|class|net.minecraft.item.ItemArmor
    Method Start: ItemTrumpHelmet(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
-      @|demjr\mod\items\ItemTrumpHelmet.java|280|288|material|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
-      @|demjr\mod\items\ItemTrumpHelmet.java|294|305|renderIndex|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
-      @|demjr\mod\items\ItemTrumpHelmet.java|327|342|equipmentSlotIn|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
-      @|demjr\mod\items\ItemTrumpHelmet.java|250|265|ItemTrumpHelmet|method|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
-      @|demjr\mod\items\ItemTrumpHelmet.java|266|279|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
-      @|demjr\mod\items\ItemTrumpHelmet.java|307|326|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
-      @|demjr\mod\items\ItemTrumpHelmet.java|359|367|material|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
-      @|demjr\mod\items\ItemTrumpHelmet.java|369|380|renderIndex|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
-      @|demjr\mod\items\ItemTrumpHelmet.java|382|397|equipmentSlotIn|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
-      @|demjr\mod\items\ItemTrumpHelmet.java|408|426|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemTrumpHelmet.java|427|445|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpHelmet.java|446|457|TRUMPHELMET|field|demjr.mod.Reference.ModItems|TRUMPHELMET
-      @|demjr\mod\items\ItemTrumpHelmet.java|458|476|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemTrumpHelmet.java|489|504|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemTrumpHelmet.java|505|523|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpHelmet.java|524|535|TRUMPHELMET|field|demjr.mod.Reference.ModItems|TRUMPHELMET
-      @|demjr\mod\items\ItemTrumpHelmet.java|536|551|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpHelmet.java|304|312|material|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
+      @|demjr\mod\items\ItemTrumpHelmet.java|318|329|renderIndex|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
+      @|demjr\mod\items\ItemTrumpHelmet.java|351|366|equipmentSlotIn|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
+      @|demjr\mod\items\ItemTrumpHelmet.java|274|289|ItemTrumpHelmet|method|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|demjr\mod\items\ItemTrumpHelmet.java|290|303|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|demjr\mod\items\ItemTrumpHelmet.java|331|350|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|demjr\mod\items\ItemTrumpHelmet.java|383|391|material|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
+      @|demjr\mod\items\ItemTrumpHelmet.java|393|404|renderIndex|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
+      @|demjr\mod\items\ItemTrumpHelmet.java|406|421|equipmentSlotIn|param|demjr.mod.items.ItemTrumpHelmet|ItemTrumpHelmet|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
+      @|demjr\mod\items\ItemTrumpHelmet.java|432|450|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpHelmet.java|451|469|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpHelmet.java|470|481|TRUMPHELMET|field|demjr.mod.Reference.ModItems|TRUMPHELMET
+      @|demjr\mod\items\ItemTrumpHelmet.java|482|500|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpHelmet.java|513|528|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemTrumpHelmet.java|529|547|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpHelmet.java|548|559|TRUMPHELMET|field|demjr.mod.Reference.ModItems|TRUMPHELMET
+      @|demjr\mod\items\ItemTrumpHelmet.java|560|575|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpHelmet.java|588|602|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpHelmet.java|603|608|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemTrumpHelmet.java|609|621|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemTrumpHelmet(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
 Class End  : demjr.mod.items.ItemTrumpHelmet
 endProcessing "demjr\mod\items\ItemTrumpHelmet.java"
 
-startProcessing "demjr\mod\items\ItemTrumpHoe.java" md5: 0b333bb3c5be5f17a8592d413a9ba7fc
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpHoe.java" md5: 7cf78e7216a2f8a0e707ed93c39463b9
 @|demjr\mod\items\ItemTrumpHoe.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpHoe
    @|demjr\mod\items\ItemTrumpHoe.java|120|132|ItemTrumpHoe|class|demjr.mod.items.ItemTrumpHoe
@@ -968,53 +985,57 @@ Class Start: demjr.mod.items.ItemTrumpHoe
 Class End  : demjr.mod.items.ItemTrumpHoe
 endProcessing "demjr\mod\items\ItemTrumpHoe.java"
 
-startProcessing "demjr\mod\items\ItemTrumpLeggings.java" md5: bff9a73b589df550958064f3ed02e431
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpLeggings.java" md5: d174e1519691e7d68bafd7aa95ccf525
 @|demjr\mod\items\ItemTrumpLeggings.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpLeggings
-   @|demjr\mod\items\ItemTrumpLeggings.java|202|219|ItemTrumpLeggings|class|demjr.mod.items.ItemTrumpLeggings
-   @|demjr\mod\items\ItemTrumpLeggings.java|228|237|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|demjr\mod\items\ItemTrumpLeggings.java|226|243|ItemTrumpLeggings|class|demjr.mod.items.ItemTrumpLeggings
+   @|demjr\mod\items\ItemTrumpLeggings.java|252|261|ItemArmor|class|net.minecraft.item.ItemArmor
    Method Start: ItemTrumpLeggings(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
-      @|demjr\mod\items\ItemTrumpLeggings.java|284|292|material|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
-      @|demjr\mod\items\ItemTrumpLeggings.java|298|309|renderIndex|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
-      @|demjr\mod\items\ItemTrumpLeggings.java|331|346|equipmentSlotIn|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
-      @|demjr\mod\items\ItemTrumpLeggings.java|252|269|ItemTrumpLeggings|method|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
-      @|demjr\mod\items\ItemTrumpLeggings.java|270|283|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
-      @|demjr\mod\items\ItemTrumpLeggings.java|311|330|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
-      @|demjr\mod\items\ItemTrumpLeggings.java|363|371|material|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
-      @|demjr\mod\items\ItemTrumpLeggings.java|373|384|renderIndex|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
-      @|demjr\mod\items\ItemTrumpLeggings.java|386|401|equipmentSlotIn|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
-      @|demjr\mod\items\ItemTrumpLeggings.java|412|430|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemTrumpLeggings.java|431|449|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpLeggings.java|450|459|TRUMPLEGS|field|demjr.mod.Reference.ModItems|TRUMPLEGS
-      @|demjr\mod\items\ItemTrumpLeggings.java|460|478|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemTrumpLeggings.java|491|506|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemTrumpLeggings.java|507|525|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpLeggings.java|526|535|TRUMPLEGS|field|demjr.mod.Reference.ModItems|TRUMPLEGS
-      @|demjr\mod\items\ItemTrumpLeggings.java|536|551|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpLeggings.java|308|316|material|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
+      @|demjr\mod\items\ItemTrumpLeggings.java|322|333|renderIndex|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
+      @|demjr\mod\items\ItemTrumpLeggings.java|355|370|equipmentSlotIn|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
+      @|demjr\mod\items\ItemTrumpLeggings.java|276|293|ItemTrumpLeggings|method|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
+      @|demjr\mod\items\ItemTrumpLeggings.java|294|307|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|demjr\mod\items\ItemTrumpLeggings.java|335|354|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|demjr\mod\items\ItemTrumpLeggings.java|387|395|material|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|material|0
+      @|demjr\mod\items\ItemTrumpLeggings.java|397|408|renderIndex|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|renderIndex|1
+      @|demjr\mod\items\ItemTrumpLeggings.java|410|425|equipmentSlotIn|param|demjr.mod.items.ItemTrumpLeggings|ItemTrumpLeggings|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V|equipmentSlotIn|2
+      @|demjr\mod\items\ItemTrumpLeggings.java|436|454|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpLeggings.java|455|473|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpLeggings.java|474|483|TRUMPLEGS|field|demjr.mod.Reference.ModItems|TRUMPLEGS
+      @|demjr\mod\items\ItemTrumpLeggings.java|484|502|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpLeggings.java|515|530|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemTrumpLeggings.java|531|549|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpLeggings.java|550|559|TRUMPLEGS|field|demjr.mod.Reference.ModItems|TRUMPLEGS
+      @|demjr\mod\items\ItemTrumpLeggings.java|560|575|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpLeggings.java|588|602|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpLeggings.java|603|608|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemTrumpLeggings.java|609|621|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemTrumpLeggings(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V
 Class End  : demjr.mod.items.ItemTrumpLeggings
 endProcessing "demjr\mod\items\ItemTrumpLeggings.java"
 
-startProcessing "demjr\mod\items\ItemTrumpPickaxe.java" md5: fc528af499891a3e2f99a3d83fc7f058
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpPickaxe.java" md5: f1e68bd9f87806e93ad3170ca84da88d
 @|demjr\mod\items\ItemTrumpPickaxe.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpPickaxe
-   @|demjr\mod\items\ItemTrumpPickaxe.java|152|168|ItemTrumpPickaxe|class|demjr.mod.items.ItemTrumpPickaxe
-   @|demjr\mod\items\ItemTrumpPickaxe.java|177|188|ItemPickaxe|class|net.minecraft.item.ItemPickaxe
+   @|demjr\mod\items\ItemTrumpPickaxe.java|176|192|ItemTrumpPickaxe|class|demjr.mod.items.ItemTrumpPickaxe
+   @|demjr\mod\items\ItemTrumpPickaxe.java|201|212|ItemPickaxe|class|net.minecraft.item.ItemPickaxe
    Method Start: ItemTrumpPickaxe(Lnet/minecraft/item/Item$ToolMaterial;)V
-      @|demjr\mod\items\ItemTrumpPickaxe.java|232|240|material|param|demjr.mod.items.ItemTrumpPickaxe|ItemTrumpPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
-      @|demjr\mod\items\ItemTrumpPickaxe.java|202|218|ItemTrumpPickaxe|method|demjr.mod.items.ItemTrumpPickaxe|ItemTrumpPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;)V
-      @|demjr\mod\items\ItemTrumpPickaxe.java|219|231|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-      @|demjr\mod\items\ItemTrumpPickaxe.java|258|266|material|param|demjr.mod.items.ItemTrumpPickaxe|ItemTrumpPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
-      @|demjr\mod\items\ItemTrumpPickaxe.java|277|295|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemTrumpPickaxe.java|296|314|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpPickaxe.java|315|327|TRUMPPICKAXE|field|demjr.mod.Reference.ModItems|TRUMPPICKAXE
-      @|demjr\mod\items\ItemTrumpPickaxe.java|328|346|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemTrumpPickaxe.java|359|374|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemTrumpPickaxe.java|375|393|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpPickaxe.java|394|406|TRUMPPICKAXE|field|demjr.mod.Reference.ModItems|TRUMPPICKAXE
-      @|demjr\mod\items\ItemTrumpPickaxe.java|407|422|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpPickaxe.java|256|264|material|param|demjr.mod.items.ItemTrumpPickaxe|ItemTrumpPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpPickaxe.java|226|242|ItemTrumpPickaxe|method|demjr.mod.items.ItemTrumpPickaxe|ItemTrumpPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;)V
+      @|demjr\mod\items\ItemTrumpPickaxe.java|243|255|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|demjr\mod\items\ItemTrumpPickaxe.java|282|290|material|param|demjr.mod.items.ItemTrumpPickaxe|ItemTrumpPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpPickaxe.java|301|319|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpPickaxe.java|320|338|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpPickaxe.java|339|351|TRUMPPICKAXE|field|demjr.mod.Reference.ModItems|TRUMPPICKAXE
+      @|demjr\mod\items\ItemTrumpPickaxe.java|352|370|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpPickaxe.java|383|398|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemTrumpPickaxe.java|399|417|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpPickaxe.java|418|430|TRUMPPICKAXE|field|demjr.mod.Reference.ModItems|TRUMPPICKAXE
+      @|demjr\mod\items\ItemTrumpPickaxe.java|431|446|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpPickaxe.java|459|473|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpPickaxe.java|474|479|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemTrumpPickaxe.java|480|492|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemTrumpPickaxe(Lnet/minecraft/item/Item$ToolMaterial;)V
 Class End  : demjr.mod.items.ItemTrumpPickaxe
 endProcessing "demjr\mod\items\ItemTrumpPickaxe.java"
@@ -1034,25 +1055,27 @@ Class Start: demjr.mod.items.ItemTrumpSpade
 Class End  : demjr.mod.items.ItemTrumpSpade
 endProcessing "demjr\mod\items\ItemTrumpSpade.java"
 
-startProcessing "demjr\mod\items\ItemTrumpSword.java" md5: 04ae3b2290d69363ad2dfc69e017d807
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpSword.java" md5: 86065a23667b705d05ed0d84c6093951
 @|demjr\mod\items\ItemTrumpSword.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpSword
-   @|demjr\mod\items\ItemTrumpSword.java|137|151|ItemTrumpSword|class|demjr.mod.items.ItemTrumpSword
-   @|demjr\mod\items\ItemTrumpSword.java|160|169|ItemSword|class|net.minecraft.item.ItemSword
+   @|demjr\mod\items\ItemTrumpSword.java|161|175|ItemTrumpSword|class|demjr.mod.items.ItemTrumpSword
+   @|demjr\mod\items\ItemTrumpSword.java|184|193|ItemSword|class|net.minecraft.item.ItemSword
    Method Start: ItemTrumpSword(Lnet/minecraft/item/Item$ToolMaterial;)V
-      @|demjr\mod\items\ItemTrumpSword.java|217|225|material|param|demjr.mod.items.ItemTrumpSword|ItemTrumpSword|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
-      @|demjr\mod\items\ItemTrumpSword.java|184|198|ItemTrumpSword|method|demjr.mod.items.ItemTrumpSword|ItemTrumpSword|(Lnet/minecraft/item/Item$ToolMaterial;)V
-      @|demjr\mod\items\ItemTrumpSword.java|199|216|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-      @|demjr\mod\items\ItemTrumpSword.java|242|250|material|param|demjr.mod.items.ItemTrumpSword|ItemTrumpSword|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
-      @|demjr\mod\items\ItemTrumpSword.java|261|279|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|demjr\mod\items\ItemTrumpSword.java|280|298|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpSword.java|299|309|TRUMPSWORD|field|demjr.mod.Reference.ModItems|TRUMPSWORD
-      @|demjr\mod\items\ItemTrumpSword.java|310|328|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-      @|demjr\mod\items\ItemTrumpSword.java|341|356|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\items\ItemTrumpSword.java|357|375|Reference.ModItems|class|demjr.mod.Reference.ModItems
-      @|demjr\mod\items\ItemTrumpSword.java|376|386|TRUMPSWORD|field|demjr.mod.Reference.ModItems|TRUMPSWORD
-      @|demjr\mod\items\ItemTrumpSword.java|387|402|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpSword.java|241|249|material|param|demjr.mod.items.ItemTrumpSword|ItemTrumpSword|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpSword.java|208|222|ItemTrumpSword|method|demjr.mod.items.ItemTrumpSword|ItemTrumpSword|(Lnet/minecraft/item/Item$ToolMaterial;)V
+      @|demjr\mod\items\ItemTrumpSword.java|223|240|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|demjr\mod\items\ItemTrumpSword.java|266|274|material|param|demjr.mod.items.ItemTrumpSword|ItemTrumpSword|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpSword.java|285|303|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpSword.java|304|322|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpSword.java|323|333|TRUMPSWORD|field|demjr.mod.Reference.ModItems|TRUMPSWORD
+      @|demjr\mod\items\ItemTrumpSword.java|334|352|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpSword.java|365|380|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemTrumpSword.java|381|399|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpSword.java|400|410|TRUMPSWORD|field|demjr.mod.Reference.ModItems|TRUMPSWORD
+      @|demjr\mod\items\ItemTrumpSword.java|411|426|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpSword.java|439|453|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpSword.java|454|459|DEMJR|class|demjr.mod.DEMJR
+      @|demjr\mod\items\ItemTrumpSword.java|460|472|CREATIVE_TAB|field|demjr.mod.DEMJR|CREATIVE_TAB
    Method End: ItemTrumpSword(Lnet/minecraft/item/Item$ToolMaterial;)V
 Class End  : demjr.mod.items.ItemTrumpSword
 endProcessing "demjr\mod\items\ItemTrumpSword.java"

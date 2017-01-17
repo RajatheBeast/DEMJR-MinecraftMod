@@ -1,5 +1,6 @@
 package demjr.mod.items;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
@@ -13,6 +14,7 @@ public class ItemTrumpChestplate extends ItemArmor {
         super(material, renderIndex, equipmentSlotIn);
         setUnlocalizedName(Reference.ModItems.TRUMPCHEST.getUnlocalizedName());
         setRegistryName(Reference.ModItems.TRUMPCHEST.getRegistryName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
 
     }
 

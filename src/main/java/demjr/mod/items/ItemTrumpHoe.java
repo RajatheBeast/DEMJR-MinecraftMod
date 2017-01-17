@@ -11,4 +11,5 @@ public class ItemTrumpHoe extends ItemHoe{
         super(material);
     }
 
+
 }

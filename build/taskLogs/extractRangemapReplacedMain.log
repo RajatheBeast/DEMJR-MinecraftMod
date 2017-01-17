@@ -40,64 +40,51 @@ startProcessing "demjr\mod\init\ModSmelting.java" md5: 096020644f38e22dfc0a60f76
 Cache Hit!
 endProcessing "demjr\mod\init\ModSmelting.java"
 
-startProcessing "demjr\mod\items\ItemApplePie.java" md5: c713d82da3eda3f775a95e8ca409f144
-Cache Hit!
+startProcessing "demjr\mod\items\ItemApplePie.java" md5: 1f468da5639d6b2d7892c21a13065243
 endProcessing "demjr\mod\items\ItemApplePie.java"
 
-startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: a95added60b71f1c258762d20829cc4b
-Cache Hit!
+startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: 5901d97fbdf84dd4c7c6ef8001497b8d
 endProcessing "demjr\mod\items\ItemChocolateChips.java"
 
-startProcessing "demjr\mod\items\ItemCookieDough.java" md5: 6139e0c721720de5fbb533f91992eff2
-Cache Hit!
+startProcessing "demjr\mod\items\ItemCookieDough.java" md5: 7ea70b504a8b95b9164e11423a092100
 endProcessing "demjr\mod\items\ItemCookieDough.java"
 
-startProcessing "demjr\mod\items\ItemDough.java" md5: 31c1f701befc0817d39d076f95763f34
-Cache Hit!
+startProcessing "demjr\mod\items\ItemDough.java" md5: 9462a1e57c6ad0b36970961282f1f9a9
 endProcessing "demjr\mod\items\ItemDough.java"
 
-startProcessing "demjr\mod\items\ItemFlour.java" md5: 493e1148b056218c296013683caf9a4c
-Cache Hit!
+startProcessing "demjr\mod\items\ItemFlour.java" md5: 2abb878c7802a2f26ea9a6421e5e2493
 endProcessing "demjr\mod\items\ItemFlour.java"
 
-startProcessing "demjr\mod\items\ItemSalt.java" md5: 5621380ea4c652bea302a7796c90865f
-Cache Hit!
+startProcessing "demjr\mod\items\ItemSalt.java" md5: b61e27eb855471f99cb1f54bad90aaa0
 endProcessing "demjr\mod\items\ItemSalt.java"
 
-startProcessing "demjr\mod\items\ItemTrumpBoots.java" md5: 8c45abbda65834ca9093edb7e6f3aa41
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpBoots.java" md5: 909723f4085e977c4495fd123862c535
 endProcessing "demjr\mod\items\ItemTrumpBoots.java"
 
-startProcessing "demjr\mod\items\ItemTrumpChestplate.java" md5: 8fafcba092a1a6661874ccd0f7e2ff50
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpChestplate.java" md5: c062504747dc06eff0d9ec24a2c3596a
 endProcessing "demjr\mod\items\ItemTrumpChestplate.java"
 
 startProcessing "demjr\mod\items\ItemTrumpGem.java" md5: f8e0dd386a76cac377da5c8d6c0d6186
 Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpGem.java"
 
-startProcessing "demjr\mod\items\ItemTrumpHelmet.java" md5: ac72e963d363d6208f21cb4a9b5694cf
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpHelmet.java" md5: 412a2dd032c5b499487355c6e30ed414
 endProcessing "demjr\mod\items\ItemTrumpHelmet.java"
 
-startProcessing "demjr\mod\items\ItemTrumpHoe.java" md5: 0b333bb3c5be5f17a8592d413a9ba7fc
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpHoe.java" md5: 7cf78e7216a2f8a0e707ed93c39463b9
 endProcessing "demjr\mod\items\ItemTrumpHoe.java"
 
-startProcessing "demjr\mod\items\ItemTrumpLeggings.java" md5: bff9a73b589df550958064f3ed02e431
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpLeggings.java" md5: d174e1519691e7d68bafd7aa95ccf525
 endProcessing "demjr\mod\items\ItemTrumpLeggings.java"
 
-startProcessing "demjr\mod\items\ItemTrumpPickaxe.java" md5: fc528af499891a3e2f99a3d83fc7f058
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpPickaxe.java" md5: f1e68bd9f87806e93ad3170ca84da88d
 endProcessing "demjr\mod\items\ItemTrumpPickaxe.java"
 
 startProcessing "demjr\mod\items\ItemTrumpSpade.java" md5: 4c3308bc843f3a07eb5198718c85637a
 Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpSpade.java"
 
-startProcessing "demjr\mod\items\ItemTrumpSword.java" md5: 04ae3b2290d69363ad2dfc69e017d807
-Cache Hit!
+startProcessing "demjr\mod\items\ItemTrumpSword.java" md5: 86065a23667b705d05ed0d84c6093951
 endProcessing "demjr\mod\items\ItemTrumpSword.java"
 
 startProcessing "demjr\mod\proxy\ClientProxy.java" md5: 05f047c808e4010adabcc7b4c1f4d1f5
