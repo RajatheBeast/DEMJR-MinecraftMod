@@ -25,11 +25,7 @@ public class DEMJR {
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
 
-<<<<<<< HEAD
 	public static final CreativeTabs CREATIVE_TAB = new DEMJRTab();
-=======
-	public static final DEMJRTab  CREATIVE_TAB = new DEMJRTab();
->>>>>>> 0734c1a77b8a6447038521e87a25eaf43bdc73df
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
