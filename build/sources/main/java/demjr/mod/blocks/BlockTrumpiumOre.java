@@ -24,8 +24,11 @@ public class BlockTrumpiumOre extends Block {
 
     public BlockTrumpiumOre() {
         super(Material.ROCK);
+
         setUnlocalizedName(Reference.ModBlocks.TRUMPIUMORE.getUnlocalizedName());
         setRegistryName(Reference.ModBlocks.TRUMPIUMORE.getRegistryName());
+
+        setHardness(50);
     }
     @Nullable
     public Item getItemDropped(IBlockState state, Random rand, int fortune){

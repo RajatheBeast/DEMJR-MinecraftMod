@@ -1,6 +1,7 @@
 package demjr.mod.init;
 
 import demjr.mod.blocks.BlockSalt;
+import demjr.mod.blocks.BlockTrumpiumBlock;
 import demjr.mod.blocks.BlockTrumpiumOre;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -14,22 +15,26 @@ public class ModBlocks {
 	
 	public static Block salt;
 	public static Block trumpiumore;
-	
+	public static Block trumpiumblock;
+
 	public static void init() {
 
 	    salt = new BlockSalt();
 	    trumpiumore = new BlockTrumpiumOre();
+	    trumpiumblock = new BlockTrumpiumBlock();
 	}
 	public static void register() {
 
 	    registerBlock(salt);
         registerBlock(trumpiumore);
+        registerBlock(trumpiumblock);
 	}
 		
 	public static void registerRenders() {
 
 	    registerRender(salt);
         registerRender(trumpiumore);
+        registerRender(trumpiumblock);
     }
 	
 	private static void registerBlock(Block block) {
