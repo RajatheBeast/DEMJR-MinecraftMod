@@ -1,5 +1,6 @@
 package demjr.mod.blocks;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import demjr.mod.init.ModBlocks;
 import demjr.mod.init.ModItems;
@@ -23,13 +24,17 @@ public class BlockDissapointiumOre extends Block {
 
         setUnlocalizedName(Reference.ModBlocks.DISSAPOINTIUMORE.getUnlocalizedName());
         setRegistryName(Reference.ModBlocks.DISSAPOINTIUMORE.getRegistryName());
+<<<<<<< HEAD
+=======
+        setCreativeTab(DEMJR.CREATIVE_TAB);
+>>>>>>> d2821d45f2d67796f73238720e84c684a38c092f
 
         setHardness(20);
     }
 
     @Nullable
     public Item getItemDropped(IBlockState state, Random rand, int fortune){
-        return this == ModBlocks.dissapointiumore ? ModItems.trumpgem :  Item.getItemFromBlock(this);
+        return this == ModBlocks.dissapointiumore ? ModItems.dissapointiumcrystal :  Item.getItemFromBlock(this);
     }
 
     public int quantityDropped(Random random){

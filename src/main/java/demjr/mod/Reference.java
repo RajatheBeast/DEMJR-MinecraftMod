@@ -29,7 +29,16 @@ public class Reference {
         TRUMPSPADE("trumpspade", "ItemTrumpSpade"),
         TRUMPHOE("trumphoe", "ItemTrumpHoe"),
         TRUMPAXE("trumpaxe", "ItemTrumpAxe"),
-        DISSAPOINTIUMCRYSTAL("dissapointiumcrystal", "ItemDisssapointiumCrystal");
+        DISSAPOINTIUMCRYSTAL("dissapointiumcrystal", "ItemDisssapointiumCrystal"),
+        DISSAPOINTIUMSWORD("dissapointiumsword", "ItemDissapointiumSword"),
+        DISSAPOINTIUMHELMET("dissapointiumhelmet", "ItemDissapointiumHelmet"),
+        DISSAPOINTIUMPICKAXE("dissapointiumpickaxe", "ItemDissapointiumPickaxe"),
+        DISSAPOINTIUMCHEST("dissapointiumchest", "ItemDissapointiumChestplate"),
+        DISSAPOINTIUMLEGS("dissapointiumlegs", "ItemDissapointiumLeggings"),
+        DISSAPOINTIUMBOOTS("dissapointiumboots", "ItemDissapointiumBoots"),
+        DISSAPOINTIUMSPADE("trumpspade", "ItemTrumpSpade"),
+        DISSAPOINTIUMHOE("trumphoe", "ItemTrumpHoe"),
+        DISSAPOINTIUMAXE("dissapointiumaxe", "ItemDissapointiumAxe");
 		
 		private String unlocalizedName;
 		private String registryName;		

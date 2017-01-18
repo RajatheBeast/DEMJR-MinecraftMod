@@ -1,5 +1,6 @@
 package demjr.mod.blocks;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import demjr.mod.init.ModBlocks;
 import demjr.mod.init.ModItems;
@@ -27,6 +28,7 @@ public class BlockTrumpiumOre extends Block {
 
         setUnlocalizedName(Reference.ModBlocks.TRUMPIUMORE.getUnlocalizedName());
         setRegistryName(Reference.ModBlocks.TRUMPIUMORE.getRegistryName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
 
         setHardness(50);
     }

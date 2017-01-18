@@ -1,5 +1,6 @@
 package demjr.mod.blocks;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import demjr.mod.init.ModBlocks;
 import demjr.mod.init.ModItems;
@@ -20,6 +21,7 @@ public class BlockSalt extends Block {
 
         setUnlocalizedName(Reference.ModBlocks.SALT.getUnlocalizedName());
         setRegistryName(Reference.ModBlocks.SALT.getRegistryName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
 
         setHardness(2);
 

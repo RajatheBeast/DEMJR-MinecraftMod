@@ -1,5 +1,6 @@
 package demjr.mod.blocks;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -15,6 +16,7 @@ public class BlockCement extends Block {
 
         setUnlocalizedName(Reference.ModBlocks.CEMENT.getUnlocalizedName());
         setRegistryName(Reference.ModBlocks.CEMENT.getRegistryName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
 
         setHardness(20);
     }

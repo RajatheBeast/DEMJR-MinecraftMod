@@ -46,6 +46,7 @@ public class ModItems {
 	public static Item dissapointiumlegs;
 	public static Item dissapointiumboots;
 
+
 	
 	public static void init() {
 		salt = new ItemSalt();
