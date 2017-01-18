@@ -1,5 +1,6 @@
 package demjr.mod.init;
 
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,8 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.trumpiumblock), "TTT", "TTT", "TTT", 'T', ModItems.trumpgem);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpsword), " T ", " T ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumphelmet), "TTT", "T T", "   ", 'T', ModBlocks.trumpiumblock);
-	}
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cementpowder, 4), Blocks.COBBLESTONE);
+
+    }
 	
 }

@@ -7,6 +7,7 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -29,6 +30,9 @@ public class ModItems {
 	public static Item trumpchest;
 	public static Item trumpboots;
 	public static Item trumplegs;
+	public static Item trumpspade;
+	public static Item trumphoe;
+	public static Item trumpaxe;
 
 	
 	public static void init() {
@@ -46,24 +50,30 @@ public class ModItems {
 		trumpchest = new ItemTrumpChestplate(trumparmor, 1, EntityEquipmentSlot.CHEST);
         trumpboots = new ItemTrumpBoots(trumparmor, 1, EntityEquipmentSlot.FEET);
         trumplegs = new ItemTrumpLeggings(trumparmor, 2, EntityEquipmentSlot.LEGS);
-	
+	    trumpspade = new ItemTrumpSpade(trumptool);
+	    trumphoe = new ItemTrumpHoe(trumptool);
+	    trumpaxe = new ItemTrumpAxe(trumptool, 8, 1.2F);
+
 	}
 	public static void register() {
-		GameRegistry.register(salt);
-		GameRegistry.register(flour);
-		GameRegistry.register(trumpgem);
-		GameRegistry.register(cookiedough);
-		GameRegistry.register(dough);
-		GameRegistry.register(chocolatechips);
-		GameRegistry.register(applepie);
-		GameRegistry.register(cementpowder);
-		GameRegistry.register(trumpsword);
-	    GameRegistry.register(trumphelmet);
+        GameRegistry.register(salt);
+        GameRegistry.register(flour);
+        GameRegistry.register(trumpgem);
+        GameRegistry.register(cookiedough);
+        GameRegistry.register(dough);
+        GameRegistry.register(chocolatechips);
+        GameRegistry.register(applepie);
+        GameRegistry.register(cementpowder);
+        GameRegistry.register(trumpsword);
+        GameRegistry.register(trumphelmet);
         GameRegistry.register(trumppickaxe);
         GameRegistry.register(trumpchest);
         GameRegistry.register(trumplegs);
         GameRegistry.register(trumpboots);
-	}
+        GameRegistry.register(trumpspade);
+        GameRegistry.register(trumphoe);
+        GameRegistry.register(trumpaxe);
+    }
 		
 	public static void registerRenders() {
 		registerRender(salt);
@@ -80,6 +90,9 @@ public class ModItems {
         registerRender(trumpchest);
         registerRender(trumpboots);
         registerRender(trumplegs);
+        registerRender(trumpspade);
+        registerRender(trumphoe);
+        registerRender(trumpaxe);
 	}
 		
 	private static void registerRender(Item item) {

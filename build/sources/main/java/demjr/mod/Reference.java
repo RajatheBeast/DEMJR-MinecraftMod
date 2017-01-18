@@ -19,12 +19,16 @@ public class Reference {
         DOUGH("dough", "ItemDough"),
         CHOCOLATECHIPS("chocolatechips", "ItemChocolateChips"),
 		APPLEPIE("applepie", "ItemApplePie"),
+		CEMENTPOWDER("cementpowder", "ItemCementPowder"),
 		TRUMPSWORD("trumpsword", "ItemTrumpSword"),
         TRUMPHELMET("trumphelmet", "ItemTrumpHelmet"),
         TRUMPPICKAXE("trumppickaxe", "ItemTrumpPickaxe"),
         TRUMPCHEST("trumpchest", "ItemTrumpChestplate"),
         TRUMPLEGS("trumplegs", "ItemTrumpLeggings"),
-        TRUMPBOOTS("trumpboots", "ItemTrumpBoots");
+        TRUMPBOOTS("trumpboots", "ItemTrumpBoots"),
+        TRUMPSPADE("trumpspade", "ItemTrumpSpade"),
+        TRUMPHOE("trumphoe", "ItemTrumpHoe"),
+        TRUMPAXE("trumpaxe", "ItemTrumpAxe");
 		
 		private String unlocalizedName;
 		private String registryName;		
@@ -47,7 +51,8 @@ public class Reference {
 
 		SALT("salt", "BlockSalt"),
         TRUMPIUMORE("trumpiumore", "BlockTrumpiumOre"),
-        TRUMPIUMBLOCK("trumpiumblock", "BlockTrumpiumBlock");
+        TRUMPIUMBLOCK("trumpiumblock", "BlockTrumpiumBlock"),
+        CEMENT("cementblock", "BlockCement");
 		
 		private String unlocalizedName;
 		private String registryName;		

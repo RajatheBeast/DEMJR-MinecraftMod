@@ -1,5 +1,6 @@
 package demjr.mod.items;
 
+import demjr.mod.Reference;
 import net.minecraft.item.ItemHoe;
 
 /**
@@ -9,6 +10,8 @@ public class ItemTrumpHoe extends ItemHoe{
 
     public ItemTrumpHoe(ToolMaterial material){
         super(material);
+        setRegistryName(Reference.ModItems.TRUMPHOE.getRegistryName());
+        setUnlocalizedName(Reference.ModItems.TRUMPHOE.getUnlocalizedName());
     }
 
 

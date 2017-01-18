@@ -1,5 +1,5 @@
 Symbol range map extraction starting
-Processing 29 files
+Processing 31 files
 startProcessing "demjr\mod\DEMJR.java" md5: 50950301a12500909701197d67c82df5
 Cache Hit!
 @|demjr\mod\DEMJR.java|8|17|demjr.mod|package|demjr.mod|(file)
@@ -96,7 +96,7 @@ Class Start: demjr.mod.DEMJRTab
 Class End  : demjr.mod.DEMJRTab
 endProcessing "demjr\mod\DEMJRTab.java"
 
-startProcessing "demjr\mod\Reference.java" md5: 8df9569c6f3d48ca938607fdd266d2db
+startProcessing "demjr\mod\Reference.java" md5: 38e077414d6524f427fa8bf5a0ab57a3
 Cache Hit!
 @|demjr\mod\Reference.java|8|17|demjr.mod|package|demjr.mod|(file)
 Class Start: demjr.mod.Reference
@@ -128,71 +128,76 @@ Class Start: demjr.mod.Reference
       @|demjr\mod\Reference.java|615|620|DOUGH|field|demjr.mod.Reference.ModItems|DOUGH
       @|demjr\mod\Reference.java|652|666|CHOCOLATECHIPS|field|demjr.mod.Reference.ModItems|CHOCOLATECHIPS
       @|demjr\mod\Reference.java|710|718|APPLEPIE|field|demjr.mod.Reference.ModItems|APPLEPIE
-      @|demjr\mod\Reference.java|750|760|TRUMPSWORD|field|demjr.mod.Reference.ModItems|TRUMPSWORD
-      @|demjr\mod\Reference.java|802|813|TRUMPHELMET|field|demjr.mod.Reference.ModItems|TRUMPHELMET
-      @|demjr\mod\Reference.java|857|869|TRUMPPICKAXE|field|demjr.mod.Reference.ModItems|TRUMPPICKAXE
-      @|demjr\mod\Reference.java|915|925|TRUMPCHEST|field|demjr.mod.Reference.ModItems|TRUMPCHEST
-      @|demjr\mod\Reference.java|972|981|TRUMPLEGS|field|demjr.mod.Reference.ModItems|TRUMPLEGS
-      @|demjr\mod\Reference.java|1025|1035|TRUMPBOOTS|field|demjr.mod.Reference.ModItems|TRUMPBOOTS
-      @|demjr\mod\Reference.java|1082|1088|String|class|java.lang.String
-      @|demjr\mod\Reference.java|1082|1088|String|class|java.lang.String
-      @|demjr\mod\Reference.java|1089|1104|unlocalizedName|field|demjr.mod.Reference.ModItems|unlocalizedName|
-      @|demjr\mod\Reference.java|1116|1122|String|class|java.lang.String
-      @|demjr\mod\Reference.java|1116|1122|String|class|java.lang.String
-      @|demjr\mod\Reference.java|1123|1135|registryName|field|demjr.mod.Reference.ModItems|registryName|
+      @|demjr\mod\Reference.java|750|762|CEMENTPOWDER|field|demjr.mod.Reference.ModItems|CEMENTPOWDER
+      @|demjr\mod\Reference.java|802|812|TRUMPSWORD|field|demjr.mod.Reference.ModItems|TRUMPSWORD
+      @|demjr\mod\Reference.java|854|865|TRUMPHELMET|field|demjr.mod.Reference.ModItems|TRUMPHELMET
+      @|demjr\mod\Reference.java|909|921|TRUMPPICKAXE|field|demjr.mod.Reference.ModItems|TRUMPPICKAXE
+      @|demjr\mod\Reference.java|967|977|TRUMPCHEST|field|demjr.mod.Reference.ModItems|TRUMPCHEST
+      @|demjr\mod\Reference.java|1024|1033|TRUMPLEGS|field|demjr.mod.Reference.ModItems|TRUMPLEGS
+      @|demjr\mod\Reference.java|1077|1087|TRUMPBOOTS|field|demjr.mod.Reference.ModItems|TRUMPBOOTS
+      @|demjr\mod\Reference.java|1129|1139|TRUMPSPADE|field|demjr.mod.Reference.ModItems|TRUMPSPADE
+      @|demjr\mod\Reference.java|1181|1189|TRUMPHOE|field|demjr.mod.Reference.ModItems|TRUMPHOE
+      @|demjr\mod\Reference.java|1227|1235|TRUMPAXE|field|demjr.mod.Reference.ModItems|TRUMPAXE
+      @|demjr\mod\Reference.java|1278|1284|String|class|java.lang.String
+      @|demjr\mod\Reference.java|1278|1284|String|class|java.lang.String
+      @|demjr\mod\Reference.java|1285|1300|unlocalizedName|field|demjr.mod.Reference.ModItems|unlocalizedName|
+      @|demjr\mod\Reference.java|1312|1318|String|class|java.lang.String
+      @|demjr\mod\Reference.java|1312|1318|String|class|java.lang.String
+      @|demjr\mod\Reference.java|1319|1331|registryName|field|demjr.mod.Reference.ModItems|registryName|
       Method Start: ModItems(Ljava/lang/String;Ljava/lang/String;)V
-         @|demjr\mod\Reference.java|1160|1175|unlocalizedName|param|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
-         @|demjr\mod\Reference.java|1184|1196|registryName|param|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
-         @|demjr\mod\Reference.java|1144|1152|ModItems|method|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V
-         @|demjr\mod\Reference.java|1153|1159|String|class|java.lang.String
-         @|demjr\mod\Reference.java|1177|1183|String|class|java.lang.String
-         @|demjr\mod\Reference.java|1208|1223|unlocalizedName|field|demjr.mod.Reference.ModItems|unlocalizedName
-         @|demjr\mod\Reference.java|1226|1241|unlocalizedName|param|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
-         @|demjr\mod\Reference.java|1251|1263|registryName|field|demjr.mod.Reference.ModItems|registryName
-         @|demjr\mod\Reference.java|1266|1278|registryName|param|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+         @|demjr\mod\Reference.java|1356|1371|unlocalizedName|param|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|demjr\mod\Reference.java|1380|1392|registryName|param|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+         @|demjr\mod\Reference.java|1340|1348|ModItems|method|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V
+         @|demjr\mod\Reference.java|1349|1355|String|class|java.lang.String
+         @|demjr\mod\Reference.java|1373|1379|String|class|java.lang.String
+         @|demjr\mod\Reference.java|1404|1419|unlocalizedName|field|demjr.mod.Reference.ModItems|unlocalizedName
+         @|demjr\mod\Reference.java|1422|1437|unlocalizedName|param|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|demjr\mod\Reference.java|1447|1459|registryName|field|demjr.mod.Reference.ModItems|registryName
+         @|demjr\mod\Reference.java|1462|1474|registryName|param|demjr.mod.Reference.ModItems|ModItems|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
       Method End: ModItems(Ljava/lang/String;Ljava/lang/String;)V
       Method Start: getUnlocalizedName()Ljava/lang/String;
-         @|demjr\mod\Reference.java|1293|1299|String|class|java.lang.String
-         @|demjr\mod\Reference.java|1300|1318|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
-         @|demjr\mod\Reference.java|1333|1348|unlocalizedName|field|demjr.mod.Reference.ModItems|unlocalizedName
+         @|demjr\mod\Reference.java|1489|1495|String|class|java.lang.String
+         @|demjr\mod\Reference.java|1496|1514|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+         @|demjr\mod\Reference.java|1529|1544|unlocalizedName|field|demjr.mod.Reference.ModItems|unlocalizedName
       Method End: getUnlocalizedName()Ljava/lang/String;
       Method Start: getRegistryName()Ljava/lang/String;
-         @|demjr\mod\Reference.java|1366|1372|String|class|java.lang.String
-         @|demjr\mod\Reference.java|1373|1388|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
-         @|demjr\mod\Reference.java|1403|1415|registryName|field|demjr.mod.Reference.ModItems|registryName
+         @|demjr\mod\Reference.java|1562|1568|String|class|java.lang.String
+         @|demjr\mod\Reference.java|1569|1584|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+         @|demjr\mod\Reference.java|1599|1611|registryName|field|demjr.mod.Reference.ModItems|registryName
       Method End: getRegistryName()Ljava/lang/String;
    Enum End  : demjr.mod.Reference.ModItems
    Enum Start: demjr.mod.Reference.ModBlocks
-      @|demjr\mod\Reference.java|1449|1458|ModBlocks|class|demjr.mod.Reference.ModBlocks
-      @|demjr\mod\Reference.java|1464|1468|SALT|field|demjr.mod.Reference.ModBlocks|SALT
-      @|demjr\mod\Reference.java|1499|1510|TRUMPIUMORE|field|demjr.mod.Reference.ModBlocks|TRUMPIUMORE
-      @|demjr\mod\Reference.java|1555|1568|TRUMPIUMBLOCK|field|demjr.mod.Reference.ModBlocks|TRUMPIUMBLOCK
-      @|demjr\mod\Reference.java|1622|1628|String|class|java.lang.String
-      @|demjr\mod\Reference.java|1622|1628|String|class|java.lang.String
-      @|demjr\mod\Reference.java|1629|1644|unlocalizedName|field|demjr.mod.Reference.ModBlocks|unlocalizedName|
-      @|demjr\mod\Reference.java|1656|1662|String|class|java.lang.String
-      @|demjr\mod\Reference.java|1656|1662|String|class|java.lang.String
-      @|demjr\mod\Reference.java|1663|1675|registryName|field|demjr.mod.Reference.ModBlocks|registryName|
+      @|demjr\mod\Reference.java|1645|1654|ModBlocks|class|demjr.mod.Reference.ModBlocks
+      @|demjr\mod\Reference.java|1660|1664|SALT|field|demjr.mod.Reference.ModBlocks|SALT
+      @|demjr\mod\Reference.java|1695|1706|TRUMPIUMORE|field|demjr.mod.Reference.ModBlocks|TRUMPIUMORE
+      @|demjr\mod\Reference.java|1751|1764|TRUMPIUMBLOCK|field|demjr.mod.Reference.ModBlocks|TRUMPIUMBLOCK
+      @|demjr\mod\Reference.java|1813|1819|CEMENT|field|demjr.mod.Reference.ModBlocks|CEMENT
+      @|demjr\mod\Reference.java|1864|1870|String|class|java.lang.String
+      @|demjr\mod\Reference.java|1864|1870|String|class|java.lang.String
+      @|demjr\mod\Reference.java|1871|1886|unlocalizedName|field|demjr.mod.Reference.ModBlocks|unlocalizedName|
+      @|demjr\mod\Reference.java|1898|1904|String|class|java.lang.String
+      @|demjr\mod\Reference.java|1898|1904|String|class|java.lang.String
+      @|demjr\mod\Reference.java|1905|1917|registryName|field|demjr.mod.Reference.ModBlocks|registryName|
       Method Start: ModBlocks(Ljava/lang/String;Ljava/lang/String;)V
-         @|demjr\mod\Reference.java|1701|1716|unlocalizedName|param|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
-         @|demjr\mod\Reference.java|1725|1737|registryName|param|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
-         @|demjr\mod\Reference.java|1684|1693|ModBlocks|method|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V
-         @|demjr\mod\Reference.java|1694|1700|String|class|java.lang.String
-         @|demjr\mod\Reference.java|1718|1724|String|class|java.lang.String
-         @|demjr\mod\Reference.java|1749|1764|unlocalizedName|field|demjr.mod.Reference.ModBlocks|unlocalizedName
-         @|demjr\mod\Reference.java|1767|1782|unlocalizedName|param|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
-         @|demjr\mod\Reference.java|1792|1804|registryName|field|demjr.mod.Reference.ModBlocks|registryName
-         @|demjr\mod\Reference.java|1807|1819|registryName|param|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+         @|demjr\mod\Reference.java|1943|1958|unlocalizedName|param|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|demjr\mod\Reference.java|1967|1979|registryName|param|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+         @|demjr\mod\Reference.java|1926|1935|ModBlocks|method|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V
+         @|demjr\mod\Reference.java|1936|1942|String|class|java.lang.String
+         @|demjr\mod\Reference.java|1960|1966|String|class|java.lang.String
+         @|demjr\mod\Reference.java|1991|2006|unlocalizedName|field|demjr.mod.Reference.ModBlocks|unlocalizedName
+         @|demjr\mod\Reference.java|2009|2024|unlocalizedName|param|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|demjr\mod\Reference.java|2034|2046|registryName|field|demjr.mod.Reference.ModBlocks|registryName
+         @|demjr\mod\Reference.java|2049|2061|registryName|param|demjr.mod.Reference.ModBlocks|ModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
       Method End: ModBlocks(Ljava/lang/String;Ljava/lang/String;)V
       Method Start: getUnlocalizedName()Ljava/lang/String;
-         @|demjr\mod\Reference.java|1834|1840|String|class|java.lang.String
-         @|demjr\mod\Reference.java|1841|1859|getUnlocalizedName|method|demjr.mod.Reference.ModBlocks|getUnlocalizedName|()Ljava/lang/String;
-         @|demjr\mod\Reference.java|1874|1889|unlocalizedName|field|demjr.mod.Reference.ModBlocks|unlocalizedName
+         @|demjr\mod\Reference.java|2076|2082|String|class|java.lang.String
+         @|demjr\mod\Reference.java|2083|2101|getUnlocalizedName|method|demjr.mod.Reference.ModBlocks|getUnlocalizedName|()Ljava/lang/String;
+         @|demjr\mod\Reference.java|2116|2131|unlocalizedName|field|demjr.mod.Reference.ModBlocks|unlocalizedName
       Method End: getUnlocalizedName()Ljava/lang/String;
       Method Start: getRegistryName()Ljava/lang/String;
-         @|demjr\mod\Reference.java|1907|1913|String|class|java.lang.String
-         @|demjr\mod\Reference.java|1914|1929|getRegistryName|method|demjr.mod.Reference.ModBlocks|getRegistryName|()Ljava/lang/String;
-         @|demjr\mod\Reference.java|1944|1956|registryName|field|demjr.mod.Reference.ModBlocks|registryName
+         @|demjr\mod\Reference.java|2149|2155|String|class|java.lang.String
+         @|demjr\mod\Reference.java|2156|2171|getRegistryName|method|demjr.mod.Reference.ModBlocks|getRegistryName|()Ljava/lang/String;
+         @|demjr\mod\Reference.java|2186|2198|registryName|field|demjr.mod.Reference.ModBlocks|registryName
       Method End: getRegistryName()Ljava/lang/String;
    Enum End  : demjr.mod.Reference.ModBlocks
 Class End  : demjr.mod.Reference
@@ -427,276 +432,325 @@ Class Start: demjr.mod.init.ModBlocks
 Class End  : demjr.mod.init.ModBlocks
 endProcessing "demjr\mod\init\ModBlocks.java"
 
-startProcessing "demjr\mod\init\ModCrafting.java" md5: e45affd57b11132985cfd8ff16561eea
+startProcessing "demjr\mod\init\ModCrafting.java" md5: d01a3476171bc4d72acca0d47773b94f
 Cache Hit!
 @|demjr\mod\init\ModCrafting.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
 Class Start: demjr.mod.init.ModCrafting
-   @|demjr\mod\init\ModCrafting.java|201|212|ModCrafting|class|demjr.mod.init.ModCrafting
+   @|demjr\mod\init\ModCrafting.java|235|246|ModCrafting|class|demjr.mod.init.ModCrafting
    Method Start: register()V
-      @|demjr\mod\init\ModCrafting.java|237|245|register|method|demjr.mod.init.ModCrafting|register|()V
-      @|demjr\mod\init\ModCrafting.java|252|264|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModCrafting.java|265|280|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
-      @|demjr\mod\init\ModCrafting.java|285|294|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|295|304|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\init\ModCrafting.java|305|309|salt|field|demjr.mod.init.ModBlocks|salt
-      @|demjr\mod\init\ModCrafting.java|338|346|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|347|351|salt|field|demjr.mod.init.ModItems|salt
-      @|demjr\mod\init\ModCrafting.java|356|368|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModCrafting.java|369|387|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|demjr\mod\init\ModCrafting.java|392|401|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|402|410|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|411|416|flour|field|demjr.mod.init.ModItems|flour
-      @|demjr\mod\init\ModCrafting.java|419|424|Items|class|net.minecraft.init.Items
-      @|demjr\mod\init\ModCrafting.java|425|430|WHEAT|field|net.minecraft.init.Items|WHEAT
-      @|demjr\mod\init\ModCrafting.java|435|447|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModCrafting.java|448|466|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|demjr\mod\init\ModCrafting.java|471|480|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|481|489|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|490|495|dough|field|demjr.mod.init.ModItems|dough
-      @|demjr\mod\init\ModCrafting.java|498|506|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|507|512|flour|field|demjr.mod.init.ModItems|flour
-      @|demjr\mod\init\ModCrafting.java|514|519|Items|class|net.minecraft.init.Items
-      @|demjr\mod\init\ModCrafting.java|520|532|WATER_BUCKET|field|net.minecraft.init.Items|WATER_BUCKET
-      @|demjr\mod\init\ModCrafting.java|534|542|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|543|547|salt|field|demjr.mod.init.ModItems|salt
-      @|demjr\mod\init\ModCrafting.java|552|564|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModCrafting.java|565|583|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|demjr\mod\init\ModCrafting.java|588|597|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|598|606|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|607|618|cookiedough|field|demjr.mod.init.ModItems|cookiedough
-      @|demjr\mod\init\ModCrafting.java|621|629|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|630|635|dough|field|demjr.mod.init.ModItems|dough
-      @|demjr\mod\init\ModCrafting.java|637|645|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|646|660|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
-      @|demjr\mod\init\ModCrafting.java|665|677|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModCrafting.java|678|696|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|demjr\mod\init\ModCrafting.java|701|710|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|711|719|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|720|734|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
-      @|demjr\mod\init\ModCrafting.java|741|750|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|751|756|Items|class|net.minecraft.init.Items
-      @|demjr\mod\init\ModCrafting.java|757|760|DYE|field|net.minecraft.init.Items|DYE
-      @|demjr\mod\init\ModCrafting.java|769|774|Items|class|net.minecraft.init.Items
-      @|demjr\mod\init\ModCrafting.java|775|780|SUGAR|field|net.minecraft.init.Items|SUGAR
-      @|demjr\mod\init\ModCrafting.java|785|797|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModCrafting.java|798|816|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|demjr\mod\init\ModCrafting.java|821|830|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|831|839|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|840|848|applepie|field|demjr.mod.init.ModItems|applepie
-      @|demjr\mod\init\ModCrafting.java|851|859|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|860|865|dough|field|demjr.mod.init.ModItems|dough
-      @|demjr\mod\init\ModCrafting.java|867|872|Items|class|net.minecraft.init.Items
-      @|demjr\mod\init\ModCrafting.java|873|876|EGG|field|net.minecraft.init.Items|EGG
-      @|demjr\mod\init\ModCrafting.java|878|883|Items|class|net.minecraft.init.Items
-      @|demjr\mod\init\ModCrafting.java|884|889|APPLE|field|net.minecraft.init.Items|APPLE
-      @|demjr\mod\init\ModCrafting.java|894|906|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModCrafting.java|907|922|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
-      @|demjr\mod\init\ModCrafting.java|927|936|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|937|946|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\init\ModCrafting.java|947|960|trumpiumblock|field|demjr.mod.init.ModBlocks|trumpiumblock
-      @|demjr\mod\init\ModCrafting.java|989|997|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|998|1006|trumpgem|field|demjr.mod.init.ModItems|trumpgem
-      @|demjr\mod\init\ModCrafting.java|1011|1023|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModCrafting.java|1024|1039|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
-      @|demjr\mod\init\ModCrafting.java|1044|1053|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|1054|1062|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|1063|1073|trumpsword|field|demjr.mod.init.ModItems|trumpsword
-      @|demjr\mod\init\ModCrafting.java|1102|1111|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\init\ModCrafting.java|1112|1125|trumpiumblock|field|demjr.mod.init.ModBlocks|trumpiumblock
-      @|demjr\mod\init\ModCrafting.java|1132|1137|Items|class|net.minecraft.init.Items
-      @|demjr\mod\init\ModCrafting.java|1138|1143|STICK|field|net.minecraft.init.Items|STICK
-      @|demjr\mod\init\ModCrafting.java|1148|1160|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModCrafting.java|1161|1176|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
-      @|demjr\mod\init\ModCrafting.java|1181|1190|ItemStack|class|net.minecraft.item.ItemStack
-      @|demjr\mod\init\ModCrafting.java|1191|1199|ModItems|class|demjr.mod.init.ModItems
-      @|demjr\mod\init\ModCrafting.java|1200|1211|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet
-      @|demjr\mod\init\ModCrafting.java|1240|1249|ModBlocks|class|demjr.mod.init.ModBlocks
-      @|demjr\mod\init\ModCrafting.java|1250|1263|trumpiumblock|field|demjr.mod.init.ModBlocks|trumpiumblock
+      @|demjr\mod\init\ModCrafting.java|271|279|register|method|demjr.mod.init.ModCrafting|register|()V
+      @|demjr\mod\init\ModCrafting.java|286|298|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|299|314|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|demjr\mod\init\ModCrafting.java|319|328|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|329|338|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\init\ModCrafting.java|339|343|salt|field|demjr.mod.init.ModBlocks|salt
+      @|demjr\mod\init\ModCrafting.java|372|380|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|381|385|salt|field|demjr.mod.init.ModItems|salt
+      @|demjr\mod\init\ModCrafting.java|390|402|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|403|421|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|demjr\mod\init\ModCrafting.java|426|435|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|436|444|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|445|450|flour|field|demjr.mod.init.ModItems|flour
+      @|demjr\mod\init\ModCrafting.java|453|458|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModCrafting.java|459|464|WHEAT|field|net.minecraft.init.Items|WHEAT
+      @|demjr\mod\init\ModCrafting.java|469|481|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|482|500|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|demjr\mod\init\ModCrafting.java|505|514|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|515|523|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|524|529|dough|field|demjr.mod.init.ModItems|dough
+      @|demjr\mod\init\ModCrafting.java|532|540|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|541|546|flour|field|demjr.mod.init.ModItems|flour
+      @|demjr\mod\init\ModCrafting.java|548|553|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModCrafting.java|554|566|WATER_BUCKET|field|net.minecraft.init.Items|WATER_BUCKET
+      @|demjr\mod\init\ModCrafting.java|568|576|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|577|581|salt|field|demjr.mod.init.ModItems|salt
+      @|demjr\mod\init\ModCrafting.java|586|598|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|599|617|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|demjr\mod\init\ModCrafting.java|622|631|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|632|640|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|641|652|cookiedough|field|demjr.mod.init.ModItems|cookiedough
+      @|demjr\mod\init\ModCrafting.java|655|663|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|664|669|dough|field|demjr.mod.init.ModItems|dough
+      @|demjr\mod\init\ModCrafting.java|671|679|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|680|694|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
+      @|demjr\mod\init\ModCrafting.java|699|711|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|712|730|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|demjr\mod\init\ModCrafting.java|735|744|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|745|753|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|754|768|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
+      @|demjr\mod\init\ModCrafting.java|775|784|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|785|790|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModCrafting.java|791|794|DYE|field|net.minecraft.init.Items|DYE
+      @|demjr\mod\init\ModCrafting.java|803|808|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModCrafting.java|809|814|SUGAR|field|net.minecraft.init.Items|SUGAR
+      @|demjr\mod\init\ModCrafting.java|819|831|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|832|850|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|demjr\mod\init\ModCrafting.java|855|864|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|865|873|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|874|882|applepie|field|demjr.mod.init.ModItems|applepie
+      @|demjr\mod\init\ModCrafting.java|885|893|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|894|899|dough|field|demjr.mod.init.ModItems|dough
+      @|demjr\mod\init\ModCrafting.java|901|906|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModCrafting.java|907|910|EGG|field|net.minecraft.init.Items|EGG
+      @|demjr\mod\init\ModCrafting.java|912|917|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModCrafting.java|918|923|APPLE|field|net.minecraft.init.Items|APPLE
+      @|demjr\mod\init\ModCrafting.java|928|940|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|941|956|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|demjr\mod\init\ModCrafting.java|961|970|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|971|980|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\init\ModCrafting.java|981|994|trumpiumblock|field|demjr.mod.init.ModBlocks|trumpiumblock
+      @|demjr\mod\init\ModCrafting.java|1023|1031|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|1032|1040|trumpgem|field|demjr.mod.init.ModItems|trumpgem
+      @|demjr\mod\init\ModCrafting.java|1045|1057|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|1058|1073|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|demjr\mod\init\ModCrafting.java|1078|1087|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|1088|1096|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|1097|1107|trumpsword|field|demjr.mod.init.ModItems|trumpsword
+      @|demjr\mod\init\ModCrafting.java|1136|1145|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\init\ModCrafting.java|1146|1159|trumpiumblock|field|demjr.mod.init.ModBlocks|trumpiumblock
+      @|demjr\mod\init\ModCrafting.java|1166|1171|Items|class|net.minecraft.init.Items
+      @|demjr\mod\init\ModCrafting.java|1172|1177|STICK|field|net.minecraft.init.Items|STICK
+      @|demjr\mod\init\ModCrafting.java|1182|1194|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|1195|1210|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|demjr\mod\init\ModCrafting.java|1215|1224|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|1225|1233|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|1234|1245|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet
+      @|demjr\mod\init\ModCrafting.java|1274|1283|ModBlocks|class|demjr.mod.init.ModBlocks
+      @|demjr\mod\init\ModCrafting.java|1284|1297|trumpiumblock|field|demjr.mod.init.ModBlocks|trumpiumblock
+      @|demjr\mod\init\ModCrafting.java|1308|1320|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModCrafting.java|1321|1339|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|demjr\mod\init\ModCrafting.java|1344|1353|ItemStack|class|net.minecraft.item.ItemStack
+      @|demjr\mod\init\ModCrafting.java|1354|1362|ModItems|class|demjr.mod.init.ModItems
+      @|demjr\mod\init\ModCrafting.java|1363|1375|cementpowder|field|demjr.mod.init.ModItems|cementpowder
+      @|demjr\mod\init\ModCrafting.java|1381|1387|Blocks|class|net.minecraft.init.Blocks
+      @|demjr\mod\init\ModCrafting.java|1388|1399|COBBLESTONE|field|net.minecraft.init.Blocks|COBBLESTONE
    Method End: register()V
 Class End  : demjr.mod.init.ModCrafting
 endProcessing "demjr\mod\init\ModCrafting.java"
 
-startProcessing "demjr\mod\init\ModItems.java" md5: 7cf1d9716b9c3aefd64518c2c12d9c35
-Cache Hit!
+startProcessing "demjr\mod\init\ModItems.java" md5: 602f4ac6e0469a06917b1fa3dff32a9d
 @|demjr\mod\init\ModItems.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
 Class Start: demjr.mod.init.ModItems
-   @|demjr\mod\init\ModItems.java|504|512|ModItems|class|demjr.mod.init.ModItems
-   @|demjr\mod\init\ModItems.java|532|544|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-   @|demjr\mod\init\ModItems.java|532|544|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-   @|demjr\mod\init\ModItems.java|545|554|trumptool|field|demjr.mod.init.ModItems|trumptool|
-   @|demjr\mod\init\ModItems.java|557|567|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
-   @|demjr\mod\init\ModItems.java|568|583|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
-   @|demjr\mod\init\ModItems.java|637|650|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
-   @|demjr\mod\init\ModItems.java|637|650|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
-   @|demjr\mod\init\ModItems.java|651|661|trumparmor|field|demjr.mod.init.ModItems|trumparmor|
-   @|demjr\mod\init\ModItems.java|664|674|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
-   @|demjr\mod\init\ModItems.java|675|691|addArmorMaterial|method|net.minecraftforge.common.util.EnumHelper|addArmorMaterial|(Ljava/lang/String;Ljava/lang/String;I[IILnet/minecraft/util/SoundEvent;F)Lnet/minecraft/item/ItemArmor$ArmorMaterial;
-   @|demjr\mod\init\ModItems.java|778|782|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|778|782|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|783|787|salt|field|demjr.mod.init.ModItems|salt|
-   @|demjr\mod\init\ModItems.java|804|808|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|804|808|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|809|814|flour|field|demjr.mod.init.ModItems|flour|
-   @|demjr\mod\init\ModItems.java|831|835|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|831|835|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|836|844|trumpgem|field|demjr.mod.init.ModItems|trumpgem|
-   @|demjr\mod\init\ModItems.java|861|865|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|861|865|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|866|877|cookiedough|field|demjr.mod.init.ModItems|cookiedough|
-   @|demjr\mod\init\ModItems.java|894|898|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|894|898|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|899|904|dough|field|demjr.mod.init.ModItems|dough|
-   @|demjr\mod\init\ModItems.java|921|925|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|921|925|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|926|940|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips|
-   @|demjr\mod\init\ModItems.java|957|961|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|957|961|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|962|970|applepie|field|demjr.mod.init.ModItems|applepie|
-   @|demjr\mod\init\ModItems.java|987|991|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|987|991|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|992|1002|trumpsword|field|demjr.mod.init.ModItems|trumpsword|
-   @|demjr\mod\init\ModItems.java|1019|1023|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1019|1023|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1024|1035|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet|
-   @|demjr\mod\init\ModItems.java|1052|1056|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1052|1056|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1057|1069|trumppickaxe|field|demjr.mod.init.ModItems|trumppickaxe|
-   @|demjr\mod\init\ModItems.java|1086|1090|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1086|1090|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1091|1101|trumpchest|field|demjr.mod.init.ModItems|trumpchest|
-   @|demjr\mod\init\ModItems.java|1118|1122|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1118|1122|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1123|1133|trumpboots|field|demjr.mod.init.ModItems|trumpboots|
-   @|demjr\mod\init\ModItems.java|1150|1154|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1150|1154|Item|class|net.minecraft.item.Item
-   @|demjr\mod\init\ModItems.java|1155|1164|trumplegs|field|demjr.mod.init.ModItems|trumplegs|
+   @|demjr\mod\init\ModItems.java|543|551|ModItems|class|demjr.mod.init.ModItems
+   @|demjr\mod\init\ModItems.java|571|583|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|demjr\mod\init\ModItems.java|571|583|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|demjr\mod\init\ModItems.java|584|593|trumptool|field|demjr.mod.init.ModItems|trumptool|
+   @|demjr\mod\init\ModItems.java|596|606|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|demjr\mod\init\ModItems.java|607|622|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|demjr\mod\init\ModItems.java|676|689|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|demjr\mod\init\ModItems.java|676|689|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|demjr\mod\init\ModItems.java|690|700|trumparmor|field|demjr.mod.init.ModItems|trumparmor|
+   @|demjr\mod\init\ModItems.java|703|713|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|demjr\mod\init\ModItems.java|714|730|addArmorMaterial|method|net.minecraftforge.common.util.EnumHelper|addArmorMaterial|(Ljava/lang/String;Ljava/lang/String;I[IILnet/minecraft/util/SoundEvent;F)Lnet/minecraft/item/ItemArmor$ArmorMaterial;
+   @|demjr\mod\init\ModItems.java|817|821|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|817|821|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|822|826|salt|field|demjr.mod.init.ModItems|salt|
+   @|demjr\mod\init\ModItems.java|843|847|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|843|847|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|848|853|flour|field|demjr.mod.init.ModItems|flour|
+   @|demjr\mod\init\ModItems.java|870|874|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|870|874|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|875|883|trumpgem|field|demjr.mod.init.ModItems|trumpgem|
+   @|demjr\mod\init\ModItems.java|900|904|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|900|904|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|905|916|cookiedough|field|demjr.mod.init.ModItems|cookiedough|
+   @|demjr\mod\init\ModItems.java|933|937|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|933|937|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|938|943|dough|field|demjr.mod.init.ModItems|dough|
+   @|demjr\mod\init\ModItems.java|960|964|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|960|964|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|965|979|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips|
+   @|demjr\mod\init\ModItems.java|996|1000|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|996|1000|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1001|1009|applepie|field|demjr.mod.init.ModItems|applepie|
+   @|demjr\mod\init\ModItems.java|1026|1030|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1026|1030|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1031|1043|cementpowder|field|demjr.mod.init.ModItems|cementpowder|
+   @|demjr\mod\init\ModItems.java|1060|1064|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1060|1064|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1065|1075|trumpsword|field|demjr.mod.init.ModItems|trumpsword|
+   @|demjr\mod\init\ModItems.java|1092|1096|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1092|1096|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1097|1108|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet|
+   @|demjr\mod\init\ModItems.java|1125|1129|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1125|1129|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1130|1142|trumppickaxe|field|demjr.mod.init.ModItems|trumppickaxe|
+   @|demjr\mod\init\ModItems.java|1159|1163|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1159|1163|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1164|1174|trumpchest|field|demjr.mod.init.ModItems|trumpchest|
+   @|demjr\mod\init\ModItems.java|1191|1195|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1191|1195|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1196|1206|trumpboots|field|demjr.mod.init.ModItems|trumpboots|
+   @|demjr\mod\init\ModItems.java|1223|1227|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1223|1227|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1228|1237|trumplegs|field|demjr.mod.init.ModItems|trumplegs|
+   @|demjr\mod\init\ModItems.java|1254|1258|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1254|1258|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1259|1269|trumpspade|field|demjr.mod.init.ModItems|trumpspade|
+   @|demjr\mod\init\ModItems.java|1286|1290|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1286|1290|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1291|1299|trumphoe|field|demjr.mod.init.ModItems|trumphoe|
+   @|demjr\mod\init\ModItems.java|1316|1320|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1316|1320|Item|class|net.minecraft.item.Item
+   @|demjr\mod\init\ModItems.java|1321|1329|trumpaxe|field|demjr.mod.init.ModItems|trumpaxe|
    Method Start: init()V
-      @|demjr\mod\init\ModItems.java|1189|1193|init|method|demjr.mod.init.ModItems|init|()V
-      @|demjr\mod\init\ModItems.java|1200|1204|salt|field|demjr.mod.init.ModItems|salt
-      @|demjr\mod\init\ModItems.java|1211|1219|ItemSalt|class|demjr.mod.items.ItemSalt
-      @|demjr\mod\init\ModItems.java|1225|1230|flour|field|demjr.mod.init.ModItems|flour
-      @|demjr\mod\init\ModItems.java|1237|1246|ItemFlour|class|demjr.mod.items.ItemFlour
-      @|demjr\mod\init\ModItems.java|1252|1260|trumpgem|field|demjr.mod.init.ModItems|trumpgem
-      @|demjr\mod\init\ModItems.java|1267|1279|ItemTrumpGem|class|demjr.mod.items.ItemTrumpGem
-      @|demjr\mod\init\ModItems.java|1285|1296|cookiedough|field|demjr.mod.init.ModItems|cookiedough
-      @|demjr\mod\init\ModItems.java|1303|1318|ItemCookieDough|class|demjr.mod.items.ItemCookieDough
-      @|demjr\mod\init\ModItems.java|1324|1329|dough|field|demjr.mod.init.ModItems|dough
-      @|demjr\mod\init\ModItems.java|1336|1345|ItemDough|class|demjr.mod.items.ItemDough
-      @|demjr\mod\init\ModItems.java|1351|1365|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
-      @|demjr\mod\init\ModItems.java|1372|1390|ItemChocolateChips|class|demjr.mod.items.ItemChocolateChips
-      @|demjr\mod\init\ModItems.java|1396|1404|applepie|field|demjr.mod.init.ModItems|applepie
-      @|demjr\mod\init\ModItems.java|1411|1423|ItemApplePie|class|demjr.mod.items.ItemApplePie
-      @|demjr\mod\init\ModItems.java|1429|1439|trumpsword|field|demjr.mod.init.ModItems|trumpsword
-      @|demjr\mod\init\ModItems.java|1446|1460|ItemTrumpSword|class|demjr.mod.items.ItemTrumpSword
-      @|demjr\mod\init\ModItems.java|1461|1470|trumptool|field|demjr.mod.init.ModItems|trumptool
-      @|demjr\mod\init\ModItems.java|1481|1492|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet
-      @|demjr\mod\init\ModItems.java|1499|1514|ItemTrumpHelmet|class|demjr.mod.items.ItemTrumpHelmet
-      @|demjr\mod\init\ModItems.java|1515|1525|trumparmor|field|demjr.mod.init.ModItems|trumparmor
-      @|demjr\mod\init\ModItems.java|1530|1549|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
-      @|demjr\mod\init\ModItems.java|1550|1554|HEAD|field|net.minecraft.inventory.EntityEquipmentSlot|HEAD
-      @|demjr\mod\init\ModItems.java|1559|1571|trumppickaxe|field|demjr.mod.init.ModItems|trumppickaxe
-      @|demjr\mod\init\ModItems.java|1578|1594|ItemTrumpPickaxe|class|demjr.mod.items.ItemTrumpPickaxe
-      @|demjr\mod\init\ModItems.java|1595|1604|trumptool|field|demjr.mod.init.ModItems|trumptool
-      @|demjr\mod\init\ModItems.java|1609|1619|trumpchest|field|demjr.mod.init.ModItems|trumpchest
-      @|demjr\mod\init\ModItems.java|1626|1645|ItemTrumpChestplate|class|demjr.mod.items.ItemTrumpChestplate
-      @|demjr\mod\init\ModItems.java|1646|1656|trumparmor|field|demjr.mod.init.ModItems|trumparmor
-      @|demjr\mod\init\ModItems.java|1661|1680|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
-      @|demjr\mod\init\ModItems.java|1681|1686|CHEST|field|net.minecraft.inventory.EntityEquipmentSlot|CHEST
-      @|demjr\mod\init\ModItems.java|1697|1707|trumpboots|field|demjr.mod.init.ModItems|trumpboots
-      @|demjr\mod\init\ModItems.java|1714|1728|ItemTrumpBoots|class|demjr.mod.items.ItemTrumpBoots
-      @|demjr\mod\init\ModItems.java|1729|1739|trumparmor|field|demjr.mod.init.ModItems|trumparmor
-      @|demjr\mod\init\ModItems.java|1744|1763|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
-      @|demjr\mod\init\ModItems.java|1764|1768|FEET|field|net.minecraft.inventory.EntityEquipmentSlot|FEET
-      @|demjr\mod\init\ModItems.java|1779|1788|trumplegs|field|demjr.mod.init.ModItems|trumplegs
-      @|demjr\mod\init\ModItems.java|1795|1812|ItemTrumpLeggings|class|demjr.mod.items.ItemTrumpLeggings
-      @|demjr\mod\init\ModItems.java|1813|1823|trumparmor|field|demjr.mod.init.ModItems|trumparmor
-      @|demjr\mod\init\ModItems.java|1828|1847|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
-      @|demjr\mod\init\ModItems.java|1848|1852|LEGS|field|net.minecraft.inventory.EntityEquipmentSlot|LEGS
+      @|demjr\mod\init\ModItems.java|1354|1358|init|method|demjr.mod.init.ModItems|init|()V
+      @|demjr\mod\init\ModItems.java|1365|1369|salt|field|demjr.mod.init.ModItems|salt
+      @|demjr\mod\init\ModItems.java|1376|1384|ItemSalt|class|demjr.mod.items.ItemSalt
+      @|demjr\mod\init\ModItems.java|1390|1395|flour|field|demjr.mod.init.ModItems|flour
+      @|demjr\mod\init\ModItems.java|1402|1411|ItemFlour|class|demjr.mod.items.ItemFlour
+      @|demjr\mod\init\ModItems.java|1417|1425|trumpgem|field|demjr.mod.init.ModItems|trumpgem
+      @|demjr\mod\init\ModItems.java|1432|1444|ItemTrumpGem|class|demjr.mod.items.ItemTrumpGem
+      @|demjr\mod\init\ModItems.java|1450|1461|cookiedough|field|demjr.mod.init.ModItems|cookiedough
+      @|demjr\mod\init\ModItems.java|1468|1483|ItemCookieDough|class|demjr.mod.items.ItemCookieDough
+      @|demjr\mod\init\ModItems.java|1489|1494|dough|field|demjr.mod.init.ModItems|dough
+      @|demjr\mod\init\ModItems.java|1501|1510|ItemDough|class|demjr.mod.items.ItemDough
+      @|demjr\mod\init\ModItems.java|1516|1530|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
+      @|demjr\mod\init\ModItems.java|1537|1555|ItemChocolateChips|class|demjr.mod.items.ItemChocolateChips
+      @|demjr\mod\init\ModItems.java|1561|1569|applepie|field|demjr.mod.init.ModItems|applepie
+      @|demjr\mod\init\ModItems.java|1576|1588|ItemApplePie|class|demjr.mod.items.ItemApplePie
+      @|demjr\mod\init\ModItems.java|1594|1606|cementpowder|field|demjr.mod.init.ModItems|cementpowder
+      @|demjr\mod\init\ModItems.java|1613|1629|ItemCementPowder|class|demjr.mod.items.ItemCementPowder
+      @|demjr\mod\init\ModItems.java|1635|1645|trumpsword|field|demjr.mod.init.ModItems|trumpsword
+      @|demjr\mod\init\ModItems.java|1652|1666|ItemTrumpSword|class|demjr.mod.items.ItemTrumpSword
+      @|demjr\mod\init\ModItems.java|1667|1676|trumptool|field|demjr.mod.init.ModItems|trumptool
+      @|demjr\mod\init\ModItems.java|1687|1698|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet
+      @|demjr\mod\init\ModItems.java|1705|1720|ItemTrumpHelmet|class|demjr.mod.items.ItemTrumpHelmet
+      @|demjr\mod\init\ModItems.java|1721|1731|trumparmor|field|demjr.mod.init.ModItems|trumparmor
+      @|demjr\mod\init\ModItems.java|1736|1755|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|demjr\mod\init\ModItems.java|1756|1760|HEAD|field|net.minecraft.inventory.EntityEquipmentSlot|HEAD
+      @|demjr\mod\init\ModItems.java|1765|1777|trumppickaxe|field|demjr.mod.init.ModItems|trumppickaxe
+      @|demjr\mod\init\ModItems.java|1784|1800|ItemTrumpPickaxe|class|demjr.mod.items.ItemTrumpPickaxe
+      @|demjr\mod\init\ModItems.java|1801|1810|trumptool|field|demjr.mod.init.ModItems|trumptool
+      @|demjr\mod\init\ModItems.java|1815|1825|trumpchest|field|demjr.mod.init.ModItems|trumpchest
+      @|demjr\mod\init\ModItems.java|1832|1851|ItemTrumpChestplate|class|demjr.mod.items.ItemTrumpChestplate
+      @|demjr\mod\init\ModItems.java|1852|1862|trumparmor|field|demjr.mod.init.ModItems|trumparmor
+      @|demjr\mod\init\ModItems.java|1867|1886|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|demjr\mod\init\ModItems.java|1887|1892|CHEST|field|net.minecraft.inventory.EntityEquipmentSlot|CHEST
+      @|demjr\mod\init\ModItems.java|1903|1913|trumpboots|field|demjr.mod.init.ModItems|trumpboots
+      @|demjr\mod\init\ModItems.java|1920|1934|ItemTrumpBoots|class|demjr.mod.items.ItemTrumpBoots
+      @|demjr\mod\init\ModItems.java|1935|1945|trumparmor|field|demjr.mod.init.ModItems|trumparmor
+      @|demjr\mod\init\ModItems.java|1950|1969|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|demjr\mod\init\ModItems.java|1970|1974|FEET|field|net.minecraft.inventory.EntityEquipmentSlot|FEET
+      @|demjr\mod\init\ModItems.java|1985|1994|trumplegs|field|demjr.mod.init.ModItems|trumplegs
+      @|demjr\mod\init\ModItems.java|2001|2018|ItemTrumpLeggings|class|demjr.mod.items.ItemTrumpLeggings
+      @|demjr\mod\init\ModItems.java|2019|2029|trumparmor|field|demjr.mod.init.ModItems|trumparmor
+      @|demjr\mod\init\ModItems.java|2034|2053|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|demjr\mod\init\ModItems.java|2054|2058|LEGS|field|net.minecraft.inventory.EntityEquipmentSlot|LEGS
+      @|demjr\mod\init\ModItems.java|2066|2076|trumpspade|field|demjr.mod.init.ModItems|trumpspade
+      @|demjr\mod\init\ModItems.java|2083|2097|ItemTrumpSpade|class|demjr.mod.items.ItemTrumpSpade
+      @|demjr\mod\init\ModItems.java|2098|2107|trumptool|field|demjr.mod.init.ModItems|trumptool
+      @|demjr\mod\init\ModItems.java|2115|2123|trumphoe|field|demjr.mod.init.ModItems|trumphoe
+      @|demjr\mod\init\ModItems.java|2130|2142|ItemTrumpHoe|class|demjr.mod.items.ItemTrumpHoe
+      @|demjr\mod\init\ModItems.java|2143|2152|trumptool|field|demjr.mod.init.ModItems|trumptool
+      @|demjr\mod\init\ModItems.java|2160|2168|trumpaxe|field|demjr.mod.init.ModItems|trumpaxe
+      @|demjr\mod\init\ModItems.java|2175|2187|ItemTrumpAxe|class|demjr.mod.items.ItemTrumpAxe
+      @|demjr\mod\init\ModItems.java|2188|2197|trumptool|field|demjr.mod.init.ModItems|trumptool
    Method End: init()V
    Method Start: register()V
-      @|demjr\mod\init\ModItems.java|1880|1888|register|method|demjr.mod.init.ModItems|register|()V
-      @|demjr\mod\init\ModItems.java|1895|1907|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|1908|1916|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|1917|1921|salt|field|demjr.mod.init.ModItems|salt
-      @|demjr\mod\init\ModItems.java|1926|1938|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|1939|1947|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|1948|1953|flour|field|demjr.mod.init.ModItems|flour
-      @|demjr\mod\init\ModItems.java|1958|1970|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|1971|1979|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|1980|1988|trumpgem|field|demjr.mod.init.ModItems|trumpgem
-      @|demjr\mod\init\ModItems.java|1993|2005|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2006|2014|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2015|2026|cookiedough|field|demjr.mod.init.ModItems|cookiedough
-      @|demjr\mod\init\ModItems.java|2031|2043|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2044|2052|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2053|2058|dough|field|demjr.mod.init.ModItems|dough
-      @|demjr\mod\init\ModItems.java|2063|2075|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2076|2084|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2085|2099|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
-      @|demjr\mod\init\ModItems.java|2104|2116|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2117|2125|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2126|2134|applepie|field|demjr.mod.init.ModItems|applepie
-      @|demjr\mod\init\ModItems.java|2139|2151|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2152|2160|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2161|2171|trumpsword|field|demjr.mod.init.ModItems|trumpsword
-      @|demjr\mod\init\ModItems.java|2179|2191|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2192|2200|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2201|2212|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet
-      @|demjr\mod\init\ModItems.java|2223|2235|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2236|2244|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2245|2257|trumppickaxe|field|demjr.mod.init.ModItems|trumppickaxe
-      @|demjr\mod\init\ModItems.java|2268|2280|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2281|2289|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2290|2300|trumpchest|field|demjr.mod.init.ModItems|trumpchest
-      @|demjr\mod\init\ModItems.java|2311|2323|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2324|2332|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2333|2342|trumplegs|field|demjr.mod.init.ModItems|trumplegs
-      @|demjr\mod\init\ModItems.java|2353|2365|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|demjr\mod\init\ModItems.java|2366|2374|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|demjr\mod\init\ModItems.java|2375|2385|trumpboots|field|demjr.mod.init.ModItems|trumpboots
+      @|demjr\mod\init\ModItems.java|2233|2241|register|method|demjr.mod.init.ModItems|register|()V
+      @|demjr\mod\init\ModItems.java|2254|2266|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2267|2275|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2276|2280|salt|field|demjr.mod.init.ModItems|salt
+      @|demjr\mod\init\ModItems.java|2291|2303|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2304|2312|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2313|2318|flour|field|demjr.mod.init.ModItems|flour
+      @|demjr\mod\init\ModItems.java|2329|2341|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2342|2350|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2351|2359|trumpgem|field|demjr.mod.init.ModItems|trumpgem
+      @|demjr\mod\init\ModItems.java|2370|2382|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2383|2391|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2392|2403|cookiedough|field|demjr.mod.init.ModItems|cookiedough
+      @|demjr\mod\init\ModItems.java|2414|2426|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2427|2435|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2436|2441|dough|field|demjr.mod.init.ModItems|dough
+      @|demjr\mod\init\ModItems.java|2452|2464|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2465|2473|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2474|2488|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
+      @|demjr\mod\init\ModItems.java|2499|2511|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2512|2520|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2521|2529|applepie|field|demjr.mod.init.ModItems|applepie
+      @|demjr\mod\init\ModItems.java|2540|2552|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2553|2561|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2562|2574|cementpowder|field|demjr.mod.init.ModItems|cementpowder
+      @|demjr\mod\init\ModItems.java|2585|2597|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2598|2606|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2607|2617|trumpsword|field|demjr.mod.init.ModItems|trumpsword
+      @|demjr\mod\init\ModItems.java|2628|2640|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2641|2649|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2650|2661|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet
+      @|demjr\mod\init\ModItems.java|2672|2684|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2685|2693|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2694|2706|trumppickaxe|field|demjr.mod.init.ModItems|trumppickaxe
+      @|demjr\mod\init\ModItems.java|2717|2729|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2730|2738|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2739|2749|trumpchest|field|demjr.mod.init.ModItems|trumpchest
+      @|demjr\mod\init\ModItems.java|2760|2772|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2773|2781|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2782|2791|trumplegs|field|demjr.mod.init.ModItems|trumplegs
+      @|demjr\mod\init\ModItems.java|2802|2814|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2815|2823|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2824|2834|trumpboots|field|demjr.mod.init.ModItems|trumpboots
+      @|demjr\mod\init\ModItems.java|2845|2857|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2858|2866|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2867|2877|trumpspade|field|demjr.mod.init.ModItems|trumpspade
+      @|demjr\mod\init\ModItems.java|2888|2900|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2901|2909|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2910|2918|trumphoe|field|demjr.mod.init.ModItems|trumphoe
+      @|demjr\mod\init\ModItems.java|2929|2941|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|demjr\mod\init\ModItems.java|2942|2950|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\init\ModItems.java|2951|2959|trumpaxe|field|demjr.mod.init.ModItems|trumpaxe
    Method End: register()V
    Method Start: registerRenders()V
-      @|demjr\mod\init\ModItems.java|2414|2429|registerRenders|method|demjr.mod.init.ModItems|registerRenders|()V
-      @|demjr\mod\init\ModItems.java|2436|2450|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2451|2455|salt|field|demjr.mod.init.ModItems|salt
-      @|demjr\mod\init\ModItems.java|2460|2474|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2475|2480|flour|field|demjr.mod.init.ModItems|flour
-      @|demjr\mod\init\ModItems.java|2485|2499|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2500|2508|trumpgem|field|demjr.mod.init.ModItems|trumpgem
-      @|demjr\mod\init\ModItems.java|2513|2527|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2528|2539|cookiedough|field|demjr.mod.init.ModItems|cookiedough
-      @|demjr\mod\init\ModItems.java|2544|2558|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2559|2564|dough|field|demjr.mod.init.ModItems|dough
-      @|demjr\mod\init\ModItems.java|2569|2583|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2584|2598|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
-      @|demjr\mod\init\ModItems.java|2603|2617|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2618|2626|applepie|field|demjr.mod.init.ModItems|applepie
-      @|demjr\mod\init\ModItems.java|2631|2645|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2646|2656|trumpsword|field|demjr.mod.init.ModItems|trumpsword
-      @|demjr\mod\init\ModItems.java|2661|2675|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2676|2687|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet
-      @|demjr\mod\init\ModItems.java|2698|2712|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2713|2725|trumppickaxe|field|demjr.mod.init.ModItems|trumppickaxe
-      @|demjr\mod\init\ModItems.java|2736|2750|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2751|2761|trumpchest|field|demjr.mod.init.ModItems|trumpchest
-      @|demjr\mod\init\ModItems.java|2772|2786|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2787|2797|trumpboots|field|demjr.mod.init.ModItems|trumpboots
-      @|demjr\mod\init\ModItems.java|2808|2822|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2823|2832|trumplegs|field|demjr.mod.init.ModItems|trumplegs
+      @|demjr\mod\init\ModItems.java|2991|3006|registerRenders|method|demjr.mod.init.ModItems|registerRenders|()V
+      @|demjr\mod\init\ModItems.java|3013|3027|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3028|3032|salt|field|demjr.mod.init.ModItems|salt
+      @|demjr\mod\init\ModItems.java|3037|3051|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3052|3057|flour|field|demjr.mod.init.ModItems|flour
+      @|demjr\mod\init\ModItems.java|3062|3076|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3077|3085|trumpgem|field|demjr.mod.init.ModItems|trumpgem
+      @|demjr\mod\init\ModItems.java|3090|3104|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3105|3116|cookiedough|field|demjr.mod.init.ModItems|cookiedough
+      @|demjr\mod\init\ModItems.java|3121|3135|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3136|3141|dough|field|demjr.mod.init.ModItems|dough
+      @|demjr\mod\init\ModItems.java|3146|3160|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3161|3175|chocolatechips|field|demjr.mod.init.ModItems|chocolatechips
+      @|demjr\mod\init\ModItems.java|3180|3194|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3195|3203|applepie|field|demjr.mod.init.ModItems|applepie
+      @|demjr\mod\init\ModItems.java|3208|3222|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3223|3235|cementpowder|field|demjr.mod.init.ModItems|cementpowder
+      @|demjr\mod\init\ModItems.java|3240|3254|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3255|3265|trumpsword|field|demjr.mod.init.ModItems|trumpsword
+      @|demjr\mod\init\ModItems.java|3270|3284|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3285|3296|trumphelmet|field|demjr.mod.init.ModItems|trumphelmet
+      @|demjr\mod\init\ModItems.java|3307|3321|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3322|3334|trumppickaxe|field|demjr.mod.init.ModItems|trumppickaxe
+      @|demjr\mod\init\ModItems.java|3345|3359|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3360|3370|trumpchest|field|demjr.mod.init.ModItems|trumpchest
+      @|demjr\mod\init\ModItems.java|3381|3395|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3396|3406|trumpboots|field|demjr.mod.init.ModItems|trumpboots
+      @|demjr\mod\init\ModItems.java|3417|3431|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3432|3441|trumplegs|field|demjr.mod.init.ModItems|trumplegs
+      @|demjr\mod\init\ModItems.java|3452|3466|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3467|3477|trumpspade|field|demjr.mod.init.ModItems|trumpspade
+      @|demjr\mod\init\ModItems.java|3488|3502|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3503|3511|trumphoe|field|demjr.mod.init.ModItems|trumphoe
+      @|demjr\mod\init\ModItems.java|3522|3536|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3537|3545|trumpaxe|field|demjr.mod.init.ModItems|trumpaxe
    Method End: registerRenders()V
    Method Start: registerRender(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2882|2886|item|param|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
-      @|demjr\mod\init\ModItems.java|2862|2876|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
-      @|demjr\mod\init\ModItems.java|2877|2881|Item|class|net.minecraft.item.Item
-      @|demjr\mod\init\ModItems.java|2892|2901|Minecraft|class|net.minecraft.client.Minecraft
-      @|demjr\mod\init\ModItems.java|2902|2914|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|demjr\mod\init\ModItems.java|2917|2930|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
-      @|demjr\mod\init\ModItems.java|2933|2951|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
-      @|demjr\mod\init\ModItems.java|2954|2962|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
-      @|demjr\mod\init\ModItems.java|2963|2967|item|param|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
-      @|demjr\mod\init\ModItems.java|2976|2997|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
-      @|demjr\mod\init\ModItems.java|2998|3002|item|param|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
-      @|demjr\mod\init\ModItems.java|3003|3018|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|demjr\mod\init\ModItems.java|3595|3599|item|param|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|demjr\mod\init\ModItems.java|3575|3589|registerRender|method|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|demjr\mod\init\ModItems.java|3590|3594|Item|class|net.minecraft.item.Item
+      @|demjr\mod\init\ModItems.java|3605|3614|Minecraft|class|net.minecraft.client.Minecraft
+      @|demjr\mod\init\ModItems.java|3615|3627|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|demjr\mod\init\ModItems.java|3630|3643|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|demjr\mod\init\ModItems.java|3646|3664|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|demjr\mod\init\ModItems.java|3667|3675|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|demjr\mod\init\ModItems.java|3676|3680|item|param|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|demjr\mod\init\ModItems.java|3689|3710|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|demjr\mod\init\ModItems.java|3711|3715|item|param|demjr.mod.init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|demjr\mod\init\ModItems.java|3716|3731|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
    Method End: registerRender(Lnet/minecraft/item/Item;)V
 Class End  : demjr.mod.init.ModItems
 endProcessing "demjr\mod\init\ModItems.java"
@@ -727,6 +781,7 @@ Class End  : demjr.mod.init.ModSmelting
 endProcessing "demjr\mod\init\ModSmelting.java"
 
 startProcessing "demjr\mod\items\ItemApplePie.java" md5: 1f468da5639d6b2d7892c21a13065243
+Cache Hit!
 @|demjr\mod\items\ItemApplePie.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemApplePie
    @|demjr\mod\items\ItemApplePie.java|160|172|ItemApplePie|class|demjr.mod.items.ItemApplePie
@@ -748,7 +803,28 @@ Class Start: demjr.mod.items.ItemApplePie
 Class End  : demjr.mod.items.ItemApplePie
 endProcessing "demjr\mod\items\ItemApplePie.java"
 
+startProcessing "demjr\mod\items\ItemCementPowder.java" md5: 3d219efe63af27ee30d2697ba8f0ace4
+Cache Hit!
+@|demjr\mod\items\ItemCementPowder.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
+Class Start: demjr.mod.items.ItemCementPowder
+   @|demjr\mod\items\ItemCementPowder.java|100|116|ItemCementPowder|class|demjr.mod.items.ItemCementPowder
+   @|demjr\mod\items\ItemCementPowder.java|125|129|Item|class|net.minecraft.item.Item
+   Method Start: ItemCementPowder()V
+      @|demjr\mod\items\ItemCementPowder.java|142|158|ItemCementPowder|method|demjr.mod.items.ItemCementPowder|ItemCementPowder|()V
+      @|demjr\mod\items\ItemCementPowder.java|168|186|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemCementPowder.java|187|205|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemCementPowder.java|206|218|CEMENTPOWDER|field|demjr.mod.Reference.ModItems|CEMENTPOWDER
+      @|demjr\mod\items\ItemCementPowder.java|219|237|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemCementPowder.java|244|259|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemCementPowder.java|260|278|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemCementPowder.java|279|291|CEMENTPOWDER|field|demjr.mod.Reference.ModItems|CEMENTPOWDER
+      @|demjr\mod\items\ItemCementPowder.java|292|307|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+   Method End: ItemCementPowder()V
+Class End  : demjr.mod.items.ItemCementPowder
+endProcessing "demjr\mod\items\ItemCementPowder.java"
+
 startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: 5901d97fbdf84dd4c7c6ef8001497b8d
+Cache Hit!
 @|demjr\mod\items\ItemChocolateChips.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemChocolateChips
    @|demjr\mod\items\ItemChocolateChips.java|160|178|ItemChocolateChips|class|demjr.mod.items.ItemChocolateChips
@@ -771,6 +847,7 @@ Class End  : demjr.mod.items.ItemChocolateChips
 endProcessing "demjr\mod\items\ItemChocolateChips.java"
 
 startProcessing "demjr\mod\items\ItemCookieDough.java" md5: 7ea70b504a8b95b9164e11423a092100
+Cache Hit!
 @|demjr\mod\items\ItemCookieDough.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemCookieDough
    @|demjr\mod\items\ItemCookieDough.java|169|184|ItemCookieDough|class|demjr.mod.items.ItemCookieDough
@@ -793,6 +870,7 @@ Class End  : demjr.mod.items.ItemCookieDough
 endProcessing "demjr\mod\items\ItemCookieDough.java"
 
 startProcessing "demjr\mod\items\ItemDough.java" md5: 9462a1e57c6ad0b36970961282f1f9a9
+Cache Hit!
 @|demjr\mod\items\ItemDough.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemDough
    @|demjr\mod\items\ItemDough.java|125|134|ItemDough|class|demjr.mod.items.ItemDough
@@ -815,6 +893,7 @@ Class End  : demjr.mod.items.ItemDough
 endProcessing "demjr\mod\items\ItemDough.java"
 
 startProcessing "demjr\mod\items\ItemFlour.java" md5: 2abb878c7802a2f26ea9a6421e5e2493
+Cache Hit!
 @|demjr\mod\items\ItemFlour.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemFlour
    @|demjr\mod\items\ItemFlour.java|124|133|ItemFlour|class|demjr.mod.items.ItemFlour
@@ -837,6 +916,7 @@ Class End  : demjr.mod.items.ItemFlour
 endProcessing "demjr\mod\items\ItemFlour.java"
 
 startProcessing "demjr\mod\items\ItemSalt.java" md5: b61e27eb855471f99cb1f54bad90aaa0
+Cache Hit!
 @|demjr\mod\items\ItemSalt.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemSalt
    @|demjr\mod\items\ItemSalt.java|124|132|ItemSalt|class|demjr.mod.items.ItemSalt
@@ -858,7 +938,34 @@ Class Start: demjr.mod.items.ItemSalt
 Class End  : demjr.mod.items.ItemSalt
 endProcessing "demjr\mod\items\ItemSalt.java"
 
+startProcessing "demjr\mod\items\ItemTrumpAxe.java" md5: eeb641ba85a98d22b1e72b1e618b4498
+@|demjr\mod\items\ItemTrumpAxe.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
+Class Start: demjr.mod.items.ItemTrumpAxe
+   @|demjr\mod\items\ItemTrumpAxe.java|148|160|ItemTrumpAxe|class|demjr.mod.items.ItemTrumpAxe
+   @|demjr\mod\items\ItemTrumpAxe.java|169|176|ItemAxe|class|net.minecraft.item.ItemAxe
+   Method Start: ItemTrumpAxe(Lnet/minecraft/item/Item$ToolMaterial;FF)V
+      @|demjr\mod\items\ItemTrumpAxe.java|217|225|material|param|demjr.mod.items.ItemTrumpAxe|ItemTrumpAxe|(Lnet/minecraft/item/Item$ToolMaterial;FF)V|material|0
+      @|demjr\mod\items\ItemTrumpAxe.java|233|239|damage|param|demjr.mod.items.ItemTrumpAxe|ItemTrumpAxe|(Lnet/minecraft/item/Item$ToolMaterial;FF)V|damage|1
+      @|demjr\mod\items\ItemTrumpAxe.java|247|252|speed|param|demjr.mod.items.ItemTrumpAxe|ItemTrumpAxe|(Lnet/minecraft/item/Item$ToolMaterial;FF)V|speed|2
+      @|demjr\mod\items\ItemTrumpAxe.java|191|203|ItemTrumpAxe|method|demjr.mod.items.ItemTrumpAxe|ItemTrumpAxe|(Lnet/minecraft/item/Item$ToolMaterial;FF)V
+      @|demjr\mod\items\ItemTrumpAxe.java|204|216|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|demjr\mod\items\ItemTrumpAxe.java|269|277|material|param|demjr.mod.items.ItemTrumpAxe|ItemTrumpAxe|(Lnet/minecraft/item/Item$ToolMaterial;FF)V|material|0
+      @|demjr\mod\items\ItemTrumpAxe.java|279|285|damage|param|demjr.mod.items.ItemTrumpAxe|ItemTrumpAxe|(Lnet/minecraft/item/Item$ToolMaterial;FF)V|damage|1
+      @|demjr\mod\items\ItemTrumpAxe.java|287|292|speed|param|demjr.mod.items.ItemTrumpAxe|ItemTrumpAxe|(Lnet/minecraft/item/Item$ToolMaterial;FF)V|speed|2
+      @|demjr\mod\items\ItemTrumpAxe.java|303|318|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemTrumpAxe.java|319|337|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpAxe.java|338|346|TRUMPAXE|field|demjr.mod.Reference.ModItems|TRUMPAXE
+      @|demjr\mod\items\ItemTrumpAxe.java|347|362|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpAxe.java|375|393|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpAxe.java|394|412|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpAxe.java|413|421|TRUMPAXE|field|demjr.mod.Reference.ModItems|TRUMPAXE
+      @|demjr\mod\items\ItemTrumpAxe.java|422|440|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
+   Method End: ItemTrumpAxe(Lnet/minecraft/item/Item$ToolMaterial;FF)V
+Class End  : demjr.mod.items.ItemTrumpAxe
+endProcessing "demjr\mod\items\ItemTrumpAxe.java"
+
 startProcessing "demjr\mod\items\ItemTrumpBoots.java" md5: 909723f4085e977c4495fd123862c535
+Cache Hit!
 @|demjr\mod\items\ItemTrumpBoots.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpBoots
    @|demjr\mod\items\ItemTrumpBoots.java|226|240|ItemTrumpBoots|class|demjr.mod.items.ItemTrumpBoots
@@ -889,6 +996,7 @@ Class End  : demjr.mod.items.ItemTrumpBoots
 endProcessing "demjr\mod\items\ItemTrumpBoots.java"
 
 startProcessing "demjr\mod\items\ItemTrumpChestplate.java" md5: c062504747dc06eff0d9ec24a2c3596a
+Cache Hit!
 @|demjr\mod\items\ItemTrumpChestplate.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpChestplate
    @|demjr\mod\items\ItemTrumpChestplate.java|226|245|ItemTrumpChestplate|class|demjr.mod.items.ItemTrumpChestplate
@@ -942,6 +1050,7 @@ Class End  : demjr.mod.items.ItemTrumpGem
 endProcessing "demjr\mod\items\ItemTrumpGem.java"
 
 startProcessing "demjr\mod\items\ItemTrumpHelmet.java" md5: 412a2dd032c5b499487355c6e30ed414
+Cache Hit!
 @|demjr\mod\items\ItemTrumpHelmet.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpHelmet
    @|demjr\mod\items\ItemTrumpHelmet.java|226|241|ItemTrumpHelmet|class|demjr.mod.items.ItemTrumpHelmet
@@ -971,21 +1080,31 @@ Class Start: demjr.mod.items.ItemTrumpHelmet
 Class End  : demjr.mod.items.ItemTrumpHelmet
 endProcessing "demjr\mod\items\ItemTrumpHelmet.java"
 
-startProcessing "demjr\mod\items\ItemTrumpHoe.java" md5: 7cf78e7216a2f8a0e707ed93c39463b9
+startProcessing "demjr\mod\items\ItemTrumpHoe.java" md5: 1a9de35d4293f5d41462c460641087cb
+Cache Hit!
 @|demjr\mod\items\ItemTrumpHoe.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpHoe
-   @|demjr\mod\items\ItemTrumpHoe.java|120|132|ItemTrumpHoe|class|demjr.mod.items.ItemTrumpHoe
-   @|demjr\mod\items\ItemTrumpHoe.java|141|148|ItemHoe|class|net.minecraft.item.ItemHoe
+   @|demjr\mod\items\ItemTrumpHoe.java|148|160|ItemTrumpHoe|class|demjr.mod.items.ItemTrumpHoe
+   @|demjr\mod\items\ItemTrumpHoe.java|169|176|ItemHoe|class|net.minecraft.item.ItemHoe
    Method Start: ItemTrumpHoe(Lnet/minecraft/item/Item$ToolMaterial;)V
-      @|demjr\mod\items\ItemTrumpHoe.java|188|196|material|param|demjr.mod.items.ItemTrumpHoe|ItemTrumpHoe|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
-      @|demjr\mod\items\ItemTrumpHoe.java|162|174|ItemTrumpHoe|method|demjr.mod.items.ItemTrumpHoe|ItemTrumpHoe|(Lnet/minecraft/item/Item$ToolMaterial;)V
-      @|demjr\mod\items\ItemTrumpHoe.java|175|187|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-      @|demjr\mod\items\ItemTrumpHoe.java|213|221|material|param|demjr.mod.items.ItemTrumpHoe|ItemTrumpHoe|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpHoe.java|216|224|material|param|demjr.mod.items.ItemTrumpHoe|ItemTrumpHoe|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpHoe.java|190|202|ItemTrumpHoe|method|demjr.mod.items.ItemTrumpHoe|ItemTrumpHoe|(Lnet/minecraft/item/Item$ToolMaterial;)V
+      @|demjr\mod\items\ItemTrumpHoe.java|203|215|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|demjr\mod\items\ItemTrumpHoe.java|241|249|material|param|demjr.mod.items.ItemTrumpHoe|ItemTrumpHoe|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpHoe.java|260|275|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemTrumpHoe.java|276|294|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpHoe.java|295|303|TRUMPHOE|field|demjr.mod.Reference.ModItems|TRUMPHOE
+      @|demjr\mod\items\ItemTrumpHoe.java|304|319|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpHoe.java|332|350|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpHoe.java|351|369|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpHoe.java|370|378|TRUMPHOE|field|demjr.mod.Reference.ModItems|TRUMPHOE
+      @|demjr\mod\items\ItemTrumpHoe.java|379|397|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
    Method End: ItemTrumpHoe(Lnet/minecraft/item/Item$ToolMaterial;)V
 Class End  : demjr.mod.items.ItemTrumpHoe
 endProcessing "demjr\mod\items\ItemTrumpHoe.java"
 
 startProcessing "demjr\mod\items\ItemTrumpLeggings.java" md5: d174e1519691e7d68bafd7aa95ccf525
+Cache Hit!
 @|demjr\mod\items\ItemTrumpLeggings.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpLeggings
    @|demjr\mod\items\ItemTrumpLeggings.java|226|243|ItemTrumpLeggings|class|demjr.mod.items.ItemTrumpLeggings
@@ -1016,6 +1135,7 @@ Class End  : demjr.mod.items.ItemTrumpLeggings
 endProcessing "demjr\mod\items\ItemTrumpLeggings.java"
 
 startProcessing "demjr\mod\items\ItemTrumpPickaxe.java" md5: f1e68bd9f87806e93ad3170ca84da88d
+Cache Hit!
 @|demjr\mod\items\ItemTrumpPickaxe.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpPickaxe
    @|demjr\mod\items\ItemTrumpPickaxe.java|176|192|ItemTrumpPickaxe|class|demjr.mod.items.ItemTrumpPickaxe
@@ -1040,22 +1160,31 @@ Class Start: demjr.mod.items.ItemTrumpPickaxe
 Class End  : demjr.mod.items.ItemTrumpPickaxe
 endProcessing "demjr\mod\items\ItemTrumpPickaxe.java"
 
-startProcessing "demjr\mod\items\ItemTrumpSpade.java" md5: 4c3308bc843f3a07eb5198718c85637a
+startProcessing "demjr\mod\items\ItemTrumpSpade.java" md5: f841f20f68dfcf6b6a22ee7ed5563929
 Cache Hit!
 @|demjr\mod\items\ItemTrumpSpade.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpSpade
-   @|demjr\mod\items\ItemTrumpSpade.java|122|136|ItemTrumpSpade|class|demjr.mod.items.ItemTrumpSpade
-   @|demjr\mod\items\ItemTrumpSpade.java|145|154|ItemSpade|class|net.minecraft.item.ItemSpade
+   @|demjr\mod\items\ItemTrumpSpade.java|187|201|ItemTrumpSpade|class|demjr.mod.items.ItemTrumpSpade
+   @|demjr\mod\items\ItemTrumpSpade.java|210|219|ItemSpade|class|net.minecraft.item.ItemSpade
    Method Start: ItemTrumpSpade(Lnet/minecraft/item/Item$ToolMaterial;)V
-      @|demjr\mod\items\ItemTrumpSpade.java|197|205|material|param|demjr.mod.items.ItemTrumpSpade|ItemTrumpSpade|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
-      @|demjr\mod\items\ItemTrumpSpade.java|169|183|ItemTrumpSpade|method|demjr.mod.items.ItemTrumpSpade|ItemTrumpSpade|(Lnet/minecraft/item/Item$ToolMaterial;)V
-      @|demjr\mod\items\ItemTrumpSpade.java|184|196|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-      @|demjr\mod\items\ItemTrumpSpade.java|222|230|material|param|demjr.mod.items.ItemTrumpSpade|ItemTrumpSpade|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpSpade.java|262|270|material|param|demjr.mod.items.ItemTrumpSpade|ItemTrumpSpade|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpSpade.java|234|248|ItemTrumpSpade|method|demjr.mod.items.ItemTrumpSpade|ItemTrumpSpade|(Lnet/minecraft/item/Item$ToolMaterial;)V
+      @|demjr\mod\items\ItemTrumpSpade.java|249|261|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|demjr\mod\items\ItemTrumpSpade.java|287|295|material|param|demjr.mod.items.ItemTrumpSpade|ItemTrumpSpade|(Lnet/minecraft/item/Item$ToolMaterial;)V|material|0
+      @|demjr\mod\items\ItemTrumpSpade.java|306|321|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\items\ItemTrumpSpade.java|322|340|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpSpade.java|341|351|TRUMPSPADE|field|demjr.mod.Reference.ModItems|TRUMPSPADE
+      @|demjr\mod\items\ItemTrumpSpade.java|352|367|getRegistryName|method|demjr.mod.Reference.ModItems|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\items\ItemTrumpSpade.java|380|398|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|demjr\mod\items\ItemTrumpSpade.java|399|417|Reference.ModItems|class|demjr.mod.Reference.ModItems
+      @|demjr\mod\items\ItemTrumpSpade.java|418|428|TRUMPSPADE|field|demjr.mod.Reference.ModItems|TRUMPSPADE
+      @|demjr\mod\items\ItemTrumpSpade.java|429|447|getUnlocalizedName|method|demjr.mod.Reference.ModItems|getUnlocalizedName|()Ljava/lang/String;
    Method End: ItemTrumpSpade(Lnet/minecraft/item/Item$ToolMaterial;)V
 Class End  : demjr.mod.items.ItemTrumpSpade
 endProcessing "demjr\mod\items\ItemTrumpSpade.java"
 
 startProcessing "demjr\mod\items\ItemTrumpSword.java" md5: 86065a23667b705d05ed0d84c6093951
+Cache Hit!
 @|demjr\mod\items\ItemTrumpSword.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpSword
    @|demjr\mod\items\ItemTrumpSword.java|161|175|ItemTrumpSword|class|demjr.mod.items.ItemTrumpSword
