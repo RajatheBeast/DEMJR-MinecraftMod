@@ -22,14 +22,14 @@ public class BlockDissapointiumOre extends Block {
         super(Material.ROCK);
 
         setUnlocalizedName(Reference.ModBlocks.DISSAPOINTIUMORE.getUnlocalizedName());
-        setRegistryName(Reference.ModBlocks.DISSAPOINTIUM_ORE.getRegistryName());
+        setRegistryName(Reference.ModBlocks.DISSAPOINTIUMORE.getRegistryName());
 
         setHardness(20);
     }
 
     @Nullable
     public Item getItemDropped(IBlockState state, Random rand, int fortune){
-        return this == ModBlocks.dissapointiumore ? ModItems.trumpgem :  Item.getItemFromBlock(this);
+        return this == ModBlocks.dissapointiumore ? ModItems.dissapointiumcrystal :  Item.getItemFromBlock(this);
     }
 
     public int quantityDropped(Random random){

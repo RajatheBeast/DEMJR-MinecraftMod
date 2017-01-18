@@ -37,6 +37,7 @@ public class ModItems {
 	public static Item trumpaxe;
 	public static Item dissapointiumcrystal;
 
+
 	
 	public static void init() {
 		salt = new ItemSalt();

@@ -18,7 +18,14 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.trumpiumblock), "TTT", "TTT", "TTT", 'T', ModItems.trumpgem);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpsword), " T ", " T ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumphelmet), "TTT", "T T", "   ", 'T', ModBlocks.trumpiumblock);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpaxe), "TT ", "TS ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cementpowder, 4), Blocks.COBBLESTONE);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpspade), " T ", " S ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumppickaxe), "TTT", " S ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumphoe), "TT ", " S ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
+
+
+
 
     }
 	
