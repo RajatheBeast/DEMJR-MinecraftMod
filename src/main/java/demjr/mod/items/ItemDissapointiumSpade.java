@@ -12,8 +12,8 @@ public class ItemDissapointiumSpade extends ItemSpade {
 
     public ItemDissapointiumSpade(ToolMaterial material) {
         super(material);
-        setUnlocalizedName(Reference.ModItems..getUnlocalizedName());
-        setRegistryName(Reference.ModItems..getRegistryName());
+        setUnlocalizedName(Reference.ModItems.DISSAPOINTIUMSPADE.getUnlocalizedName());
+        setRegistryName(Reference.ModItems.DISSAPOINTIUMSPADE.getRegistryName());
         setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 }

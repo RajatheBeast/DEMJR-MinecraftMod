@@ -13,8 +13,8 @@ public class ItemDissapointiumHoe extends ItemHoe {
 
     public ItemDissapointiumHoe(ToolMaterial material) {
         super(material);
-        setUnlocalizedName(Reference.ModItems..getUnlocalizedName());
-        setRegistryName(Reference.ModItems..getRegistryName());
+        setUnlocalizedName(Reference.ModItems.DISSAPOINTIUMHOE.getUnlocalizedName());
+        setRegistryName(Reference.ModItems.DISSAPOINTIUMHOE.getRegistryName());
         setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 }

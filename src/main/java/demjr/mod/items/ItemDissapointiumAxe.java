@@ -11,8 +11,8 @@ public class ItemDissapointiumAxe extends ItemAxe {
 
     public ItemDissapointiumAxe(ToolMaterial material, float damage, float speed) {
         super (material, damage, speed);
-        setUnlocalizedName(Reference.ModItems..getUnlocalizedName());
-        setRegistryName(Reference.ModItems..getRegistryName());
+        setUnlocalizedName(Reference.ModItems.DISSAPOINTIUMAXE.getUnlocalizedName());
+        setRegistryName(Reference.ModItems.DISSAPOINTIUMAXE.getRegistryName());
         setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 }

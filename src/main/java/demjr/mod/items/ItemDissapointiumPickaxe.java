@@ -12,8 +12,8 @@ public class ItemDissapointiumPickaxe extends ItemPickaxe {
 
     public ItemDissapointiumPickaxe(ToolMaterial material) {
         super(material);
-        setUnlocalizedName(Reference.ModItems..getUnlocalizedName());
-        setRegistryName(Reference.ModItems..getRegistryName());
+        setUnlocalizedName(Reference.ModItems.DISSAPOINTIUMPICKAXE.getUnlocalizedName());
+        setRegistryName(Reference.ModItems.DISSAPOINTIUMPICKAXE.getRegistryName());
         setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 

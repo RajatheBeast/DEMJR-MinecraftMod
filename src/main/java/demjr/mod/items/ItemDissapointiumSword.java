@@ -11,8 +11,8 @@ public class ItemDissapointiumSword extends ItemSword {
 
     public ItemDissapointiumSword(ToolMaterial material){
         super(material);
-        setUnlocalizedName(Reference.ModItems..getUnlocalizedName());
-        setRegistryName(Reference.ModItems..getRegistryName());
+        setUnlocalizedName(Reference.ModItems.DISSAPOINTIUMSWORD.getUnlocalizedName());
+        setRegistryName(Reference.ModItems.DISSAPOINTIUMSWORD.getRegistryName());
         setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 }
