@@ -28,7 +28,8 @@ public class Reference {
         TRUMPBOOTS("trumpboots", "ItemTrumpBoots"),
         TRUMPSPADE("trumpspade", "ItemTrumpSpade"),
         TRUMPHOE("trumphoe", "ItemTrumpHoe"),
-        TRUMPAXE("trumpaxe", "ItemTrumpAxe");
+        TRUMPAXE("trumpaxe", "ItemTrumpAxe"),
+        DISSAPOINTIUMCRYSTAL("dissapointiumcrystal", "ItemDisssapointiumCrystal");
 		
 		private String unlocalizedName;
 		private String registryName;		
@@ -52,7 +53,8 @@ public class Reference {
 		SALT("salt", "BlockSalt"),
         TRUMPIUMORE("trumpiumore", "BlockTrumpiumOre"),
         TRUMPIUMBLOCK("trumpiumblock", "BlockTrumpiumBlock"),
-        CEMENT("cementblock", "BlockCement");
+        CEMENT("cementblock", "BlockCement"),
+        DISSAPOINTIUMORE("dissapointiumore", "BlockDissapointiumOre");
 		
 		private String unlocalizedName;
 		private String registryName;		

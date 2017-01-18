@@ -14,9 +14,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 	
-	public static ToolMaterial trumptool = EnumHelper.addToolMaterial("trumptool", 10, 2000, 15F, 15F, 10);
+	public static ToolMaterial trumptool = EnumHelper.addToolMaterial("trump", 10, 2000, 15F, 15F, 10);
 	public static ArmorMaterial trumparmor = EnumHelper.addArmorMaterial("trump", "demjr:trump", 35, new int[]{3, 6, 8, 3}, 20, null, 3.0F);
-    public static Item salt;
+    public static ToolMaterial dissapointiumtool = EnumHelper.addToolMaterial("dissapointium", 1, 2, 0.2F, 1F, 1);
+    public static ArmorMaterial dissapointiumarmor = EnumHelper.addArmorMaterial("dissapointium", "demjr:dissapointium", 2, new int[]{0, 1, 0, 1}, 1, null, 0F);
+	public static Item salt;
 	public static Item flour;
 	public static Item trumpgem;
 	public static Item cookiedough;
@@ -33,6 +35,7 @@ public class ModItems {
 	public static Item trumpspade;
 	public static Item trumphoe;
 	public static Item trumpaxe;
+	public static Item dissapointiumcrystal;
 
 	
 	public static void init() {
