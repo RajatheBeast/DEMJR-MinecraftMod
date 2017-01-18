@@ -24,11 +24,8 @@ public class BlockDissapointiumOre extends Block {
 
         setUnlocalizedName(Reference.ModBlocks.DISSAPOINTIUMORE.getUnlocalizedName());
         setRegistryName(Reference.ModBlocks.DISSAPOINTIUMORE.getRegistryName());
-<<<<<<< HEAD
-=======
-        setCreativeTab(DEMJR.CREATIVE_TAB);
->>>>>>> d2821d45f2d67796f73238720e84c684a38c092f
 
+        setCreativeTab(DEMJR.CREATIVE_TAB);
         setHardness(20);
     }
 
