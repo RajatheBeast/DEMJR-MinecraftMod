@@ -1,5 +1,5 @@
 Symbol range map extraction starting
-Processing 31 files
+Processing 32 files
 startProcessing "demjr\mod\DEMJR.java" md5: 50950301a12500909701197d67c82df5
 Cache Hit!
 endProcessing "demjr\mod\DEMJR.java"
@@ -11,6 +11,9 @@ endProcessing "demjr\mod\DEMJRTab.java"
 startProcessing "demjr\mod\Reference.java" md5: 38e077414d6524f427fa8bf5a0ab57a3
 Cache Hit!
 endProcessing "demjr\mod\Reference.java"
+
+startProcessing "demjr\mod\blocks\BlockCement.java" md5: ea7193e8477704af28cf08b5ca3cde5c
+endProcessing "demjr\mod\blocks\BlockCement.java"
 
 startProcessing "demjr\mod\blocks\BlockSalt.java" md5: bf2c86e68bbdd72a5c593a8c7943cfc2
 Cache Hit!
@@ -33,10 +36,10 @@ Cache Hit!
 endProcessing "demjr\mod\init\ModCrafting.java"
 
 startProcessing "demjr\mod\init\ModItems.java" md5: 602f4ac6e0469a06917b1fa3dff32a9d
+Cache Hit!
 endProcessing "demjr\mod\init\ModItems.java"
 
-startProcessing "demjr\mod\init\ModSmelting.java" md5: 096020644f38e22dfc0a60f762f18ada
-Cache Hit!
+startProcessing "demjr\mod\init\ModSmelting.java" md5: acb02f4a52dfdc8b18197566b06af20c
 endProcessing "demjr\mod\init\ModSmelting.java"
 
 startProcessing "demjr\mod\items\ItemApplePie.java" md5: 1f468da5639d6b2d7892c21a13065243
@@ -68,6 +71,7 @@ Cache Hit!
 endProcessing "demjr\mod\items\ItemSalt.java"
 
 startProcessing "demjr\mod\items\ItemTrumpAxe.java" md5: eeb641ba85a98d22b1e72b1e618b4498
+Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpAxe.java"
 
 startProcessing "demjr\mod\items\ItemTrumpBoots.java" md5: 909723f4085e977c4495fd123862c535

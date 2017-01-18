@@ -22,7 +22,7 @@ public class BlockDissapointiumOre extends Block {
         super(Material.ROCK);
 
         setUnlocalizedName(Reference.ModBlocks.DISSAPOINTIUMORE.getUnlocalizedName());
-        setRegistryName(Reference.ModBlocks.DISSAPOINTIUM_ORE.getRegistryName());
+        setRegistryName(Reference.ModBlocks.DISSAPOINTIUMORE.getRegistryName());
 
         setHardness(20);
     }

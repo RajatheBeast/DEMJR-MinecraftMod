@@ -36,6 +36,15 @@ public class ModItems {
 	public static Item trumphoe;
 	public static Item trumpaxe;
 	public static Item dissapointiumcrystal;
+	public static Item dissapointiumsword;
+	public static Item dissapointiumpickaxe;
+	public static Item dissapointiumspade;
+	public static Item dissapointiumhoe;
+	public static Item dissapointiumaxe;
+	public static Item dissapointiumhelmet;
+	public static Item dissapointiumchest;
+	public static Item dissapointiumlegs;
+	public static Item dissapointiumboots;
 
 	
 	public static void init() {
@@ -56,6 +65,15 @@ public class ModItems {
 	    trumpspade = new ItemTrumpSpade(trumptool);
 	    trumphoe = new ItemTrumpHoe(trumptool);
 	    trumpaxe = new ItemTrumpAxe(trumptool, 8, 1.2F);
+	    dissapointiumsword = new ItemDissapointiumSword(dissapointiumtool);
+	    dissapointiumpickaxe = new ItemDissapointiumPickaxe(dissapointiumtool);
+	    dissapointiumspade = new ItemDissapointiumSpade(dissapointiumtool);
+	    dissapointiumhoe = new ItemDissapointiumHoe(dissapointiumtool);
+	    dissapointiumaxe = new ItemDissapointiumAxe(dissapointiumtool, 1, 0.5F);
+	    dissapointiumhelmet = new ItemDissapointiumHelmet(dissapointiumarmor, 1, EntityEquipmentSlot.HEAD);
+	    dissapointiumchest = new ItemDissapointiumChestplate(dissapointiumarmor, 1, EntityEquipmentSlot.CHEST);
+	    dissapointiumlegs = new ItemDissapointiumLeggings(dissapointiumarmor, 2, EntityEquipmentSlot.LEGS);
+	    dissapointiumboots = new ItemDissapointiumBoots(dissapointiumarmor, 1, EntityEquipmentSlot.FEET);
 
 	}
 	public static void register() {
@@ -76,6 +94,15 @@ public class ModItems {
         GameRegistry.register(trumpspade);
         GameRegistry.register(trumphoe);
         GameRegistry.register(trumpaxe);
+        GameRegistry.register(dissapointiumsword);
+        GameRegistry.register(dissapointiumaxe);
+        GameRegistry.register(dissapointiumspade);
+        GameRegistry.register(dissapointiumhoe);
+        GameRegistry.register(dissapointiumpickaxe);
+        GameRegistry.register(dissapointiumhelmet);
+        GameRegistry.register(dissapointiumchest);
+        GameRegistry.register(dissapointiumlegs);
+        GameRegistry.register(dissapointiumboots);
     }
 		
 	public static void registerRenders() {
@@ -96,6 +123,15 @@ public class ModItems {
         registerRender(trumpspade);
         registerRender(trumphoe);
         registerRender(trumpaxe);
+        registerRender(dissapointiumsword);
+        registerRender(dissapointiumaxe);
+        registerRender(dissapointiumspade);
+        registerRender(dissapointiumhoe);
+        registerRender(dissapointiumpickaxe);
+        registerRender(dissapointiumhelmet);
+        registerRender(dissapointiumchest);
+        registerRender(dissapointiumlegs);
+        registerRender(dissapointiumboots);
 	}
 		
 	private static void registerRender(Item item) {

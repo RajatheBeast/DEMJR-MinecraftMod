@@ -1,5 +1,5 @@
 Symbol range map extraction starting
-Processing 31 files
+Processing 32 files
 startProcessing "demjr\mod\DEMJR.java" md5: 50950301a12500909701197d67c82df5
 Cache Hit!
 @|demjr\mod\DEMJR.java|8|17|demjr.mod|package|demjr.mod|(file)
@@ -202,6 +202,28 @@ Class Start: demjr.mod.Reference
    Enum End  : demjr.mod.Reference.ModBlocks
 Class End  : demjr.mod.Reference
 endProcessing "demjr\mod\Reference.java"
+
+startProcessing "demjr\mod\blocks\BlockCement.java" md5: ea7193e8477704af28cf08b5ca3cde5c
+@|demjr\mod\blocks\BlockCement.java|8|24|demjr.mod.blocks|package|demjr.mod.blocks|(file)
+Class Start: demjr.mod.blocks.BlockCement
+   @|demjr\mod\blocks\BlockCement.java|230|241|BlockCement|class|demjr.mod.blocks.BlockCement
+   @|demjr\mod\blocks\BlockCement.java|250|255|Block|class|net.minecraft.block.Block
+   Method Start: BlockCement()V
+      @|demjr\mod\blocks\BlockCement.java|270|281|BlockCement|method|demjr.mod.blocks.BlockCement|BlockCement|()V
+      @|demjr\mod\blocks\BlockCement.java|300|308|Material|class|net.minecraft.block.material.Material
+      @|demjr\mod\blocks\BlockCement.java|309|313|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|demjr\mod\blocks\BlockCement.java|325|343|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|demjr\mod\blocks\BlockCement.java|344|363|Reference.ModBlocks|class|demjr.mod.Reference.ModBlocks
+      @|demjr\mod\blocks\BlockCement.java|364|370|CEMENT|field|demjr.mod.Reference.ModBlocks|CEMENT
+      @|demjr\mod\blocks\BlockCement.java|371|389|getUnlocalizedName|method|demjr.mod.Reference.ModBlocks|getUnlocalizedName|()Ljava/lang/String;
+      @|demjr\mod\blocks\BlockCement.java|402|417|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|demjr\mod\blocks\BlockCement.java|418|437|Reference.ModBlocks|class|demjr.mod.Reference.ModBlocks
+      @|demjr\mod\blocks\BlockCement.java|438|444|CEMENT|field|demjr.mod.Reference.ModBlocks|CEMENT
+      @|demjr\mod\blocks\BlockCement.java|445|460|getRegistryName|method|demjr.mod.Reference.ModBlocks|getRegistryName|()Ljava/lang/String;
+      @|demjr\mod\blocks\BlockCement.java|474|485|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+   Method End: BlockCement()V
+Class End  : demjr.mod.blocks.BlockCement
+endProcessing "demjr\mod\blocks\BlockCement.java"
 
 startProcessing "demjr\mod\blocks\BlockSalt.java" md5: bf2c86e68bbdd72a5c593a8c7943cfc2
 Cache Hit!
@@ -529,6 +551,7 @@ Class End  : demjr.mod.init.ModCrafting
 endProcessing "demjr\mod\init\ModCrafting.java"
 
 startProcessing "demjr\mod\init\ModItems.java" md5: 602f4ac6e0469a06917b1fa3dff32a9d
+Cache Hit!
 @|demjr\mod\init\ModItems.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
 Class Start: demjr.mod.init.ModItems
    @|demjr\mod\init\ModItems.java|543|551|ModItems|class|demjr.mod.init.ModItems
@@ -755,8 +778,7 @@ Class Start: demjr.mod.init.ModItems
 Class End  : demjr.mod.init.ModItems
 endProcessing "demjr\mod\init\ModItems.java"
 
-startProcessing "demjr\mod\init\ModSmelting.java" md5: 096020644f38e22dfc0a60f762f18ada
-Cache Hit!
+startProcessing "demjr\mod\init\ModSmelting.java" md5: acb02f4a52dfdc8b18197566b06af20c
 @|demjr\mod\init\ModSmelting.java|8|22|demjr.mod.init|package|demjr.mod.init|(file)
 Class Start: demjr.mod.init.ModSmelting
    @|demjr\mod\init\ModSmelting.java|215|226|ModSmelting|class|demjr.mod.init.ModSmelting
@@ -939,6 +961,7 @@ Class End  : demjr.mod.items.ItemSalt
 endProcessing "demjr\mod\items\ItemSalt.java"
 
 startProcessing "demjr\mod\items\ItemTrumpAxe.java" md5: eeb641ba85a98d22b1e72b1e618b4498
+Cache Hit!
 @|demjr\mod\items\ItemTrumpAxe.java|8|23|demjr.mod.items|package|demjr.mod.items|(file)
 Class Start: demjr.mod.items.ItemTrumpAxe
    @|demjr\mod\items\ItemTrumpAxe.java|148|160|ItemTrumpAxe|class|demjr.mod.items.ItemTrumpAxe
