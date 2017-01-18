@@ -1,5 +1,6 @@
 package demjr.mod.blocks;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import demjr.mod.init.ModBlocks;
 import demjr.mod.init.ModItems;
@@ -22,7 +23,8 @@ public class BlockDissapointiumOre extends Block {
         super(Material.ROCK);
 
         setUnlocalizedName(Reference.ModBlocks.DISSAPOINTIUMORE.getUnlocalizedName());
-        setRegistryName(Reference.ModBlocks.DISSAPOINTIUM_ORE.getRegistryName());
+        setRegistryName(Reference.ModBlocks.DISSAPOINTIUMORE.getRegistryName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
 
         setHardness(20);
     }
