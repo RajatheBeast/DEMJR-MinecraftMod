@@ -1,5 +1,6 @@
 package demjr.mod.init;
 
+import demjr.mod.blocks.BlockDissapointiumOre;
 import demjr.mod.blocks.BlockSalt;
 import demjr.mod.blocks.BlockTrumpiumBlock;
 import demjr.mod.blocks.BlockTrumpiumOre;
@@ -16,18 +17,22 @@ public class ModBlocks {
 	public static Block salt;
 	public static Block trumpiumore;
 	public static Block trumpiumblock;
+    public static Block dissapointiumore;
+
 
 	public static void init() {
 
 	    salt = new BlockSalt();
 	    trumpiumore = new BlockTrumpiumOre();
 	    trumpiumblock = new BlockTrumpiumBlock();
+        dissapointiumore = new BlockDissapointiumOre();
 	}
 	public static void register() {
 
 	    registerBlock(salt);
         registerBlock(trumpiumore);
         registerBlock(trumpiumblock);
+        registerBlock(dissapointiumore);
 	}
 		
 	public static void registerRenders() {
@@ -35,6 +40,7 @@ public class ModBlocks {
 	    registerRender(salt);
         registerRender(trumpiumore);
         registerRender(trumpiumblock);
+        registerRender(dissapointiumore);
     }
 	
 	private static void registerBlock(Block block) {
