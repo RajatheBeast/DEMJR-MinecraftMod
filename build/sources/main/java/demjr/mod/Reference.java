@@ -28,7 +28,19 @@ public class Reference {
         TRUMPBOOTS("trumpboots", "ItemTrumpBoots"),
         TRUMPSPADE("trumpspade", "ItemTrumpSpade"),
         TRUMPHOE("trumphoe", "ItemTrumpHoe"),
-        TRUMPAXE("trumpaxe", "ItemTrumpAxe");
+        TRUMPAXE("trumpaxe", "ItemTrumpAxe"),
+        DISSAPOINTIUMCRYSTAL("dissapointiumcrystal", "ItemDissapointiumCrystal"),
+        DISSAPOINTIUMSWORD("dissapointiumsword", "ItemDissapointiumSword"),
+        DISSAPOINTIUMHELMET("dissapointiumhelmet", "ItemDissapointiumHelmet"),
+        DISSAPOINTIUMPICKAXE("dissapointiumpickaxe", "ItemDissapointiumPickaxe"),
+        DISSAPOINTIUMCHEST("dissapointiumchest", "ItemDissapointiumChestplate"),
+        DISSAPOINTIUMLEGS("dissapointiumlegs", "ItemDissapointiumLeggings"),
+        DISSAPOINTIUMBOOTS("dissapointiumboots", "ItemDissapointiumBoots"),
+        DISSAPOINTIUMSPADE("dissapointiumspade", "ItemDissapointiumSpade"),
+        DISSAPOINTIUMHOE("dissapointiumhoe", "ItemDissapointiumHoe"),
+        DISSAPOINTIUMAXE("dissapointiumaxe", "ItemDissapointiumAxe"),
+		CHEESE("cheese", "ItemCheese"),
+		TOMATO("tomato", "ItemTomato");
 		
 		private String unlocalizedName;
 		private String registryName;		
@@ -52,7 +64,8 @@ public class Reference {
 		SALT("salt", "BlockSalt"),
         TRUMPIUMORE("trumpiumore", "BlockTrumpiumOre"),
         TRUMPIUMBLOCK("trumpiumblock", "BlockTrumpiumBlock"),
-        CEMENT("cementblock", "BlockCement");
+        CEMENT("cementblock", "BlockCement"),
+        DISSAPOINTIUMORE("dissapointiumore", "BlockDissapointiumOre");
 		
 		private String unlocalizedName;
 		private String registryName;		

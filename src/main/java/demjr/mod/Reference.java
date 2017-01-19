@@ -38,7 +38,7 @@ public class Reference {
         DISSAPOINTIUMBOOTS("dissapointiumboots", "ItemDissapointiumBoots"),
         DISSAPOINTIUMSPADE("dissapointiumspade", "ItemDissapointiumSpade"),
         DISSAPOINTIUMHOE("dissapointiumhoe", "ItemDissapointiumHoe"),
-        DISSAPOINTIUMAXE("dissapointiumaxe", "ItemDissapointiumAxe")''
+        DISSAPOINTIUMAXE("dissapointiumaxe", "ItemDissapointiumAxe"),
 		CHEESE("cheese", "ItemCheese"),
 		TOMATO("tomato", "ItemTomato");
 		

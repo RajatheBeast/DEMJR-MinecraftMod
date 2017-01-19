@@ -1,5 +1,6 @@
 package demjr.mod.blocks;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -14,6 +15,7 @@ public class BlockTrumpiumBlock extends Block {
         setHardness(60);
         setUnlocalizedName(Reference.ModBlocks.TRUMPIUMBLOCK.getUnlocalizedName());
         setRegistryName(Reference.ModBlocks.TRUMPIUMBLOCK.getRegistryName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 
 }

@@ -15,10 +15,12 @@ public class WorldGen implements IWorldGenerator {
 
     private WorldGenerator gen_trumpium_ore;
     private WorldGenerator gen_salt;
+    private WorldGenerator gen_dissapointium;
 
     public WorldGen() {
         this.gen_trumpium_ore = new WorldGenMinable(ModBlocks.trumpiumore.getDefaultState(), 8);
         this.gen_salt = new WorldGenMinable(ModBlocks.salt.getDefaultState(), 12);
+        this.gen_dissapointium = new WorldGenMinable(ModBlocks.dissapointiumore.getDefaultState(), 4);
     }
 
     private void runGenerator(WorldGenerator generator, World world, Random rand, int chunk_X, int chunk_Z, int chancesToSpawn, int minHeight, int maxHeight) {
@@ -41,6 +43,7 @@ public class WorldGen implements IWorldGenerator {
             case 0: //Overworld
                 this.runGenerator(this.gen_trumpium_ore, world, random, chunkX, chunkZ, 8, 0, 64);
                 this.runGenerator(this.gen_salt, world, random, chunkX, chunkZ, 12,0, 256);
+                this.runGenerator(this.gen_dissapointium, world, random, chunkX, chunkZ, 4, 0, 32);
                 break;
             case -1: //Nether
 

@@ -1,8 +1,6 @@
 package demjr.mod.init;
 
-import demjr.mod.blocks.BlockSalt;
-import demjr.mod.blocks.BlockTrumpiumBlock;
-import demjr.mod.blocks.BlockTrumpiumOre;
+import demjr.mod.blocks.*;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -16,18 +14,25 @@ public class ModBlocks {
 	public static Block salt;
 	public static Block trumpiumore;
 	public static Block trumpiumblock;
+    public static Block dissapointiumore;
+    public static Block cement;
+
 
 	public static void init() {
 
 	    salt = new BlockSalt();
 	    trumpiumore = new BlockTrumpiumOre();
 	    trumpiumblock = new BlockTrumpiumBlock();
+        dissapointiumore = new BlockDissapointiumOre();
+        cement = new BlockCement();
 	}
 	public static void register() {
 
 	    registerBlock(salt);
         registerBlock(trumpiumore);
         registerBlock(trumpiumblock);
+        registerBlock(dissapointiumore);
+        registerBlock(cement);
 	}
 		
 	public static void registerRenders() {
@@ -35,6 +40,8 @@ public class ModBlocks {
 	    registerRender(salt);
         registerRender(trumpiumore);
         registerRender(trumpiumblock);
+        registerRender(dissapointiumore);
+        registerRender(cement);
     }
 	
 	private static void registerBlock(Block block) {
