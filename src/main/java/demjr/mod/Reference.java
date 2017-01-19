@@ -29,15 +29,15 @@ public class Reference {
         TRUMPSPADE("trumpspade", "ItemTrumpSpade"),
         TRUMPHOE("trumphoe", "ItemTrumpHoe"),
         TRUMPAXE("trumpaxe", "ItemTrumpAxe"),
-        DISSAPOINTIUMCRYSTAL("dissapointiumcrystal", "ItemDisssapointiumCrystal"),
+        DISSAPOINTIUMCRYSTAL("dissapointiumcrystal", "ItemDissapointiumCrystal"),
         DISSAPOINTIUMSWORD("dissapointiumsword", "ItemDissapointiumSword"),
         DISSAPOINTIUMHELMET("dissapointiumhelmet", "ItemDissapointiumHelmet"),
         DISSAPOINTIUMPICKAXE("dissapointiumpickaxe", "ItemDissapointiumPickaxe"),
         DISSAPOINTIUMCHEST("dissapointiumchest", "ItemDissapointiumChestplate"),
         DISSAPOINTIUMLEGS("dissapointiumlegs", "ItemDissapointiumLeggings"),
         DISSAPOINTIUMBOOTS("dissapointiumboots", "ItemDissapointiumBoots"),
-        DISSAPOINTIUMSPADE("trumpspade", "ItemTrumpSpade"),
-        DISSAPOINTIUMHOE("trumphoe", "ItemTrumpHoe"),
+        DISSAPOINTIUMSPADE("dissapointiumspade", "ItemDissapointiumSpade"),
+        DISSAPOINTIUMHOE("dissapointiumhoe", "ItemDissapointiumHoe"),
         DISSAPOINTIUMAXE("dissapointiumaxe", "ItemDissapointiumAxe");
 		
 		private String unlocalizedName;
