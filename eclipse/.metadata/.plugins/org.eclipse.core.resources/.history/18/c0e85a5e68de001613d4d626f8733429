@@ -38,9 +38,7 @@ public class Reference {
         DISSAPOINTIUMBOOTS("dissapointiumboots", "ItemDissapointiumBoots"),
         DISSAPOINTIUMSPADE("dissapointiumspade", "ItemDissapointiumSpade"),
         DISSAPOINTIUMHOE("dissapointiumhoe", "ItemDissapointiumHoe"),
-        DISSAPOINTIUMAXE("dissapointiumaxe", "ItemDissapointiumAxe")''
-		CHEESE("cheese", "ItemCheese"),
-		TOMATO("tomato", "ItemTomato");
+        DISSAPOINTIUMAXE("dissapointiumaxe", "ItemDissapointiumAxe");
 		
 		private String unlocalizedName;
 		private String registryName;		

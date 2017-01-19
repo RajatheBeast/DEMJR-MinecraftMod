@@ -36,7 +36,6 @@ public class ModCrafting {
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumaxe), "DD ", "DS ", " S ", 'D', ModItems.dissapointiumcrystal, 'S', Items.STICK);
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumspade), " D ", " S ", " S ", 'D', ModItems.dissapointiumcrystal, 'S', Items.STICK);
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumhoe), "DD ", " S ", " S ", 'D', ModItems.dissapointiumcrystal, 'S', Items.STICK);
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cheese), Items.MILK_BUCKET);
 
     }
 	

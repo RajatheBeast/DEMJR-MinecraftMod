@@ -18,25 +18,14 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.trumpiumblock), "TTT", "TTT", "TTT", 'T', ModItems.trumpgem);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpsword), " T ", " T ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumphelmet), "TTT", "T T", "   ", 'T', ModBlocks.trumpiumblock);
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpchest), "T T", "TTT", "TTT", 'T', ModBlocks.trumpiumblock);
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumplegs), "TTT", "T T", "T T", 'T', ModBlocks.trumpiumblock);
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpboots), "   ", "T T", "T T", 'T', ModBlocks.trumpiumblock);
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpaxe), "TT ", "TS ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cementpowder, 4), Blocks.COBBLESTONE);
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumpspade), " T ", " S ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumppickaxe), "TTT", " S ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.trumphoe), "TT ", " S ", " S ", 'T', ModBlocks.trumpiumblock, 'S', Items.STICK);
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.cement), "CCC", "CCC", "CCC", 'C', ModItems.cementpowder);
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumhelmet), "DDD", "D D", "   ", 'D', ModItems.dissapointiumcrystal);
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumchest), "D D", "DDD", "DDD", 'D', ModItems.dissapointiumcrystal);
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumlegs), "DDD", "D D", "D D", 'D', ModItems.dissapointiumcrystal);
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumboots), "   ", "D D", "D D", 'D', ModItems.dissapointiumcrystal);
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumsword), " D ", " D ", " S ", 'D', ModItems.dissapointiumcrystal, 'S', Items.STICK);
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumpickaxe), "DDD", " S ", " S ", 'D', ModItems.dissapointiumcrystal, 'S', Items.STICK);
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumaxe), "DD ", "DS ", " S ", 'D', ModItems.dissapointiumcrystal, 'S', Items.STICK);
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumspade), " D ", " S ", " S ", 'D', ModItems.dissapointiumcrystal, 'S', Items.STICK);
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.dissapointiumhoe), "DD ", " S ", " S ", 'D', ModItems.dissapointiumcrystal, 'S', Items.STICK);
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cheese), Items.MILK_BUCKET);
+
+
 
     }
 	
