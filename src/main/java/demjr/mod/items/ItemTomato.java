@@ -11,8 +11,8 @@ import net.minecraft.item.Item;
 public class ItemTomato extends ItemFood {
 public ItemTomato() {
     super(6, 0.3F, false);
-    setUnlocalizedName(Reference.ModItems..getUnlocalizedName());
-    setRegistryName(Reference.ModItems..getRegistryName());
+    setUnlocalizedName(Reference.ModItems.TOMATO.getUnlocalizedName());
+    setRegistryName(Reference.ModItems.TOMATO.getRegistryName());
     setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 }

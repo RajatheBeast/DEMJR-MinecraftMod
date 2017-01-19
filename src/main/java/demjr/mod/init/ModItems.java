@@ -45,6 +45,8 @@ public class ModItems {
 	public static Item dissapointiumchest;
 	public static Item dissapointiumlegs;
 	public static Item dissapointiumboots;
+	public static Item tomato;
+	public static Item cheese;
 
 
 	
@@ -75,7 +77,8 @@ public class ModItems {
 	    dissapointiumchest = new ItemDissapointiumChestplate(dissapointiumarmor, 1, EntityEquipmentSlot.CHEST);
 	    dissapointiumlegs = new ItemDissapointiumLeggings(dissapointiumarmor, 2, EntityEquipmentSlot.LEGS);
 	    dissapointiumboots = new ItemDissapointiumBoots(dissapointiumarmor, 1, EntityEquipmentSlot.FEET);
-
+        tomato = new ItemTomato();
+        cheese = new ItemCheese();
 	}
 	public static void register() {
         GameRegistry.register(salt);
@@ -104,6 +107,8 @@ public class ModItems {
         GameRegistry.register(dissapointiumchest);
         GameRegistry.register(dissapointiumlegs);
         GameRegistry.register(dissapointiumboots);
+        GameRegistry.register(tomato);
+        GameRegistry.register(cheese);
     }
 		
 	public static void registerRenders() {
@@ -133,6 +138,7 @@ public class ModItems {
         registerRender(dissapointiumchest);
         registerRender(dissapointiumlegs);
         registerRender(dissapointiumboots);
+        registerRender(cheese);
 	}
 		
 	private static void registerRender(Item item) {
