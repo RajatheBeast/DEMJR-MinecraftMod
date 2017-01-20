@@ -79,6 +79,7 @@ public class ModItems {
 	    dissapointiumboots = new ItemDissapointiumBoots(dissapointiumarmor, 1, EntityEquipmentSlot.FEET);
         tomato = new ItemTomato();
         cheese = new ItemCheese();
+        dissapointiumcrystal = new ItemDissapointiumCrystal();
 	}
 	public static void register() {
         GameRegistry.register(salt);
@@ -109,6 +110,7 @@ public class ModItems {
         GameRegistry.register(dissapointiumboots);
         GameRegistry.register(tomato);
         GameRegistry.register(cheese);
+        GameRegistry.register(dissapointiumcrystal);
     }
 		
 	public static void registerRenders() {
@@ -139,6 +141,8 @@ public class ModItems {
         registerRender(dissapointiumlegs);
         registerRender(dissapointiumboots);
         registerRender(cheese);
+        registerRender(tomato);
+        registerRender(dissapointiumcrystal);
 	}
 		
 	private static void registerRender(Item item) {

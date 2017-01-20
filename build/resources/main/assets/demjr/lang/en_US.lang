@@ -26,11 +26,13 @@ item.dissapointiumpickaxe.name=Disappointing Pickaxe
 item.dissapointiumaxe.name=Disappointing Axe
 item.dissapointiumspade.name=Disappointing Shovel
 item.dissapointiumhoe.name=Disappointing Hoe
+item.tomato.name=Tomato
+item.cheese.name=Cheese
 
 tile.salt.name=Salt Block
 tile.trumpiumore.name=Trumpium Ore
 tile.trumpiumblock.name=Trumpium Block
-tile.cement.name=Cement
+tile.cementblock.name=Cement
 tile.dissapointiumore.name=Disappointium Ore
 
 itemGroup.tabDEMJR=DEMJR Tab

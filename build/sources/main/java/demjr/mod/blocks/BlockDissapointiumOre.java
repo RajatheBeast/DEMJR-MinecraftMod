@@ -28,14 +28,13 @@ public class BlockDissapointiumOre extends Block {
         setCreativeTab(DEMJR.CREATIVE_TAB);
         setHardness(20);
     }
-
     @Nullable
-    public Item getItemDropped(IBlockState state, Random rand, int fortune){
+    public Item getItemDropped(IBlockState state, java.util.Random rand, int fortune){
         return this == ModBlocks.dissapointiumore ? ModItems.dissapointiumcrystal :  Item.getItemFromBlock(this);
     }
 
-    public int quantityDropped(Random random){
-        return this == ModBlocks.trumpiumore ? 2 + random.nextInt(5) : 1;
+    public int quantityDropped(java.util.Random random){
+        return this == ModBlocks.dissapointiumore ? 1 + random.nextInt(5) : 1;
     }
 
     public void dropBlockAsItemWithChance(World worldIn, BlockPos pos, IBlockState state, float chance, int fortune){

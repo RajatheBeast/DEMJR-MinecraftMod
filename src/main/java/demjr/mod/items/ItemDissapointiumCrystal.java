@@ -1,5 +1,8 @@
 package demjr.mod.items;
 
+import demjr.mod.DEMJR;
+import demjr.mod.Reference;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 /**
@@ -8,6 +11,10 @@ import net.minecraft.item.Item;
 public class ItemDissapointiumCrystal extends Item {
 
     public ItemDissapointiumCrystal() {
+
+        setRegistryName(Reference.ModItems.DISSAPOINTIUMCRYSTAL.getRegistryName());
+        setUnlocalizedName(Reference.ModItems.DISSAPOINTIUMCRYSTAL.getUnlocalizedName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
 
     }
 

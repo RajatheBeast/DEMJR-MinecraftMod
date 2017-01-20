@@ -9,30 +9,39 @@ Cache Hit!
 endProcessing "demjr\mod\DEMJRTab.java"
 
 startProcessing "demjr\mod\Reference.java" md5: 2942f18a5066264b28b241f938143e44
+Cache Hit!
 endProcessing "demjr\mod\Reference.java"
 
 startProcessing "demjr\mod\blocks\BlockCement.java" md5: 5ff3385fa0ad805ed11fdbd35cefcbb8
+Cache Hit!
 endProcessing "demjr\mod\blocks\BlockCement.java"
 
-startProcessing "demjr\mod\blocks\BlockDissapointiumOre.java" md5: a03d3c5f2771e9e516a69ca0b132c64b
+startProcessing "demjr\mod\blocks\BlockDissapointiumOre.java" md5: c12f0da3d88966a3a2664c304a76c644
+Cache Hit!
 endProcessing "demjr\mod\blocks\BlockDissapointiumOre.java"
 
 startProcessing "demjr\mod\blocks\BlockSalt.java" md5: 27953eb87a4ed2b9adbb40eb043aa5f4
+Cache Hit!
 endProcessing "demjr\mod\blocks\BlockSalt.java"
 
 startProcessing "demjr\mod\blocks\BlockTrumpiumBlock.java" md5: 969511c3c71be2f2ee3978a838893ad0
+Cache Hit!
 endProcessing "demjr\mod\blocks\BlockTrumpiumBlock.java"
 
 startProcessing "demjr\mod\blocks\BlockTrumpiumOre.java" md5: 9a53a420b30ea65f2e6938adbab1ca4b
+Cache Hit!
 endProcessing "demjr\mod\blocks\BlockTrumpiumOre.java"
 
 startProcessing "demjr\mod\init\ModBlocks.java" md5: 299d27d7fea5a379f29a3ad77577cb23
+Cache Hit!
 endProcessing "demjr\mod\init\ModBlocks.java"
 
 startProcessing "demjr\mod\init\ModCrafting.java" md5: 2d8f912061e5694ccc81d1f480bcaad5
+Cache Hit!
 endProcessing "demjr\mod\init\ModCrafting.java"
 
-startProcessing "demjr\mod\init\ModItems.java" md5: a1cff040f1d0f6eda52aa624f56bb7ae
+startProcessing "demjr\mod\init\ModItems.java" md5: a393e7f1a9e5b7f2054a5e31d3ce9632
+Cache Hit!
 endProcessing "demjr\mod\init\ModItems.java"
 
 startProcessing "demjr\mod\init\ModSmelting.java" md5: acb02f4a52dfdc8b18197566b06af20c
@@ -43,11 +52,12 @@ startProcessing "demjr\mod\items\ItemApplePie.java" md5: 1f468da5639d6b2d7892c21
 Cache Hit!
 endProcessing "demjr\mod\items\ItemApplePie.java"
 
-startProcessing "demjr\mod\items\ItemCementPowder.java" md5: 3d219efe63af27ee30d2697ba8f0ace4
+startProcessing "demjr\mod\items\ItemCementPowder.java" md5: 9889e4f49a7964806d43081dbc21c010
 Cache Hit!
 endProcessing "demjr\mod\items\ItemCementPowder.java"
 
 startProcessing "demjr\mod\items\ItemCheese.java" md5: 023e786fcaec0cc9b6f3d937b3c954ed
+Cache Hit!
 endProcessing "demjr\mod\items\ItemCheese.java"
 
 startProcessing "demjr\mod\items\ItemChocolateChips.java" md5: 5901d97fbdf84dd4c7c6ef8001497b8d
@@ -59,33 +69,43 @@ Cache Hit!
 endProcessing "demjr\mod\items\ItemCookieDough.java"
 
 startProcessing "demjr\mod\items\ItemDissapointiumAxe.java" md5: 707e5c4c40de4dffdd56a815cfc40a9c
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumAxe.java"
 
-startProcessing "demjr\mod\items\ItemDissapointiumBoots.java" md5: ab5432b7ec3b89c7bc68b88c91b239e3
+startProcessing "demjr\mod\items\ItemDissapointiumBoots.java" md5: eaa2de2cc43ec7606768d15d5830631f
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumBoots.java"
 
-startProcessing "demjr\mod\items\ItemDissapointiumChestplate.java" md5: 9fafaa7f5c51093262e90704a33817e8
+startProcessing "demjr\mod\items\ItemDissapointiumChestplate.java" md5: 3d5ded52f77872355a19cf83d76534f9
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumChestplate.java"
 
-startProcessing "demjr\mod\items\ItemDissapointiumCrystal.java" md5: 2236575cec2167d483f791d195b589d4
+startProcessing "demjr\mod\items\ItemDissapointiumCrystal.java" md5: 22d8671b3e3c91501f6ecbf04e82fc5c
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumCrystal.java"
 
-startProcessing "demjr\mod\items\ItemDissapointiumHelmet.java" md5: f621040e8401440f201390c21027e72b
+startProcessing "demjr\mod\items\ItemDissapointiumHelmet.java" md5: e6b7bc8193884242ee98421e242bf326
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumHelmet.java"
 
 startProcessing "demjr\mod\items\ItemDissapointiumHoe.java" md5: ded9e801ca6ea990bb97e75dd5df7d86
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumHoe.java"
 
-startProcessing "demjr\mod\items\ItemDissapointiumLeggings.java" md5: d79ebd399cf572610eb79347af078ef4
+startProcessing "demjr\mod\items\ItemDissapointiumLeggings.java" md5: f78cf3939207951dd9aac182eaac0c07
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumLeggings.java"
 
 startProcessing "demjr\mod\items\ItemDissapointiumPickaxe.java" md5: a601f48dd3e28ba3d88bba724bb7a66f
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumPickaxe.java"
 
 startProcessing "demjr\mod\items\ItemDissapointiumSpade.java" md5: 5ec1924e3c5a3b5ed3d9d6427d7f4122
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumSpade.java"
 
 startProcessing "demjr\mod\items\ItemDissapointiumSword.java" md5: fd32e93376464598fa0af46d734ce012
+Cache Hit!
 endProcessing "demjr\mod\items\ItemDissapointiumSword.java"
 
 startProcessing "demjr\mod\items\ItemDough.java" md5: 9462a1e57c6ad0b36970961282f1f9a9
@@ -100,10 +120,11 @@ startProcessing "demjr\mod\items\ItemSalt.java" md5: b61e27eb855471f99cb1f54bad9
 Cache Hit!
 endProcessing "demjr\mod\items\ItemSalt.java"
 
-startProcessing "demjr\mod\items\ItemTomato.java" md5: 5aef3cc8070831a7abdd057fb85b09c8
+startProcessing "demjr\mod\items\ItemTomato.java" md5: e3efdda0e8ea615f3ded39e1a1b87351
+Cache Hit!
 endProcessing "demjr\mod\items\ItemTomato.java"
 
-startProcessing "demjr\mod\items\ItemTrumpAxe.java" md5: eeb641ba85a98d22b1e72b1e618b4498
+startProcessing "demjr\mod\items\ItemTrumpAxe.java" md5: ce9f11d1bac3009c3d17888595dba549
 Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpAxe.java"
 
@@ -123,7 +144,7 @@ startProcessing "demjr\mod\items\ItemTrumpHelmet.java" md5: 412a2dd032c5b4994873
 Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpHelmet.java"
 
-startProcessing "demjr\mod\items\ItemTrumpHoe.java" md5: 1a9de35d4293f5d41462c460641087cb
+startProcessing "demjr\mod\items\ItemTrumpHoe.java" md5: d72d8d8d9726169a348ac5b6e3956e5b
 Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpHoe.java"
 
@@ -135,7 +156,7 @@ startProcessing "demjr\mod\items\ItemTrumpPickaxe.java" md5: f1e68bd9f87806e93ad
 Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpPickaxe.java"
 
-startProcessing "demjr\mod\items\ItemTrumpSpade.java" md5: f841f20f68dfcf6b6a22ee7ed5563929
+startProcessing "demjr\mod\items\ItemTrumpSpade.java" md5: a2b2563a5dee4fff186e31a0620c6d97
 Cache Hit!
 endProcessing "demjr\mod\items\ItemTrumpSpade.java"
 
@@ -156,5 +177,6 @@ Cache Hit!
 endProcessing "demjr\mod\proxy\ServerProxy.java"
 
 startProcessing "demjr\mod\world\WorldGen.java" md5: ed368c4260637115728bf83f7a1f9a89
+Cache Hit!
 endProcessing "demjr\mod\world\WorldGen.java"
 

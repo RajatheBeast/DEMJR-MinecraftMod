@@ -12,8 +12,8 @@ public class ItemDissapointiumBoots extends ItemArmor {
 
     public ItemDissapointiumBoots(ArmorMaterial material, int renderIndex, EntityEquipmentSlot equipmentSlotIn){
         super(material, renderIndex, equipmentSlotIn);
-        setUnlocalizedName(Reference.ModItems.TRUMPHELMET.getUnlocalizedName());
-        setRegistryName(Reference.ModItems.TRUMPHELMET.getRegistryName());
+        setUnlocalizedName(Reference.ModItems.DISSAPOINTIUMBOOTS.getUnlocalizedName());
+        setRegistryName(Reference.ModItems.DISSAPOINTIUMBOOTS.getRegistryName());
         setCreativeTab(DEMJR.CREATIVE_TAB);
 
     }

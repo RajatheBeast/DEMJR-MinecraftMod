@@ -1,5 +1,6 @@
 package demjr.mod.items;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import net.minecraft.item.ItemAxe;
 
@@ -12,6 +13,7 @@ public class ItemTrumpAxe extends ItemAxe {
         super(material, damage, speed);
         setRegistryName(Reference.ModItems.TRUMPAXE.getRegistryName());
         setUnlocalizedName(Reference.ModItems.TRUMPAXE.getUnlocalizedName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 
 }

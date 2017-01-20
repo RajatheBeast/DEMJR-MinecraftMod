@@ -12,8 +12,8 @@ public class ItemDissapointiumChestplate extends ItemArmor {
 
     public ItemDissapointiumChestplate(ArmorMaterial material, int renderIndex, EntityEquipmentSlot equipmentSlotIn){
         super(material, renderIndex, equipmentSlotIn);
-        setUnlocalizedName(Reference.ModItems.TRUMPHELMET.getUnlocalizedName());
-        setRegistryName(Reference.ModItems.TRUMPHELMET.getRegistryName());
+        setUnlocalizedName(Reference.ModItems.DISSAPOINTIUMCHEST.getUnlocalizedName());
+        setRegistryName(Reference.ModItems.DISSAPOINTIUMCHEST.getRegistryName());
         setCreativeTab(DEMJR.CREATIVE_TAB);
 
     }

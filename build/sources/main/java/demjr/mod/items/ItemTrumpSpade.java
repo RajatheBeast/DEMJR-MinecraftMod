@@ -1,5 +1,6 @@
 package demjr.mod.items;
 
+import demjr.mod.DEMJR;
 import demjr.mod.Reference;
 import demjr.mod.Reference.ModItems;
 import net.minecraft.item.ItemSpade;
@@ -13,6 +14,7 @@ public class ItemTrumpSpade extends ItemSpade {
         super(material);
         setRegistryName(Reference.ModItems.TRUMPSPADE.getRegistryName());
         setUnlocalizedName(Reference.ModItems.TRUMPSPADE.getUnlocalizedName());
+        setCreativeTab(DEMJR.CREATIVE_TAB);
     }
 
 }
