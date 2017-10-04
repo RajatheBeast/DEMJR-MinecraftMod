@@ -2,7 +2,7 @@
 {
   "modid": "demjr",
   "name": "DEMJR",
-  "description": "The best Minecraft mod. Ever. You can fight us if you think different. Bro. Or sis. We don't assume genders.",
+  "description": "The best Minecraft mod.",
   "version": "${1.0}",
   "mcversion": "${mcversion}",
   "url": "",
